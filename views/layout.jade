@@ -3,8 +3,10 @@ html
   head
     title= title
     script(rel='javascript', href='https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js')
+    script(res='javascript', href='cpwmedspa.json')
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css')
   body
-    img.image(src='images/logo.png')
+    a(href='/')
+      img.image(src='images/logo.png')
     block content

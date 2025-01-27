@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Visited Pages
+  div(id='visitedPages')
+  new Tabulator("#visitedPages", {
+    layout:"fitColumns",
+    placeholder:"No Data Set",
+    columns:[
+      {title:"Page", field:"page", sorter:"string", width:200},
+      {title:"Visits", field:"visits", sorter:"number", hozAlign:"center", width:200},
+    ],
+  });
