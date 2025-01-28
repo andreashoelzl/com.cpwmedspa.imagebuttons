@@ -1,11 +1,10 @@
 import Crawler from "crawler";
 import {writeJsonFile} from 'write-json-file';
-import {TabulatorFull as Tabulator} from 'tabulator-tables';
 
 const verbose = 0; //0,1,2
 const visitedPages = [];
 const buttonsByPathname = [];
-const obj = {visitedPages:visitedPages, buttonsByPathname:buttonsByPathname}
+const cpwmedspa = {visitedPages:visitedPages, buttonsByPathname:buttonsByPathname}
 const addToResult = (button) => {
     let pn = buttonsByPathname.find(p => p.pathname == button.href.split("?")[0]);
     if (pn == undefined) {
@@ -50,8 +49,8 @@ const c = new Crawler({
                             console.error(imageButton.doc + ": Button links for '"
                                           + imageButton.title
                                           + "|" + imageButton.subtitle
-                                          + "' don't match:\n" + imageButton.href 
-                                          + "\n"+$("div#" + buttonId + ">div>div>a").attr("href")
+                                          + "' don't match:\n->" + imageButton.href 
+                                          + "\n->"+$("div#" + buttonId + ">div>div>a").attr("href")
                                           
                                         );
                         }
@@ -98,7 +97,13 @@ const c = new Crawler({
                 }
             });
         }
-        await writeJsonFile('public/cpwmedspa.json', obj);        
+        await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
+        await writeJsonFile('public/javascripts/buttonsByPathname.json', buttonsByPathname);
+        const obj = [];
+        visitedPages.forEach((page) => {
+            obj.push({Page:page});
+        });
+        await writeJsonFile('public/javascripts/visitedPages.json', obj);        
         done();
     },
 });
