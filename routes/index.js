@@ -7,5 +7,8 @@ router.get('/', function(req, res, next) {
 });
 router.get('/visitedpages', function(req, res, next) {
   res.render('visitedpages', {title: 'Visited Pages' });
+});
+router.get('/buttons', function(req, res, next) {
+  res.render('buttons', {title: 'Image Buttons by Pathname' });
 })
 module.exports = router;
