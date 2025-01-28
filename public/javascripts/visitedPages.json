@@ -120,24 +120,6 @@
 		"Page": "http://www.cpwmedspa.com/treatments"
 	},
 	{
-		"Page": "http://www.cpwmedspa.com/jessicas-cv"
-	},
-	{
-		"Page": "http://www.cpwmedspa.com/face-about-facial-lines"
-	},
-	{
-		"Page": "http://www.cpwmedspa.com/face-gummy-smile"
-	},
-	{
-		"Page": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity"
-	},
-	{
-		"Page": "http://www.cpwmedspa.com/face-nose-shaping"
-	},
-	{
-		"Page": "http://www.cpwmedspa.com/face-jowls"
-	},
-	{
 		"Page": "http://www.cpwmedspa.com/facial-fillers-radiesse"
 	},
 	{
@@ -153,10 +135,28 @@
 		"Page": "http://www.cpwmedspa.com/face-temporal-hollowing"
 	},
 	{
+		"Page": "http://www.cpwmedspa.com/face-nose-shaping"
+	},
+	{
 		"Page": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs"
 	},
 	{
+		"Page": "http://www.cpwmedspa.com/jessicas-cv"
+	},
+	{
 		"Page": "http://www.cpwmedspa.com/m22-treatment"
+	},
+	{
+		"Page": "http://www.cpwmedspa.com/face-about-facial-lines"
+	},
+	{
+		"Page": "http://www.cpwmedspa.com/face-gummy-smile"
+	},
+	{
+		"Page": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity"
+	},
+	{
+		"Page": "http://www.cpwmedspa.com/face-jowls"
 	},
 	{
 		"Page": "http://www.cpwmedspa.com/skin-cherry-hemangiomas"
@@ -171,12 +171,9 @@
 		"Page": "http://www.cpwmedspa.com/face-about-facial-volume-loss"
 	},
 	{
-		"Page": "http://www.cpwmedspa.com/skin-enlarged-pores"
-	},
-	{
 		"Page": "http://www.cpwmedspa.com/body-aging-hands"
 	},
 	{
-		"Page": "http://www.cpwmedspa.com/facial-fillers-radisse"
+		"Page": "http://www.cpwmedspa.com/skin-enlarged-pores"
 	}
 ]

@@ -6,6 +6,18 @@ body {
 a {
   color: darkblue;
 }
-div {
-  padding : 10px;
+div.menu {
+  padding-top: 10px;
+}
+.tabulator-row.tabulator-group {
+  background: #c60752 !important;
+  color: white;
+  font-weight: bold;
+}
+.tabulator-row.tabulator-group a {
+  color: white
+}
+.tabulator-row.tabulator-group span {
+  color: silver !important;
+  font-weight: bold;
 }
