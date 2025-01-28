@@ -7,12 +7,9 @@ block content
     var table = new Tabulator("#visitedPages", {
     ajaxURL:"/javascripts/visitedPages.json",
     ajaxContentType:"json",
-    tableBuilt: function(){
-        // This function will be called *after* the table is built.
-        console.log("Table built, data ready to set");
-        // Now it is safe to set data
-        table.setData(tableData); // set table data
-    }
-    
+    layout:"fitDataFill",
+    columns:[
+        {title:"Page", field:"Page", sorter:"string", width:"auto", formatter:"link", formatterParams:{labelField:"Page", urlField:"Page"}},
+        ]   
     });
 

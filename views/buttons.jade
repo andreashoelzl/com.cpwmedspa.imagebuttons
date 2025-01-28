@@ -7,11 +7,14 @@ block content
     var table = new Tabulator("#buttons", {
     ajaxURL:"/javascripts/buttonsByPathname.json",
     ajaxContentType:"json",
-    tableBuilt: function(){
-        // This function will be called *after* the table is built.
-        console.log("Table built, data ready to set");
-        // Now it is safe to set data
-        table.setData(tableData); // set table data
-    }
-    
+    layout:"fitColumns",
+    groupBy:"Path",
+    columns:[
+        {title:"Title", field:"Title", sorter:"string", width:"20px"},
+        {title:"Subtitle", field:"Subtitle", sorter:"string", width:"25px"},
+        {title:"Label", field:"Label", sorter:"string", width:"30px"},
+        {title:"Page", field:"Page", sorter:"string", width:"60px", formatter:"link", formatterParams:{labelField:"Page", urlField:"Page"}},
+        {title:"URL", field:"Href", sorter:"string", width:"60px", formatter:"link", formatterParams:{labelField:"Href", urlField:"Href"}},
+        {title:"Path", field:"Path", sorter:"string", width:"0", visible:false},
+    ]
     });

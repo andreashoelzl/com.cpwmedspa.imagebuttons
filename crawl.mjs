@@ -98,12 +98,25 @@ const c = new Crawler({
             });
         }
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
-        await writeJsonFile('public/javascripts/buttonsByPathname.json', buttonsByPathname);
-        const obj = [];
-        visitedPages.forEach((page) => {
-            obj.push({Page:page});
+        const bbp = [];
+        buttonsByPathname.forEach((path) => { 
+            path.buttons.forEach((button) => {
+                bbp.push({
+                    Path:`http://www.cpwmedspa.com${path.pathname}`, 
+                    Page:`http://www.cpwmedspa.com${button.doc}`,
+                    Title:button.title,
+                    Subtitle:button.subtitle,
+                    Label:button.label,
+                    Href:`http://www.cpwmedspa.com${button.href}`
+                });
+            });
         });
-        await writeJsonFile('public/javascripts/visitedPages.json', obj);        
+        await writeJsonFile('public/javascripts/buttonsByPathname.json', bbp);
+        const vp = [];
+        visitedPages.forEach((page) => {
+            vp.push({Page:`http://www.${page}`});
+        });
+        await writeJsonFile('public/javascripts/visitedPages.json', vp);        
         done();
     },
 });
