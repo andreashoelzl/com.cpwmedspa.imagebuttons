@@ -2,13 +2,17 @@ extends layout
 
 block content
   h1= title
-  p Visited Pages
   div(id='visitedPages')
-  new Tabulator("#visitedPages", {
-    layout:"fitColumns",
-    placeholder:"No Data Set",
-    columns:[
-      {title:"Page", field:"page", sorter:"string", width:200},
-      {title:"Visits", field:"visits", sorter:"number", hozAlign:"center", width:200},
-    ],
-  });
+  script
+    var table = new Tabulator("#visitedPages", {
+    ajaxURL:"/javascripts/cpwmedspa.json",
+    ajaxContentType:"json",
+    tableBuilt: function(){
+        // This function will be called *after* the table is built.
+        console.log("Table built, data ready to set");
+        // Now it is safe to set data
+        table.setData(tableData); // set table data
+    }
+    
+    });
+

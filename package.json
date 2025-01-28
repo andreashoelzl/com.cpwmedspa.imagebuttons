@@ -8,12 +8,14 @@
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "crawler": "^2.0.2",
     "debug": "~2.6.9",
     "express": "^4.21.2",
     "http-errors": "~1.6.3",
     "jade": "^0.29.0",
     "jquery": "^3.7.1",
     "morgan": "~1.9.1",
-    "tabulator-tables": "^6.3.1"
+    "tabulator-tables": "^6.3.1",
+    "write-json-file": "^6.0.0"
   }
 }
