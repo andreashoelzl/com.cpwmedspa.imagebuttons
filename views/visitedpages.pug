@@ -10,9 +10,7 @@ block content
     layout:"fitColumns",
     groupBy:"Page",
     groupHeader:function(value, count, data, group){
-      return `<a href='${value}'>${value}</a><span style='margin-left:10px;'>(${count} items)</span>`;
-      return value + "<span style='color:#d00; margin-left:10px;'>(" + count + " item)</span>";
-      return "<a href='" + value + "'>" + value + "</a><span style='margin-left:10px;'>" + count + " items)</span>"
+      return `<a href='${value}'>${value}</a><span style='margin-left:10px;'>(Page contains ${count} buttons)</span>`;
     },
     columns:[
         {title:"Title", field:"Title", sorter:"string", width:"20px"},
