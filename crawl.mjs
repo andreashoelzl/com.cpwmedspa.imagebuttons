@@ -102,12 +102,12 @@ const c = new Crawler({
         buttonsByPathname.forEach((path) => { 
             path.buttons.forEach((button) => {
                 bbp.push({
-                    Path:`http://www.cpwmedspa.com${path.pathname}`, 
-                    Page:`http://www.cpwmedspa.com${button.doc}`,
+                    Path:`http://www.${domain}${path.pathname}`, 
+                    Page:`http://www.${domain}${button.doc}`,
                     Title:button.title,
                     Subtitle:button.subtitle,
                     Label:button.label,
-                    Href:`http://www.cpwmedspa.com${button.href}`
+                    Href:`http://www.${domain}${button.href}`
                 });
             });
         });
