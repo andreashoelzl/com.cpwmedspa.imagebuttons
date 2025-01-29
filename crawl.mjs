@@ -91,7 +91,7 @@ const c = new Crawler({
                     if (verbose) console.log("next: ", visitedPages.length, domain + newPathname);
                     c.add("http://www." + domain + newPathname);
                     if (visitedPages.length > 120) {
-                        console.error("Seems like too many crawl requests, likely a bug: " + JSON.stringify(obj));
+                        console.error("Seems like too many crawl requests, likely a bug: " + JSON.stringify(visitedPages));
                         return false;
                     }
                 }
