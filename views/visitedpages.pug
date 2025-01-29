@@ -3,7 +3,7 @@ extends layout
 block content
   h1= title
   div(id='visitedPages')
-  script
+  script(type="text/javascript").
     var table = new Tabulator("#visitedPages", {
     ajaxURL:"/javascripts/visitedPages.json",
     ajaxContentType:"json",

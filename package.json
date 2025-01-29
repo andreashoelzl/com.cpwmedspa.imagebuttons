@@ -1,7 +1,10 @@
 {
   "name": "express",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": ">=16.14.2"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
@@ -13,9 +16,9 @@
     "debug": "~2.6.9",
     "express": "^4.21.2",
     "http-errors": "~1.6.3",
-    "jade": "^0.29.0",
     "jquery": "^3.7.1",
     "morgan": "~1.9.1",
+    "pug": "^3.0.3",
     "tabulator-tables": "^6.3.1",
     "write-json-file": "^6.0.0"
   }
