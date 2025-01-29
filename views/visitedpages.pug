@@ -5,11 +5,21 @@ block content
   div(id='visitedPages')
   script(type="text/javascript").
     var table = new Tabulator("#visitedPages", {
-    ajaxURL:"/javascripts/visitedPages.json",
+    ajaxURL:"/javascripts/buttonsByPathname.json",
     ajaxContentType:"json",
-    layout:"fitDataFill",
+    layout:"fitColumns",
+    groupBy:"Page",
+    groupHeader:function(value, count, data, group){
+      return `<a href='${value}'>${value}</a><span style='margin-left:10px;'>(${count} items)</span>`;
+      return value + "<span style='color:#d00; margin-left:10px;'>(" + count + " item)</span>";
+      return "<a href='" + value + "'>" + value + "</a><span style='margin-left:10px;'>" + count + " items)</span>"
+    },
     columns:[
-        {title:"Page", field:"Page", sorter:"string", width:"auto", formatter:"link", formatterParams:{labelField:"Page", urlField:"Page"}},
-        ]   
+        {title:"Title", field:"Title", sorter:"string", width:"20px"},
+        {title:"Subtitle", field:"Subtitle", sorter:"string", width:"25px"},
+        {title:"Label", field:"Label", sorter:"string", width:"30px"},
+        {title:"URL", field:"Href", sorter:"string", width:"60px", formatter:"link", formatterParams:{labelField:"Href", urlField:"Href"}},
+        {title:"Path", field:"Path", sorter:"string", width:"60px", formatter:"link", formatterParams:{labelField:"Page", urlField:"Page"}},
+        {title:"Page", field:"Page", sorter:"string", width:"0", visible:false},
+    ]
     });
-

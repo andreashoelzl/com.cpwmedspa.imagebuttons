@@ -4,7 +4,7 @@ import {writeJsonFile} from 'write-json-file';
 const verbose = 0; //0,1,2
 const visitedPages = [];
 const buttonsByPathname = [];
-const cpwmedspa = {visitedPages:visitedPages, buttonsByPathname:buttonsByPathname}
+const cpwmedspa = {visitedPages:visitedPages, buttonsByPathname:buttonsByPathname};
 const addToResult = (button) => {
     let pn = buttonsByPathname.find(p => p.pathname == button.href.split("?")[0]);
     if (pn == undefined) {
@@ -98,7 +98,7 @@ const c = new Crawler({
             });
         }
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
-        const bbp = [];
+        const data = [];
         buttonsByPathname.forEach((path) => { 
             path.buttons.forEach((button) => {
                 bbp.push({
@@ -111,12 +111,7 @@ const c = new Crawler({
                 });
             });
         });
-        await writeJsonFile('public/javascripts/buttonsByPathname.json', bbp);
-        const vp = [];
-        visitedPages.forEach((page) => {
-            vp.push({Page:`http://www.${page}`});
-        });
-        await writeJsonFile('public/javascripts/visitedPages.json', vp);        
+        await writeJsonFile('public/javascripts/data.json', data);
         done();
     },
 });
