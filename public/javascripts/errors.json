@@ -1,32 +1,5 @@
 [
 	{
-		"page": "/acne-and-acne-scars",
-		"type": "Button without a link",
-		"data": "\n    Chemical Peels\n  "
-	},
-	{
-		"page": "/face-flat-cheeks-and-mid-face-volume-loss",
-		"type": "Button without a link",
-		"data": "\n    Juvederm & Restylane\n  "
-	},
-	{
-		"page": "/skin-cherry-hemangiomas",
-		"type": "Button links mismatch",
-		"data": "Before &amp; After | IPL Photofacials:\"/before-after\" vs. \"/before-after-ipl-photofacials\""
-	},
-	{
-		"page": "/skin-cherry-hemangiomas",
-		"type": "Button without a link",
-		"data": "\n    M22 Treatment\n  "
-	},
-	{
-		"page": "/face-receding-chin",
-		"type": "Button without a link",
-		"data": "\n    Radiesse\n  "
-	},
-	{
-		"page": "/skin-age-spots",
-		"type": "Button without a link",
-		"data": "\n    Chemical Peels\n  "
+		"type": "No errors detected"
 	}
 ]

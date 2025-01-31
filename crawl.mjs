@@ -12,7 +12,7 @@ const addToResult = (button) => {
     if (pn == undefined) {
         let obj = {pathname:button.href, buttons:[button]};
         buttonsByPathname.push(obj);
-        buttons.push(button.href);
+        buttons.push(button.href.split('?').shift());
     } else {
         pn.buttons.push(button);
     }
@@ -120,6 +120,9 @@ const c = new Crawler({
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
         await writeJsonFile('public/javascripts/errors.json', errors);
         await writeJsonFile('public/javascripts/pages.json', pages);
+        if (errors.length == 0) {
+            errors.push({type: 'No errors detected'});
+        }
         await writeJsonFile('public/javascripts/buttons.json', buttons);
         const data = [];
         buttonsByPathname.forEach((path) => { 

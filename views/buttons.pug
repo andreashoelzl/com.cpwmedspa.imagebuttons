@@ -15,7 +15,6 @@ block content
     ajaxContentType:"json",
     layout:"fitDataStretch",
     groupBy:"Path",
-    rowHeight: 60,
     groupHeader:function(value, count, data, group){
       return `<a id=${value.split('/').pop()} href='${value}'>${value}</a><span style='margin-left:10px;'>(appears n ${count} pages)</span>`;
     },
