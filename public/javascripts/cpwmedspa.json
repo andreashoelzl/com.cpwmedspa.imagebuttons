@@ -48,17 +48,17 @@
 		"cpwmedspa.com/face-temporal-hollowing",
 		"cpwmedspa.com/face-nose-shaping",
 		"cpwmedspa.com/face-dark-circles-tear-troughs",
-		"cpwmedspa.com/m22-treatment",
 		"cpwmedspa.com/face-about-facial-lines",
 		"cpwmedspa.com/face-gummy-smile",
 		"cpwmedspa.com/skin-neck-and-skin-laxity",
 		"cpwmedspa.com/face-jowls",
+		"cpwmedspa.com/m22-treatment",
 		"cpwmedspa.com/skin-cherry-hemangiomas",
 		"cpwmedspa.com/skin-age-spots",
-		"cpwmedspa.com/face-receding-chin",
-		"cpwmedspa.com/face-about-facial-volume-loss",
 		"cpwmedspa.com/skin-enlarged-pores",
 		"cpwmedspa.com/body-aging-hands",
+		"cpwmedspa.com/face-receding-chin",
+		"cpwmedspa.com/face-about-facial-volume-loss",
 		"cpwmedspa.com/facial-fillers-radisse",
 		"cpwmedspa.com/before-after"
 	],
@@ -75,8 +75,11 @@
 		"/about-jessica",
 		"/about-kelita",
 		"/promotions",
-		"/jessicas-cv",
+		"/before-after-tetra-pro-coolpeel",
 		"/before-after-coolsculpting",
+		"/jessicas-cv",
+		"/s/BrideMagazine.pdf",
+		"/s/spatalk.pdf",
 		"/facial-fillers-restylane-silk-and-belotero-balance",
 		"/facial-fillers-juvederm-and-restylane",
 		"/facial-fillers-radiesse",
@@ -88,11 +91,7 @@
 		"/face-nose-shaping",
 		"/face-dark-circles-tear-troughs",
 		"/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
-		"/before-after-tetra-pro-coolpeel",
 		"/before-and-after-varicose-spider-veins",
-		"/s/BrideMagazine.pdf",
-		"/s/spatalk.pdf",
-		"/m22-treatment",
 		"/face-about-facial-lines",
 		"/face-gummy-smile",
 		"/body-hyperhidrosis-excess-sweating",
@@ -100,6 +99,7 @@
 		"/face-jowls",
 		"/masseter-muscle-treatment",
 		"/before-after-botox",
+		"/m22-treatment",
 		"/acne-and-acne-scars",
 		"/skin-cherry-hemangiomas",
 		"/skin-age-spots",
@@ -107,11 +107,11 @@
 		"/facial-fillers",
 		"/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"/wrinkle-treatments-like-botox-and-neurotoxins",
-		"/face-receding-chin",
-		"/face-about-facial-volume-loss",
 		"/skin-enlarged-pores",
 		"/body-aging-hands",
 		"/coolsculpting?category=Body",
+		"/face-receding-chin",
+		"/face-about-facial-volume-loss",
 		"/coolsculpting",
 		"/ipl-photofacials",
 		"/chemical-peels",
@@ -120,9 +120,34 @@
 	],
 	"errors": [
 		{
+			"page": "/acne-and-acne-scars",
+			"type": "Button without a link",
+			"data": "\n    Chemical Peels\n  "
+		},
+		{
+			"page": "/face-flat-cheeks-and-mid-face-volume-loss",
+			"type": "Button without a link",
+			"data": "\n    Juvederm & Restylane\n  "
+		},
+		{
 			"page": "/skin-cherry-hemangiomas",
 			"type": "Button links mismatch",
-			"data": "Before &amp; After|IPL Photofacials:\"/before-after\" vs. \"/before-after-ipl-photofacials\""
+			"data": "Before &amp; After | IPL Photofacials:\"/before-after\" vs. \"/before-after-ipl-photofacials\""
+		},
+		{
+			"page": "/skin-cherry-hemangiomas",
+			"type": "Button without a link",
+			"data": "\n    M22 Treatment\n  "
+		},
+		{
+			"page": "/face-receding-chin",
+			"type": "Button without a link",
+			"data": "\n    Radiesse\n  "
+		},
+		{
+			"page": "/skin-age-spots",
+			"type": "Button without a link",
+			"data": "\n    Chemical Peels\n  "
 		}
 	],
 	"buttonsByPathname": [
@@ -210,14 +235,14 @@
 					"label": "Body"
 				},
 				{
-					"doc": "/face",
+					"doc": "/skin",
 					"href": "/body",
 					"title": "Body",
 					"subtitle": "",
 					"label": "Body"
 				},
 				{
-					"doc": "/skin",
+					"doc": "/face",
 					"href": "/body",
 					"title": "Body",
 					"subtitle": "",
@@ -243,14 +268,14 @@
 					"label": "Skin"
 				},
 				{
-					"doc": "/face",
+					"doc": "/body",
 					"href": "/skin",
 					"title": "Skin",
 					"subtitle": "",
 					"label": "Skin"
 				},
 				{
-					"doc": "/body",
+					"doc": "/face",
 					"href": "/skin",
 					"title": "Skin",
 					"subtitle": "",
@@ -323,14 +348,14 @@
 					"label": "About Us"
 				},
 				{
-					"doc": "/about-jessica",
+					"doc": "/about-luis",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
 					"label": "About Us"
 				},
 				{
-					"doc": "/about-luis",
+					"doc": "/about-jessica",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -351,14 +376,14 @@
 					"label": "About Us"
 				},
 				{
-					"doc": "/search-page",
+					"doc": "/contact",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
 					"label": "About Us"
 				},
 				{
-					"doc": "/contact",
+					"doc": "/search-page",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -433,14 +458,14 @@
 					"label": "Procedures"
 				},
 				{
-					"doc": "/chemical-peels",
+					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
 					"href": "/procedures",
 					"title": "Procedures",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
 					"label": "Procedures"
 				},
 				{
-					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"doc": "/chemical-peels",
 					"href": "/procedures",
 					"title": "Procedures",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -515,13 +540,6 @@
 					"label": "Treatments"
 				},
 				{
-					"doc": "/chemical-peels",
-					"href": "/treatments",
-					"title": "Treatments",
-					"subtitle": "CPW Vein &amp; Aesthetic Center",
-					"label": "Treatments"
-				},
-				{
 					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
 					"href": "/treatments",
 					"title": "Treatments",
@@ -529,7 +547,7 @@
 					"label": "Treatments"
 				},
 				{
-					"doc": "/face",
+					"doc": "/chemical-peels",
 					"href": "/treatments",
 					"title": "Treatments",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -550,7 +568,7 @@
 					"label": "Treatments"
 				},
 				{
-					"doc": "/search-page",
+					"doc": "/face",
 					"href": "/treatments",
 					"title": "Treatments",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -558,6 +576,13 @@
 				},
 				{
 					"doc": "/contact",
+					"href": "/treatments",
+					"title": "Treatments",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "Treatments"
+				},
+				{
+					"doc": "/search-page",
 					"href": "/treatments",
 					"title": "Treatments",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -590,7 +615,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/about-jessica",
+					"doc": "/tetrapro",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -611,7 +636,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/facial-fillers",
+					"doc": "/about-kelita",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -625,28 +650,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/tetrapro",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/sclerotherapy-like-leg-and-facial-veins",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/about-kelita",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/chemical-peels",
+					"doc": "/about-jessica",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -660,7 +664,14 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/ipl-photofacials",
+					"doc": "/facial-fillers",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/sclerotherapy-like-leg-and-facial-veins",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -668,6 +679,20 @@
 				},
 				{
 					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/chemical-peels",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/ipl-photofacials",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -702,13 +727,6 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/face",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
 					"doc": "/skin",
 					"href": "/contact",
 					"title": "Contact Us",
@@ -717,6 +735,13 @@
 				},
 				{
 					"doc": "/body",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -737,28 +762,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-after-aging-hands",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/before-and-after-varicose-spider-veins",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/before-after-filler-lips",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/before-after-gummy-smile",
+					"doc": "/before-after-botox",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -772,14 +776,28 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-after-botox",
+					"doc": "/before-and-after-varicose-spider-veins",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-after-masseter-muscle-treatment",
+					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/before-after-gummy-smile",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/before-after-filler-lips",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -793,14 +811,21 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/promotions",
+					"doc": "/before-after-aging-hands",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/search-page",
+					"doc": "/before-after-masseter-muscle-treatment",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/promotions",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -814,7 +839,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+					"doc": "/search-page",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -919,70 +944,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/m22-treatment",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
 					"doc": "/face-about-facial-lines",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/face-about-facial-volume-loss",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/face-receding-chin",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/skin-cherry-hemangiomas",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/face-jowls",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/body-aging-hands",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/skin-age-spots",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/skin-neck-and-skin-laxity",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/skin-enlarged-pores",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -996,7 +958,56 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/facial-fillers-radisse",
+					"doc": "/skin-neck-and-skin-laxity",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-jowls",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/m22-treatment",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/skin-cherry-hemangiomas",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-receding-chin",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/skin-enlarged-pores",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/skin-age-spots",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/body-aging-hands",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1004,6 +1015,20 @@
 				},
 				{
 					"doc": "/before-after",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-about-facial-volume-loss",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/facial-fillers-radisse",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1067,13 +1092,6 @@
 					"label": "Promotions"
 				},
 				{
-					"doc": "/about-jessica",
-					"href": "/promotions",
-					"title": "Promotions",
-					"subtitle": "for you",
-					"label": "Promotions"
-				},
-				{
 					"doc": "/coolsculpting",
 					"href": "/promotions",
 					"title": "Promotions",
@@ -1082,6 +1100,13 @@
 				},
 				{
 					"doc": "/about-luis",
+					"href": "/promotions",
+					"title": "Promotions",
+					"subtitle": "for you",
+					"label": "Promotions"
+				},
+				{
+					"doc": "/about-jessica",
 					"href": "/promotions",
 					"title": "Promotions",
 					"subtitle": "for you",
@@ -1102,14 +1127,14 @@
 					"label": "Promotions"
 				},
 				{
-					"doc": "/search-page",
+					"doc": "/contact",
 					"href": "/promotions",
 					"title": "Promotions",
 					"subtitle": "for you",
 					"label": "Promotions"
 				},
 				{
-					"doc": "/contact",
+					"doc": "/search-page",
 					"href": "/promotions",
 					"title": "Promotions",
 					"subtitle": "for you",
@@ -1132,14 +1157,21 @@
 			]
 		},
 		{
-			"pathname": "/jessicas-cv",
+			"pathname": "/before-after-tetra-pro-coolpeel",
 			"buttons": [
 				{
-					"doc": "/about-jessica",
-					"href": "/jessicas-cv",
-					"title": "Jessica’s CV",
-					"subtitle": "",
-					"label": "View Jessica's CV"
+					"doc": "/tetrapro",
+					"href": "/before-after-tetra-pro-coolpeel",
+					"title": "Before &amp; After",
+					"subtitle": "Tetra PRO CoolPeel",
+					"label": "Before &amp; After - Tetra PRO CoolPeel"
+				},
+				{
+					"doc": "/body-aging-hands",
+					"href": "/before-after-tetra-pro-coolpeel",
+					"title": "Before &amp; After",
+					"subtitle": "Tetra PRO CoolPeel",
+					"label": "Before &amp; After - Tetra PRO Coolpeel"
 				}
 			]
 		},
@@ -1152,6 +1184,42 @@
 					"title": "Before &amp; After",
 					"subtitle": "CoolSculpting",
 					"label": "Before &amp; After - CoolSculpting"
+				}
+			]
+		},
+		{
+			"pathname": "/jessicas-cv",
+			"buttons": [
+				{
+					"doc": "/about-jessica",
+					"href": "/jessicas-cv",
+					"title": "Jessica’s CV",
+					"subtitle": "",
+					"label": "View Jessica's CV"
+				}
+			]
+		},
+		{
+			"pathname": "/s/BrideMagazine.pdf",
+			"buttons": [
+				{
+					"doc": "/press",
+					"href": "/s/BrideMagazine.pdf",
+					"title": null,
+					"subtitle": "",
+					"label": "Read about it"
+				}
+			]
+		},
+		{
+			"pathname": "/s/spatalk.pdf",
+			"buttons": [
+				{
+					"doc": "/press",
+					"href": "/s/spatalk.pdf",
+					"title": null,
+					"subtitle": "",
+					"label": "Read about it"
 				}
 			]
 		},
@@ -1463,25 +1531,6 @@
 			]
 		},
 		{
-			"pathname": "/before-after-tetra-pro-coolpeel",
-			"buttons": [
-				{
-					"doc": "/tetrapro",
-					"href": "/before-after-tetra-pro-coolpeel",
-					"title": "Before &amp; After",
-					"subtitle": "Tetra PRO CoolPeel",
-					"label": "Before &amp; After - Tetra PRO CoolPeel"
-				},
-				{
-					"doc": "/body-aging-hands",
-					"href": "/before-after-tetra-pro-coolpeel",
-					"title": "Before &amp; After",
-					"subtitle": "Tetra PRO CoolPeel",
-					"label": "Before &amp; After - Tetra PRO Coolpeel"
-				}
-			]
-		},
-		{
 			"pathname": "/before-and-after-varicose-spider-veins",
 			"buttons": [
 				{
@@ -1490,49 +1539,6 @@
 					"title": "Before &amp; After",
 					"subtitle": "Sclerotherapy",
 					"label": "Before &amp; After - Sclerotherapy"
-				}
-			]
-		},
-		{
-			"pathname": "/s/BrideMagazine.pdf",
-			"buttons": [
-				{
-					"doc": "/press",
-					"href": "/s/BrideMagazine.pdf",
-					"title": null,
-					"subtitle": "",
-					"label": "Read about it"
-				}
-			]
-		},
-		{
-			"pathname": "/s/spatalk.pdf",
-			"buttons": [
-				{
-					"doc": "/press",
-					"href": "/s/spatalk.pdf",
-					"title": null,
-					"subtitle": "",
-					"label": "Read about it"
-				}
-			]
-		},
-		{
-			"pathname": "/m22-treatment",
-			"buttons": [
-				{
-					"doc": "/ipl-photofacials",
-					"href": "/m22-treatment",
-					"title": "Lumenis M22",
-					"subtitle": "Treatment",
-					"label": "Lumenis M22 Treatment"
-				},
-				{
-					"doc": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
-					"href": "/m22-treatment",
-					"title": "Lumenis M22",
-					"subtitle": "Treatment",
-					"label": "Lumenis M22 Treatment"
 				}
 			]
 		},
@@ -1582,7 +1588,7 @@
 				{
 					"doc": "/treatments",
 					"href": "/face-gummy-smile?category=Treatments",
-					"title": "Gummy Smile<br>",
+					"title": "Gummy Smile<br>Lip Flip",
 					"subtitle": "",
 					"label": "Gummy Smile &amp; Lip Flip"
 				}
@@ -1719,6 +1725,25 @@
 			]
 		},
 		{
+			"pathname": "/m22-treatment",
+			"buttons": [
+				{
+					"doc": "/ipl-photofacials",
+					"href": "/m22-treatment",
+					"title": "Lumenis M22",
+					"subtitle": "Treatment",
+					"label": "Lumenis M22 Treatment"
+				},
+				{
+					"doc": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+					"href": "/m22-treatment",
+					"title": "Lumenis M22",
+					"subtitle": "Treatment",
+					"label": "Lumenis M22 Treatment"
+				}
+			]
+		},
+		{
 			"pathname": "/acne-and-acne-scars",
 			"buttons": [
 				{
@@ -1842,9 +1867,16 @@
 					"label": "Tetra PRO CoolPeel"
 				},
 				{
-					"doc": "/body-aging-hands",
+					"doc": "/skin-neck-and-skin-laxity",
 					"href": "/tetrapro",
-					"title": " Tetra PRO CoolPeel",
+					"title": "Tetra PRO CoolPeel",
+					"subtitle": "Skin Resurfacing",
+					"label": "Tetra PRO CoolPeel"
+				},
+				{
+					"doc": "/skin-enlarged-pores",
+					"href": "/tetrapro",
+					"title": "Tetra PRO CoolPeel",
 					"subtitle": "Skin Resurfacing",
 					"label": "Tetra PRO CoolPeel"
 				},
@@ -1856,16 +1888,9 @@
 					"label": "Tetra PRO CoolPeel"
 				},
 				{
-					"doc": "/skin-neck-and-skin-laxity",
+					"doc": "/body-aging-hands",
 					"href": "/tetrapro",
-					"title": "Tetra PRO CoolPeel",
-					"subtitle": "Skin Resurfacing",
-					"label": "Tetra PRO CoolPeel"
-				},
-				{
-					"doc": "/skin-enlarged-pores",
-					"href": "/tetrapro",
-					"title": "Tetra PRO CoolPeel",
+					"title": " Tetra PRO CoolPeel",
 					"subtitle": "Skin Resurfacing",
 					"label": "Tetra PRO CoolPeel"
 				},
@@ -1889,14 +1914,14 @@
 					"label": "Facial Fillers"
 				},
 				{
-					"doc": "/before-after-filler-lips",
+					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
 					"href": "/facial-fillers",
 					"title": "Facial Fillers",
 					"subtitle": "",
 					"label": "Facial Fillers"
 				},
 				{
-					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+					"doc": "/before-after-filler-lips",
 					"href": "/facial-fillers",
 					"title": "Facial Fillers",
 					"subtitle": "",
@@ -1917,7 +1942,7 @@
 					"label": "Facial Fillers"
 				},
 				{
-					"doc": "/face-about-facial-volume-loss",
+					"doc": "/face-gummy-smile",
 					"href": "/facial-fillers",
 					"title": "Facial Fillers",
 					"subtitle": "",
@@ -1938,7 +1963,7 @@
 					"label": "Fillers"
 				},
 				{
-					"doc": "/face-gummy-smile",
+					"doc": "/face-about-facial-volume-loss",
 					"href": "/facial-fillers",
 					"title": "Facial Fillers",
 					"subtitle": "",
@@ -1964,18 +1989,18 @@
 					"label": "M22 IPL - Veins, Acne &amp; Cherry Hemangiomas"
 				},
 				{
-					"doc": "/m22-treatment",
-					"href": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
-					"title": "M22 IPL",
-					"subtitle": "Veins, Acne &amp; Cherry Hemangiomas",
-					"label": "M22 IPL Veins, Acne &amp; Cherry Hemangiomas"
-				},
-				{
 					"doc": "/face-about-facial-lines",
 					"href": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 					"title": "M22 Photofaicals",
 					"subtitle": "IPL Skin Treatment",
 					"label": "M22 Photofacials &amp; IPL Skin Treatments"
+				},
+				{
+					"doc": "/m22-treatment",
+					"href": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+					"title": "M22 IPL",
+					"subtitle": "Veins, Acne &amp; Cherry Hemangiomas",
+					"label": "M22 IPL Veins, Acne &amp; Cherry Hemangiomas"
 				},
 				{
 					"doc": "/skin-cherry-hemangiomas",
@@ -2060,11 +2085,11 @@
 					"label": "Wrinkle Treatment &amp; Brow Lift"
 				},
 				{
-					"doc": "/face-jowls",
+					"doc": "/face-gummy-smile",
 					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Wrinkle Treatments",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
+					"title": "Botox",
+					"subtitle": "Neurotoxins",
+					"label": "Botox &amp; Neurotoxins"
 				},
 				{
 					"doc": "/skin-neck-and-skin-laxity",
@@ -2074,42 +2099,11 @@
 					"label": "Wrinkle Treatment &amp; Brow Lift"
 				},
 				{
-					"doc": "/face-gummy-smile",
+					"doc": "/face-jowls",
 					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Botox",
-					"subtitle": "Neurotoxins",
-					"label": "Botox &amp; Neurotoxins"
-				}
-			]
-		},
-		{
-			"pathname": "/face-receding-chin",
-			"buttons": [
-				{
-					"doc": "/face",
-					"href": "/face-receding-chin",
-					"title": "Receding Chin",
-					"subtitle": "",
-					"label": "Receding Chin"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-receding-chin?category=Treatments",
-					"title": "Receding Chin",
-					"subtitle": "",
-					"label": "Receding Chin"
-				}
-			]
-		},
-		{
-			"pathname": "/face-about-facial-volume-loss",
-			"buttons": [
-				{
-					"doc": "/face",
-					"href": "/face-about-facial-volume-loss",
-					"title": "Facial Volume Loss",
-					"subtitle": "Leearn more aout it ",
-					"label": "Volume Loss"
+					"title": "Wrinkle Treatments",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
 				}
 			]
 		},
@@ -2167,6 +2161,37 @@
 					"title": "CoolSculpting",
 					"subtitle": "",
 					"label": "CoolSculpting"
+				}
+			]
+		},
+		{
+			"pathname": "/face-receding-chin",
+			"buttons": [
+				{
+					"doc": "/face",
+					"href": "/face-receding-chin",
+					"title": "Receding Chin",
+					"subtitle": "",
+					"label": "Receding Chin"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/face-receding-chin?category=Treatments",
+					"title": "Receding Chin",
+					"subtitle": "",
+					"label": "Receding Chin"
+				}
+			]
+		},
+		{
+			"pathname": "/face-about-facial-volume-loss",
+			"buttons": [
+				{
+					"doc": "/face",
+					"href": "/face-about-facial-volume-loss",
+					"title": "Facial Volume Loss",
+					"subtitle": "Leearn more aout it ",
+					"label": "Volume Loss"
 				}
 			]
 		},
@@ -2254,14 +2279,14 @@
 					"label": "Chemical Peels"
 				},
 				{
-					"doc": "/body-aging-hands",
+					"doc": "/skin-enlarged-pores",
 					"href": "/chemical-peels",
 					"title": "Chemical Peels",
 					"subtitle": "",
 					"label": "Chemical Peels"
 				},
 				{
-					"doc": "/skin-enlarged-pores",
+					"doc": "/body-aging-hands",
 					"href": "/chemical-peels",
 					"title": "Chemical Peels",
 					"subtitle": "",

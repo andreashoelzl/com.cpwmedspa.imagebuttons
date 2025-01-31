@@ -72,6 +72,18 @@ const c = new Crawler({
                 }
             })
             if (verbose > 1) console.log(`${pathname} buttons:\n ${result}`);
+            //find buttons without links
+            $("div:has(>div>figure:not(:has(a)))+div>div>div>a.sqs-block-button-element--medium").each(function(){
+                let btn = $(this).find(">div>figure.figcaption")
+                errors.push({
+                    page: pathname,
+                    type: 'Button without a link',
+                    data: $(this).text()
+                })
+                console.error(`${pathname}: Button witout a link ${$(this).text()}`);
+
+            });
+            //serach for links
             $("a").each(function() {
                 let newPathname = $(this).attr("href").split(domain).pop().split("?")[0].split("#")[0];
                 if (newPathname.charAt(newPathname.length -1) == "/") {
