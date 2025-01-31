@@ -6,7 +6,7 @@ const pages = [];
 const buttons = [];
 const errors = [];
 const buttonsByPathname = [];
-const cpwmedspa = {pages:pages, buttons:buttons, buttonsByPathname:buttonsByPathname};
+const cpwmedspa = {pages:pages, buttons:buttons, errors:errors, buttonsByPathname:buttonsByPathname};
 const addToResult = (button) => {
     let pn = buttonsByPathname.find(p => p.pathname == button.href.split("?")[0]);
     if (pn == undefined) {
@@ -23,9 +23,11 @@ const c = new Crawler({
     // This will be called for each crawled page
     callback: async (error, response, done) => {
         if (error) {
+            errors.push({page: (response != undefined && response.requestUrl != undefined && response.requestUrl.pathname != undefined) ? response.requestUrl.pathname : "unknown", type: error });
             console.error(error);
         } else if (response.$ == undefined) {
             // Squarespace bug where the /search page triggers a a "save as" dialog
+            errors.push({page: response.requestUrl, type: 'Response malformed'});
             console.error("Response malformed or not a page for " + response.requestUrl);
         } else {
             const $ = response.$;
@@ -49,6 +51,7 @@ const c = new Crawler({
                     addToResult(imageButton);
                     if ($("div#" + buttonId + ">div>div>a") != undefined) {
                         if ($("div#" + buttonId + ">div>div>a").attr("href") != imageButton.href){
+                            errors.push({page:imageButton.doc, type:'Button links mismatch', data: `${imageButton.title} | ${imageButton.subtitle}:"${imageButton.href}" vs. "${$("div#" + buttonId + ">div>div>a").attr("href")}"`});
                             console.error(imageButton.doc + ": Button links for '"
                                           + imageButton.title
                                           + "|" + imageButton.subtitle
@@ -59,6 +62,7 @@ const c = new Crawler({
                         }
                         imageButton.label = $("div#" + buttonId + ">div>div>a").html().replace(/\n/g, "").trim();
                     } else {
+                            errors.push({page:imageButton.doc, type: 'Image Button without corresponding Button', data: `${imageButton.title}|${imageButton.subtitle}: ${imageButton.href}` })
                         console.info("Image Button without corresponding Button:"
                                      + " site: " + imageButton.doc
                                      + " button: " + imageButton.title
@@ -87,12 +91,14 @@ const c = new Crawler({
                     return true;
                 } else {
                     if ($(this).attr("href").indexOf("#") > -1 && $(this).attr("href").indexOf("/#") == -1) {
+                        errors.push({page:pathname, type:'Anchor without path', data: $(this).attr("href") + " in " + pathname});
                         console.error("Anchor link without path: " + $(this).attr("href") + " in " + pathname);
                     };
                     pages.push(domain + newPathname);
                     if (verbose) console.log("next: ", pages.length, domain + newPathname);
                     c.add("http://www." + domain + newPathname);
                     if (pages.length > 120) {
+                        errors.push({page: pathname, type: 'Too many crawl requests - likely a recursion bug in the crawler'});
                         console.error("Seems like too many crawl requests, likely a bug: " + JSON.stringify(pages));
                         return false;
                     }
@@ -100,6 +106,7 @@ const c = new Crawler({
             });
         }
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
+        await writeJsonFile('public/javascripts/errors.json', errors);
         await writeJsonFile('public/javascripts/pages.json', pages);
         await writeJsonFile('public/javascripts/buttons.json', buttons);
         const data = [];
