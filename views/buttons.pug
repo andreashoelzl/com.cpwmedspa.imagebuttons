@@ -2,15 +2,21 @@ extends layout
 
 block content
   h1= title
+  div.inline
+    div Select Button:
+    div
+      select(id='select-anchor')
+        each anchor in buttons 
+          option(value="#"+anchor) #{anchor}
   div(id='buttons')
   script(type="text/javascript").
     var table = new Tabulator("#buttons", {
-    ajaxURL:"/javascripts/buttonsByPathname.json",
+    ajaxURL:"/javascripts/data.json",
     ajaxContentType:"json",
     layout:"fitColumns",
     groupBy:"Path",
     groupHeader:function(value, count, data, group){
-      return `<a href='${value}'>${value}</a><span style='margin-left:10px;'>(appearls n ${count} pages)</span>`;
+      return `<a id=${value.split('/').pop()} href='${value}'>${value}</a><span style='margin-left:10px;'>(appears n ${count} pages)</span>`;
     },
     columns:[
         {title:"Title", field:"Title", sorter:"string", width:"20px"},

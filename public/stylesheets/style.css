@@ -6,7 +6,14 @@ body {
 a {
   color: darkblue;
 }
-div.menu {
+select {
+  margin: 15px;
+}
+div.inline {
+  display: flex;
+  align-items: center;
+}
+div.menuitem {
   padding-top: 10px;
 }
 .tabulator-row.tabulator-group {

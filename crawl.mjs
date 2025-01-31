@@ -2,14 +2,17 @@ import Crawler from "crawler";
 import {writeJsonFile} from 'write-json-file';
 
 const verbose = 0; //0,1,2
-const visitedPages = [];
+const pages = [];
+const buttons = [];
+const errors = [];
 const buttonsByPathname = [];
-const cpwmedspa = {visitedPages:visitedPages, buttonsByPathname:buttonsByPathname};
+const cpwmedspa = {pages:pages, buttons:buttons, buttonsByPathname:buttonsByPathname};
 const addToResult = (button) => {
     let pn = buttonsByPathname.find(p => p.pathname == button.href.split("?")[0]);
     if (pn == undefined) {
         let obj = {pathname:button.href, buttons:[button]};
         buttonsByPathname.push(obj);
+        buttons.push(button.href);
     } else {
         pn.buttons.push(button);
     }
@@ -75,11 +78,10 @@ const c = new Crawler({
                     || newPathname.indexOf("images.squarespace-cdn.com") > - 1
                     || newPathname.indexOf("mailto:") == 0
                     || newPathname.indexOf("tel:") == 0
-                    || visitedPages.indexOf(domain + newPathname) > -1
+                    || pages.indexOf(domain + newPathname) > -1
                     || ($(this).attr("href").indexOf(domain) == -1 
                         && $(this).attr("href").substring(0,1) != "/"
                     )
-                   
             ) {
                     if (verbose > 2) console.log("skipping: ", $(this).attr("href"));
                     return true;
@@ -87,21 +89,23 @@ const c = new Crawler({
                     if ($(this).attr("href").indexOf("#") > -1 && $(this).attr("href").indexOf("/#") == -1) {
                         console.error("Anchor link without path: " + $(this).attr("href") + " in " + pathname);
                     };
-                    visitedPages.push(domain + newPathname);
-                    if (verbose) console.log("next: ", visitedPages.length, domain + newPathname);
+                    pages.push(domain + newPathname);
+                    if (verbose) console.log("next: ", pages.length, domain + newPathname);
                     c.add("http://www." + domain + newPathname);
-                    if (visitedPages.length > 120) {
-                        console.error("Seems like too many crawl requests, likely a bug: " + JSON.stringify(visitedPages));
+                    if (pages.length > 120) {
+                        console.error("Seems like too many crawl requests, likely a bug: " + JSON.stringify(pages));
                         return false;
                     }
                 }
             });
         }
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
+        await writeJsonFile('public/javascripts/pages.json', pages);
+        await writeJsonFile('public/javascripts/buttons.json', buttons);
         const data = [];
         buttonsByPathname.forEach((path) => { 
             path.buttons.forEach((button) => {
-                bbp.push({
+                data.push({
                     Path:`http://www.${domain}${path.pathname}`, 
                     Page:`http://www.${domain}${button.doc}`,
                     Title:button.title,
@@ -116,7 +120,7 @@ const c = new Crawler({
     },
 });
 
-visitedPages.push(domain);
+pages.push(domain);
 c.add("http://www." + domain);
-//visitedPages.push(domain + "/search");
+//pages.push(domain + "/search");
 //c.add("http://www." + domain + "/search?q=crawl");

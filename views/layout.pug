@@ -3,9 +3,17 @@ html
   head
     title= title
     script(rel='javascript', src='https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js')
+    script(rel='javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js')
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css')
   body
+    script.
+      $(document).ready(function () {
+        $('#select-anchor').change( function () {
+            var targetPosition = $($(this).val()).offset().top;
+            $('html,body').animate({ scrollTop: targetPosition}, 'slow');
+        });
+      });
     a(href='/')
       img.image(src='images/logo.png')
     block content

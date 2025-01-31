@@ -1,14 +1,21 @@
 var express = require('express');
 var router = express.Router();
 
+var fs = require('fs');
+var pages = JSON.parse(fs.readFileSync('./public/javascripts/pages.json', 'utf8'));
+var buttons = JSON.parse(fs.readFileSync('./public/javascripts/buttons.json', 'utf8'));
+
+pages.forEach((page, index) => pages[index] = (page.indexOf('/') > -1)? page.split('/').pop(): '');
+buttons.forEach((button, index) => buttons[index] = button.split('/').pop());
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', {title: 'CPW Vein & Aesthetic Center' });
 });
 router.get('/visitedpages', function(req, res, next) {
-  res.render('visitedpages', {title: 'Analyzed Pages' });
+  res.render('visitedpages', {title: 'Pages', pages:pages });
 });
 router.get('/buttons', function(req, res, next) {
-  res.render('buttons', {title: 'Image Buttons by Target Location' });
+  res.render('buttons', {title: 'Buttons', buttons, buttons});
 });
 module.exports = router;
