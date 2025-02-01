@@ -5,11 +5,12 @@ body {
 
 a {
   color: darkblue;
-}
+} 
 div.inline {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 div.content {
   padding: 15px 5px;

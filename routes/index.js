@@ -12,7 +12,7 @@ buttons.push('');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {title: 'CPW Vein & Aesthetic Center' });
+  res.render('index', {title: 'Welcome' });
 });
 router.get('/visitedpages', function(req, res, next) {
   res.render('visitedpages', {title: 'Pages', anchors:pages});
