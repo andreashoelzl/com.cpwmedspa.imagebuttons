@@ -1,13 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  div.inline
-    div Select Button:
-    div
-      select(id='select-anchor')
-        each anchor in buttons.sort() 
-          option(value="#"+anchor) #{anchor}
+  include search
   div(id='buttons')
   script(type="text/javascript").
     var table = new Tabulator("#buttons", {

@@ -1,13 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  div.inline
-    div Select Page:
-    div
-      select(id='select-anchor')
-        each anchor in pages.sort() 
-          option(value="#"+anchor) #{anchor}
+  include search
   div(id='visitedPages')
   script(type="text/javascript").
     var table = new Tabulator("#visitedPages", {

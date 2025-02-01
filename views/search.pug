@@ -1,0 +1,27 @@
+block search
+  script.
+    const anchors = !{JSON.stringify(anchors)};
+    $(document).ready(function() {
+      $('#autocomplete-anchor').autocomplete({
+        source: anchors,
+        select: function(event, ui) { 
+          var targetPosition = $('#'+ui.item.value).offset().top;
+          $('html,body').animate({ scrollTop: targetPosition}, 'slow');
+        }
+      });
+      $('#select-anchor').change( function () {
+          var targetPosition = $($(this).val()).offset().top;
+          $('html,body').animate({ scrollTop: targetPosition}, 'slow');
+      });
+    });
+  div.inline
+    div.inline
+      div.content Search: 
+      div 
+          input(id='autocomplete-anchor', width="min('150px', '20vw')")
+    div.inline
+      div.content !{title}:
+      div
+        select(id='select-anchor')
+          each anchor in anchors.sort() 
+            option(value="#"+anchor) #{anchor}

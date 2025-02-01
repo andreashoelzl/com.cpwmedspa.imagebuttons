@@ -6,15 +6,20 @@ body {
 a {
   color: darkblue;
 }
-select {
-  margin: 15px;
-}
 div.inline {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+div.content {
+  padding: 15px 5px;
 }
 div.menuitem {
   padding-top: 10px;
+}
+input#autocomplete-anchor {
+  width: 20vw;
+  min-width: 250px;
 }
 .tabulator-row.tabulator-group {
   background: #c60752 !important;
