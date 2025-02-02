@@ -26,5 +26,6 @@ router.get('/errors', function(req, res, next) {
 });
 router.get('/update', function(req, res, next) {
   res.render('update', { title: 'Update' });
+});
 
 export default router;
