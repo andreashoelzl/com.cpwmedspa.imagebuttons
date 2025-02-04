@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    p Update the data by running recursive crawl throughoout the website 
+    //form(method='POST')
+        != captcha
+        input(type='text' name='captcha' placeholder='Enter captcha text')
+        button(type='submit') Submit
+    form(method='POST' action='./updating')
+        div
+            div.inline
+            error-message= error
+                div!= captcha
+        div.inline(style={width:'300px'})
+            div.content
+                input(type='text' name='captcha' required)
+            div.content
+                button(type='submit') Start Update
+    if error
+        h3

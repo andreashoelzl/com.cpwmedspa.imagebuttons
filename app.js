@@ -3,11 +3,21 @@ import express from 'express';
 import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
+import dotenv from 'dotenv';
+import session from 'express-session';
 
 import indexRouter from './routes/index.js';
 import usersRouter from './routes/users.js';
 
+dotenv.config();
+
 const app = express();
+
+app.use(session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: true
+}));
 
 // view engine setup
 app.set('views', path.join(path.dirname(''), 'views'));
@@ -36,6 +46,20 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+app.get('/captcha', (req, res) => {
+  const captcha = svgCaptcha.create();
+  req.session.captchaText = captcha.text;
+  res.render('form', { captcha: captcha.data });
+});
+
+app.post('/verify', (req, res) => {
+  if (req.body.captcha === req.session.captchaText) {
+      res.send('Valid captcha');
+  } else {
+      res.send('Invalid captcha');
+  }
 });
 
 export default app;

@@ -1,0 +1,7 @@
+{
+  "ignore": [
+    "public/*",
+    "*.json"
+  ],
+  "delay": "2500"
+}

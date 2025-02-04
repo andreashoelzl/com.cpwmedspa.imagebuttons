@@ -71,7 +71,7 @@ const c = new Crawler({
                     }
                 }
             })
-            if (verbose > 1) console.log(`${pathname} buttons:\n ${result}`);
+            if (verbose > 1) console.log(`${pathname} buttons:\n ${JSON.stringify(result)}`);
             //find buttons without links
             $("div:has(>div>figure:not(:has(a)))+div>div>div>a.sqs-block-button-element--medium").each(function(){
                 let btn = $(this).find(">div>figure.figcaption")
@@ -81,7 +81,6 @@ const c = new Crawler({
                     data: $(this).text()
                 })
                 console.error(`${pathname}: Button witout a link ${$(this).text()}`);
-
             });
             //serach for links
             $("a").each(function() {
@@ -117,6 +116,8 @@ const c = new Crawler({
                 }
             });
         }
+        /*
+        */
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
         await writeJsonFile('public/javascripts/errors.json', errors);
         await writeJsonFile('public/javascripts/pages.json', pages);
@@ -138,11 +139,82 @@ const c = new Crawler({
             });
         });
         await writeJsonFile('public/javascripts/data.json', data);
+        /*
+        */
         done();
     },
 });
 
+
 pages.push(domain);
 c.add("http://www." + domain);
+
 //pages.push(domain + "/search");
 //c.add("http://www." + domain + "/search?q=crawl");
+
+export async function startCrawl() {
+    
+    //c.add("http://www." + domain);
+    if (false) {
+        await writeJsonFile('public/javascripts/cpwmedspa.json', -[]);
+        await writeJsonFile('public/javascripts/errors.json', []);
+        await writeJsonFile('public/javascripts/pages.json', []);
+        await writeJsonFile('public/javascripts/buttons.json', []);
+        await writeJsonFile('public/javascripts/buttons.json', []);
+    }
+    
+    return new Promise((resolve, reject) => {
+        
+        pages.push(domain);
+        c.add([{
+            url: "http//www." + domain,
+            callback: async (error, res, done) => {
+                console.log(`found: ${res.data}`)
+                if (error) {
+                    reject(error);
+                } else {
+                    try {
+                        
+
+                        await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
+                        await writeJsonFile('public/javascripts/errors.json', errors);
+                        await writeJsonFile('public/javascripts/pages.json', pages);
+                        if (errors.length == 0) {
+                            errors.push({type: 'No errors detected'});
+                        }
+                        await writeJsonFile('public/javascripts/buttons.json', buttons);
+                        const data = [];
+                        buttonsByPathname.forEach((path) => { 
+                            path.buttons.forEach((button) => {
+                                data.push({
+                                    Path:`http://www.${domain}${path.pathname}`, 
+                                    Page:`http://www.${domain}${button.doc}`,
+                                    Title:button.title,
+                                    Subtitle:button.subtitle,
+                                    Label:button.label,
+                                    Href:`http://www.${domain}${button.href}`
+                                });
+                            });
+                        });
+                        await writeJsonFile('public/javascripts/data.json', data);
+                        console.log(`data length ${JSON.stringify(data).length}`)
+
+/*
+*/
+                        //await writeJsonFile('./public/javascripts/pages.json', pages);
+                        //await writeJsonFile('./public/javascripts/buttons.json', buttons);
+                        //await writeJsonFile('./public/javascripts/errors.json', errors);
+                        //await writeJsonFile('./public/javascripts/buttonsByPathname.json', buttonsByPathname);
+                        /*
+                        */
+                        resolve({pages, buttons, errors});
+
+                    } catch (err) {
+                        reject(err);
+                    }
+                }
+                done();
+            }
+        }]);
+    });
+}
