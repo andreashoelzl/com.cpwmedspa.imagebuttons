@@ -1,5 +1,113 @@
 [
 	{
 		"type": "No errors detected"
+	},
+	{
+		"page": "unknown",
+		"type": {
+			"code": "ERR_NON_2XX_3XX_RESPONSE",
+			"timings": {
+				"start": 1739271489168,
+				"socket": 1739271489169,
+				"lookup": 1739271489169,
+				"connect": 1739271489169,
+				"secureConnect": 1739271489169,
+				"upload": 1739271489170,
+				"response": 1739271489234,
+				"end": 1739271489860,
+				"phases": {
+					"wait": 1,
+					"dns": 0,
+					"tcp": 0,
+					"tls": 0,
+					"request": 1,
+					"firstByte": 64,
+					"download": 626,
+					"total": 692
+				}
+			},
+			"name": "HTTPError",
+			"options": {
+				"agent": {},
+				"decompress": true,
+				"timeout": {
+					"request": 15000
+				},
+				"prefixUrl": "",
+				"ignoreInvalidCookies": false,
+				"context": {},
+				"hooks": {
+					"init": [],
+					"beforeRequest": [],
+					"beforeError": [],
+					"beforeRedirect": [],
+					"beforeRetry": [],
+					"afterResponse": []
+				},
+				"followRedirect": true,
+				"maxRedirects": 10,
+				"throwHttpErrors": true,
+				"username": "",
+				"password": "",
+				"http2": false,
+				"allowGetBody": false,
+				"headers": {
+					"user-agent": "got (https://github.com/sindresorhus/got)",
+					"referer": "http://www.cpwmedspa.com",
+					"accept-encoding": "gzip, deflate, br"
+				},
+				"methodRewriting": false,
+				"retry": {
+					"limit": 0,
+					"methods": [
+						"GET",
+						"PUT",
+						"HEAD",
+						"DELETE",
+						"OPTIONS",
+						"TRACE"
+					],
+					"statusCodes": [
+						408,
+						413,
+						429,
+						500,
+						502,
+						503,
+						504,
+						521,
+						522,
+						524
+					],
+					"errorCodes": [
+						"ETIMEDOUT",
+						"ECONNRESET",
+						"EADDRINUSE",
+						"ECONNREFUSED",
+						"EPIPE",
+						"ENOTFOUND",
+						"ENETUNREACH",
+						"EAI_AGAIN"
+					],
+					"backoffLimit": null,
+					"noise": 100
+				},
+				"method": "GET",
+				"cacheOptions": {},
+				"https": {},
+				"resolveBodyOnly": false,
+				"isStream": false,
+				"responseType": "buffer",
+				"url": "https://www.cpwmedspa.com/before-after-under-eye-filler-tear-troughs",
+				"pagination": {
+					"countLimit": null,
+					"backoff": 0,
+					"requestLimit": 10000,
+					"stackAllItems": false
+				},
+				"setHost": true,
+				"enableUnixSockets": false
+			}
+		}
 	}
 ]
