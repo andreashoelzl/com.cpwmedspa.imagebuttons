@@ -42,25 +42,25 @@
 		"cpwmedspa.com/procedures",
 		"cpwmedspa.com/treatments",
 		"cpwmedspa.com/before-after-galleries",
-		"cpwmedspa.com/face-about-facial-lines",
-		"cpwmedspa.com/face-gummy-smile",
-		"cpwmedspa.com/skin-neck-and-skin-laxity",
-		"cpwmedspa.com/face-nose-shaping",
-		"cpwmedspa.com/face-jowls",
-		"cpwmedspa.com/jessicas-cv",
 		"cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
 		"cpwmedspa.com/face-nasolabial-folds",
 		"cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
 		"cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
 		"cpwmedspa.com/face-temporal-hollowing",
+		"cpwmedspa.com/face-nose-shaping",
 		"cpwmedspa.com/face-dark-circles-tear-troughs",
+		"cpwmedspa.com/jessicas-cv",
+		"cpwmedspa.com/face-about-facial-lines",
+		"cpwmedspa.com/face-gummy-smile",
+		"cpwmedspa.com/skin-neck-and-skin-laxity",
+		"cpwmedspa.com/face-jowls",
 		"cpwmedspa.com/m22-treatment",
 		"cpwmedspa.com/skin-cherry-hemangiomas",
 		"cpwmedspa.com/skin-age-spots",
-		"cpwmedspa.com/skin-enlarged-pores",
-		"cpwmedspa.com/body-aging-hands",
 		"cpwmedspa.com/face-receding-chin",
-		"cpwmedspa.com/face-about-facial-volume-loss"
+		"cpwmedspa.com/face-about-facial-volume-loss",
+		"cpwmedspa.com/skin-enlarged-pores",
+		"cpwmedspa.com/body-aging-hands"
 	],
 	"buttons": [
 		"/sclerotherapy-like-leg-and-facial-veins",
@@ -78,22 +78,7 @@
 		"/contact/#location-ny",
 		"/contact/#location-chappaqua",
 		"/promotions",
-		"/before-after-tetra-pro-coolpeel",
-		"/ipl-photofacials",
-		"/face-about-facial-lines",
-		"/face-gummy-smile",
-		"/body-hyperhidrosis-excess-sweating",
-		"/skin-neck-and-skin-laxity",
-		"/face-nose-shaping",
-		"/face-jowls",
-		"/masseter-muscle-treatment",
-		"/before-after-botox",
-		"/jessicas-cv",
 		"/about-luis",
-		"/before-after-coolsculpting",
-		"/s/BrideMagazine.pdf",
-		"/s/spatalk.pdf",
-		"/before-and-after-varicose-spider-veins",
 		"/facial-fillers-juvederm-volbella-xc-restylane-silk",
 		"/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"/facial-fillers-juvederm-volux-xc-radiesse",
@@ -102,22 +87,37 @@
 		"/face-flat-cheeks-and-mid-face-volume-loss",
 		"/face-lip-lines-and-thinning-lips",
 		"/face-temporal-hollowing",
+		"/face-nose-shaping",
 		"/face-dark-circles-tear-troughs",
 		"/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+		"/before-after-tetra-pro-coolpeel",
+		"/ipl-photofacials",
+		"/s/BrideMagazine.pdf",
+		"/s/spatalk.pdf",
+		"/before-after-coolsculpting",
+		"/before-and-after-varicose-spider-veins",
+		"/jessicas-cv",
+		"/face-about-facial-lines",
+		"/face-gummy-smile",
+		"/body-hyperhidrosis-excess-sweating",
+		"/skin-neck-and-skin-laxity",
+		"/face-jowls",
+		"/masseter-muscle-treatment",
+		"/before-after-botox",
 		"/m22-treatment",
 		"/tetrapro",
+		"/wrinkle-treatments-like-botox-and-neurotoxins",
 		"/acne-and-acne-scars",
 		"/skin-cherry-hemangiomas",
 		"/skin-age-spots",
+		"/face-receding-chin",
+		"/face-about-facial-volume-loss",
 		"/facial-fillers",
 		"/chemical-peels",
 		"/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
-		"/wrinkle-treatments-like-botox-and-neurotoxins",
 		"/skin-enlarged-pores",
 		"/body-aging-hands",
 		"/coolsculpting",
-		"/face-receding-chin",
-		"/face-about-facial-volume-loss",
 		"/coolsculpting",
 		"/before-after-ipl-photofacials",
 		"/before-after-filler-lips",
@@ -192,6 +192,20 @@
 					"label": "Face"
 				},
 				{
+					"doc": "/laser-hair-removal",
+					"href": "/face",
+					"title": "Face",
+					"subtitle": "Treatments",
+					"label": "Face"
+				},
+				{
+					"doc": "/masseter-muscle-treatment",
+					"href": "/face",
+					"title": "Face",
+					"subtitle": "Treatments",
+					"label": "Face"
+				},
+				{
 					"doc": "/skin",
 					"href": "/face",
 					"title": "Face",
@@ -206,7 +220,14 @@
 					"label": "Face"
 				},
 				{
-					"doc": "/before-after-under-eye-fillers-tear-troughs",
+					"doc": "/before-after-botox",
+					"href": "/face",
+					"title": "Face",
+					"subtitle": "Treatments",
+					"label": "Face"
+				},
+				{
+					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
 					"href": "/face",
 					"title": "Face",
 					"subtitle": "Treatments",
@@ -220,7 +241,7 @@
 					"label": "Face"
 				},
 				{
-					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"doc": "/before-after-under-eye-fillers-tear-troughs",
 					"href": "/face",
 					"title": "Face",
 					"subtitle": "Treatments",
@@ -234,7 +255,7 @@
 					"label": "Face"
 				},
 				{
-					"doc": "/face-nose-shaping",
+					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
 					"href": "/face",
 					"title": "Face",
 					"subtitle": "Treatments",
@@ -249,6 +270,13 @@
 				},
 				{
 					"doc": "/face-temporal-hollowing",
+					"href": "/face",
+					"title": "Face",
+					"subtitle": "Treatments",
+					"label": "Face"
+				},
+				{
+					"doc": "/face-nose-shaping",
 					"href": "/face",
 					"title": "Face",
 					"subtitle": "Treatments",
@@ -281,6 +309,13 @@
 					"label": "Body"
 				},
 				{
+					"doc": "/face",
+					"href": "/body",
+					"title": "Body",
+					"subtitle": "",
+					"label": "Body"
+				},
+				{
 					"doc": "/skin",
 					"href": "/body",
 					"title": "Body",
@@ -288,11 +323,11 @@
 					"label": "Body"
 				},
 				{
-					"doc": "/face",
+					"doc": "/before-after-coolsculpting",
 					"href": "/body",
 					"title": "Body",
-					"subtitle": "",
-					"label": "Body"
+					"subtitle": "Treatments",
+					"label": "Bdoy"
 				}
 			]
 		},
@@ -314,14 +349,21 @@
 					"label": "Skin"
 				},
 				{
-					"doc": "/body",
+					"doc": "/laser-hair-removal",
+					"href": "/skin",
+					"title": "Skin",
+					"subtitle": "Treatments",
+					"label": "Skin"
+				},
+				{
+					"doc": "/face",
 					"href": "/skin",
 					"title": "Skin",
 					"subtitle": "",
 					"label": "Skin"
 				},
 				{
-					"doc": "/face",
+					"doc": "/body",
 					"href": "/skin",
 					"title": "Skin",
 					"subtitle": "",
@@ -394,6 +436,13 @@
 					"label": "About Us"
 				},
 				{
+					"doc": "/about-kelita",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthict Center",
+					"label": "About Us"
+				},
+				{
 					"doc": "/about-luis",
 					"href": "/about-cpw",
 					"title": "About Us",
@@ -408,20 +457,6 @@
 					"label": "About Us"
 				},
 				{
-					"doc": "/about-jessica",
-					"href": "/about-cpw",
-					"title": "About Us",
-					"subtitle": "CPW Vein &amp; Aesthetic Center",
-					"label": "About Us"
-				},
-				{
-					"doc": "/about-kelita",
-					"href": "/about-cpw",
-					"title": "About Us",
-					"subtitle": "CPW Vein &amp; Aesthict Center",
-					"label": "About Us"
-				},
-				{
 					"doc": "/press",
 					"href": "/about-cpw",
 					"title": "About Us",
@@ -429,10 +464,24 @@
 					"label": "About Us"
 				},
 				{
+					"doc": "/about-jessica",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
+				},
+				{
 					"doc": "/ipl-photofacials",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthict Center",
+					"label": "About Us"
+				},
+				{
+					"doc": "/masseter-muscle-treatment",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
 					"label": "About Us"
 				},
 				{
@@ -444,6 +493,20 @@
 				},
 				{
 					"doc": "/before-after-tetra-pro-coolpeel",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
+				},
+				{
+					"doc": "/before-after-botox",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "Botox, Dysport &amp; Xeomin",
+					"label": "Aboout Us"
+				},
+				{
+					"doc": "/before-after-coolsculpting",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -464,7 +527,7 @@
 					"label": "About Us"
 				},
 				{
-					"doc": "/search-page",
+					"doc": "/promotions",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -478,7 +541,14 @@
 					"label": "About Us"
 				},
 				{
-					"doc": "/promotions",
+					"doc": "/search-page",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -499,7 +569,7 @@
 					"label": "About Us"
 				},
 				{
-					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"doc": "/treatments",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -509,34 +579,6 @@
 					"doc": "/before-after-galleries",
 					"href": "/about-cpw",
 					"title": "Abouot Us",
-					"subtitle": "CPW Vein &amp; Aesthetic Center",
-					"label": "About Us"
-				},
-				{
-					"doc": "/face-about-facial-lines",
-					"href": "/about-cpw",
-					"title": "About Us",
-					"subtitle": "CPW Vein &amp; Aesthetic Center",
-					"label": "About Us"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/about-cpw",
-					"title": "About Us",
-					"subtitle": "CPW Vein &amp; Aesthetic Center",
-					"label": "About Us"
-				},
-				{
-					"doc": "/face-nose-shaping",
-					"href": "/about-cpw",
-					"title": "About Us",
-					"subtitle": "CPW Vein &amp; Aesthetic Center",
-					"label": "About Us"
-				},
-				{
-					"doc": "/jessicas-cv",
-					"href": "/about-cpw",
-					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
 					"label": "About Us"
 				},
@@ -555,7 +597,28 @@
 					"label": "About Us"
 				},
 				{
+					"doc": "/face-nose-shaping",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
+				},
+				{
 					"doc": "/face-dark-circles-tear-troughs",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
+				},
+				{
+					"doc": "/jessicas-cv",
+					"href": "/about-cpw",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
+				},
+				{
+					"doc": "/face-about-facial-lines",
 					"href": "/about-cpw",
 					"title": "About Us",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -588,6 +651,13 @@
 					"label": "Procedures"
 				},
 				{
+					"doc": "/chemical-peels",
+					"href": "/procedures",
+					"title": "Procedures",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "Procedures"
+				},
+				{
 					"doc": "/tetrapro",
 					"href": "/procedures",
 					"title": "Procedures",
@@ -595,7 +665,14 @@
 					"label": "Procedures"
 				},
 				{
-					"doc": "/chemical-peels",
+					"doc": "/coolsculpting",
+					"href": "/procedures",
+					"title": "Procedures",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "Procedures"
+				},
+				{
+					"doc": "/sclerotherapy-like-leg-and-facial-veins",
 					"href": "/procedures",
 					"title": "Procedures",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -609,14 +686,7 @@
 					"label": "Procedures"
 				},
 				{
-					"doc": "/coolsculpting",
-					"href": "/procedures",
-					"title": "Procedures",
-					"subtitle": "CPW Vein &amp; Aesthetic Center",
-					"label": "Procedures"
-				},
-				{
-					"doc": "/sclerotherapy-like-leg-and-facial-veins",
+					"doc": "/laser-hair-removal",
 					"href": "/procedures",
 					"title": "Procedures",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -651,14 +721,14 @@
 					"label": "Procedures"
 				},
 				{
-					"doc": "/before-after-galleries",
+					"doc": "/treatments",
 					"href": "/procedures",
 					"title": "Procedures",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
 					"label": "Procedures"
 				},
 				{
-					"doc": "/treatments",
+					"doc": "/before-after-galleries",
 					"href": "/procedures",
 					"title": "Procedures",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -691,7 +761,7 @@
 					"label": "Treatments"
 				},
 				{
-					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"doc": "/sclerotherapy-like-leg-and-facial-veins",
 					"href": "/treatments",
 					"title": "Treatments",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -705,7 +775,14 @@
 					"label": "Treatments"
 				},
 				{
-					"doc": "/sclerotherapy-like-leg-and-facial-veins",
+					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"href": "/treatments",
+					"title": "Treatments",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "Treatments"
+				},
+				{
+					"doc": "/face",
 					"href": "/treatments",
 					"title": "Treatments",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -726,14 +803,14 @@
 					"label": "Treatments"
 				},
 				{
-					"doc": "/face",
+					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
 					"href": "/treatments",
 					"title": "Treatments",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
 					"label": "Treatments"
 				},
 				{
-					"doc": "/search-page",
+					"doc": "/promotions",
 					"href": "/treatments",
 					"title": "Treatments",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -747,7 +824,7 @@
 					"label": "Treatments"
 				},
 				{
-					"doc": "/promotions",
+					"doc": "/search-page",
 					"href": "/treatments",
 					"title": "Treatments",
 					"subtitle": "CPW Vein &amp; Aesthetic Center",
@@ -813,14 +890,21 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/about-luis",
+					"doc": "/about-kelita",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/tetrapro",
+					"doc": "/facial-fillers",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/about-luis",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -834,21 +918,14 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"doc": "/tetrapro",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/about-jessica",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/about-kelita",
+					"doc": "/press",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -869,13 +946,6 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/press",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
 					"doc": "/sclerotherapy-like-leg-and-facial-veins",
 					"href": "/contact",
 					"title": "Contact Us",
@@ -883,7 +953,14 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/facial-fillers",
+					"doc": "/about-jessica",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -891,20 +968,6 @@
 				},
 				{
 					"doc": "/ipl-photofacials",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/acne-and-acne-scars",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -925,6 +988,27 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
+					"doc": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/acne-and-acne-scars",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
 					"doc": "/skin",
 					"href": "/contact",
 					"title": "Contact Us",
@@ -939,13 +1023,6 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/face",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
 					"doc": "/before-after-tetra-pro-coolpeel",
 					"href": "/contact",
 					"title": "Contact Us",
@@ -953,14 +1030,14 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-after-coolsculpting",
+					"doc": "/before-after-botox",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-after-botox",
+					"doc": "/before-after-coolsculpting",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -988,7 +1065,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-after-under-eye-fillers-tear-troughs",
+					"doc": "/before-after-filler-lips",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1002,13 +1079,6 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-after-masseter-muscle-treatment",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
 					"doc": "/before-after-laser-hair-removal",
 					"href": "/contact",
 					"title": "Contact Us",
@@ -1016,14 +1086,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/before-after-filler-lips",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/search-page",
+					"doc": "/before-after-masseter-muscle-treatment",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1037,7 +1100,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/contact",
+					"doc": "/before-after-under-eye-fillers-tear-troughs",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1051,6 +1114,20 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
+					"doc": "/contact",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/search-page",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
 					"doc": "/body-hyperhidrosis-excess-sweating",
 					"href": "/contact",
 					"title": "Contact Us",
@@ -1058,7 +1135,14 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/skin-neck-and-skin-laxity",
+					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-lip-lines-and-thinning-lips",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1079,14 +1163,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/face-gummy-smile",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"doc": "/treatments",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1100,42 +1177,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/face-about-facial-lines",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/face-lip-lines-and-thinning-lips",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/face-nose-shaping",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/face-jowls",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/jessicas-cv",
+					"doc": "/facial-fillers-juvederm-volux-xc-radiesse",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1149,28 +1191,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/facial-fillers-juvederm-volux-xc-radiesse",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
 					"doc": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/m22-treatment",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/face-temporal-hollowing",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1184,7 +1205,63 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
+					"doc": "/face-temporal-hollowing",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-nose-shaping",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
 					"doc": "/face-dark-circles-tear-troughs",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/jessicas-cv",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-gummy-smile",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-about-facial-lines",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/skin-neck-and-skin-laxity",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-jowls",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/m22-treatment",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1198,7 +1275,14 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/skin-enlarged-pores",
+					"doc": "/skin-age-spots",
+					"href": "/contact",
+					"title": "Contact Us",
+					"subtitle": "Make an Appointment",
+					"label": "Contact Us - Make an Appointment"
+				},
+				{
+					"doc": "/face-about-facial-volume-loss",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1212,7 +1296,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"doc": "/skin-age-spots",
+					"doc": "/skin-enlarged-pores",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1220,13 +1304,6 @@
 				},
 				{
 					"doc": "/body-aging-hands",
-					"href": "/contact",
-					"title": "Contact Us",
-					"subtitle": "Make an Appointment",
-					"label": "Contact Us - Make an Appointment"
-				},
-				{
-					"doc": "/face-about-facial-volume-loss",
 					"href": "/contact",
 					"title": "Contact Us",
 					"subtitle": "Make an Appointment",
@@ -1245,17 +1322,17 @@
 					"label": "Jessica Plotnick, PA-C, MMSc"
 				},
 				{
-					"doc": "/about-luis",
-					"href": "/about-jessica",
-					"title": "About Jesscia",
-					"subtitle": "PA-C, MMSc",
-					"label": "About Jessica"
-				},
-				{
 					"doc": "/about-kelita",
 					"href": "/about-jessica",
 					"title": "About Jessica",
 					"subtitle": "Owner &amp; Director",
+					"label": "About Jessica"
+				},
+				{
+					"doc": "/about-luis",
+					"href": "/about-jessica",
+					"title": "About Jesscia",
+					"subtitle": "PA-C, MMSc",
 					"label": "About Jessica"
 				},
 				{
@@ -1328,10 +1405,10 @@
 					"label": "Promotions"
 				},
 				{
-					"doc": "/about-jessica",
+					"doc": "/press",
 					"href": "/promotions",
 					"title": "Promotions",
-					"subtitle": "for you",
+					"subtitle": "CPW Vein &amp; Aesthict Center",
 					"label": "Promotions"
 				},
 				{
@@ -1342,13 +1419,6 @@
 					"label": "Promotions"
 				},
 				{
-					"doc": "/press",
-					"href": "/promotions",
-					"title": "Promotions",
-					"subtitle": "CPW Vein &amp; Aesthict Center",
-					"label": "Promotions"
-				},
-				{
 					"doc": "/sclerotherapy-like-leg-and-facial-veins",
 					"href": "/promotions",
 					"title": "Promotions",
@@ -1356,7 +1426,35 @@
 					"label": "Promotions"
 				},
 				{
+					"doc": "/about-jessica",
+					"href": "/promotions",
+					"title": "Promotions",
+					"subtitle": "for you",
+					"label": "Promotions"
+				},
+				{
+					"doc": "/masseter-muscle-treatment",
+					"href": "/promotions",
+					"title": "Promotions",
+					"subtitle": "For You",
+					"label": "Promotions"
+				},
+				{
 					"doc": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+					"href": "/promotions",
+					"title": "Promotions",
+					"subtitle": "for you",
+					"label": "Promotions"
+				},
+				{
+					"doc": "/before-after-coolsculpting",
+					"href": "/promotions",
+					"title": "Promotions",
+					"subtitle": "For You",
+					"label": "Promotions"
+				},
+				{
+					"doc": "/contact",
 					"href": "/promotions",
 					"title": "Promotions",
 					"subtitle": "for you",
@@ -1370,14 +1468,14 @@
 					"label": "Promotions"
 				},
 				{
-					"doc": "/contact",
+					"doc": "/procedures",
 					"href": "/promotions",
 					"title": "Promotions",
 					"subtitle": "for you",
 					"label": "Promotions"
 				},
 				{
-					"doc": "/procedures",
+					"doc": "/treatments",
 					"href": "/promotions",
 					"title": "Promotions",
 					"subtitle": "for you",
@@ -1389,13 +1487,416 @@
 					"title": "Promotions",
 					"subtitle": "For You",
 					"label": "Promotions"
+				}
+			]
+		},
+		{
+			"pathname": "/about-luis",
+			"buttons": [
+				{
+					"doc": "/about-kelita",
+					"href": "/about-luis",
+					"title": "About Luis",
+					"subtitle": "Medical Director",
+					"label": "About Luis"
+				}
+			]
+		},
+		{
+			"pathname": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"title": "Volbella",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Vollbella"
+				},
+				{
+					"doc": "/before-after-under-eye-fillers-tear-troughs",
+					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"title": "Volbella XC",
+					"subtitle": "Juvéderm",
+					"label": "Juvederm Volbella"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"title": "Volbella",
+					"subtitle": "Juvederm",
+					"label": "Juvederm Volbella"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-volux-xc-radiesse",
+					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"title": "Volbella XC",
+					"subtitle": "Juvéderm",
+					"label": "Juvederm Volbella XC"
+				},
+				{
+					"doc": "/face-nose-shaping",
+					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"title": "Volbella",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Volbella"
+				},
+				{
+					"doc": "/face-dark-circles-tear-troughs",
+					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"title": "Volbella",
+					"subtitle": "Juvederm",
+					"label": "Juvéderm Volbella"
+				}
+			]
+		},
+		{
+			"pathname": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Voluma, Ultra &amp; Ultra Plus",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Voluma, Ultra &amp; Ultra Plus"
+				},
+				{
+					"doc": "/face-lip-lines-and-thinning-lips",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Facial <a href=\"/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft\">Fillers</a>",
+					"subtitle": "Juvederm Voluma &amp; Ultra",
+					"label": "Facial Fillers - Juvederm Voluma &amp; Ultra"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Voluma &amp; Ultra",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Voluma &amp; Ultra"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-volux-xc-radiesse",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Voluma &amp; Ultra",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Voluma &amp; Ultra"
+				},
+				{
+					"doc": "/face-nasolabial-folds",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Voluma &amp; Ultra",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Voluma &amp; Ultra"
+				},
+				{
+					"doc": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Voluma &amp; Ultra",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm &amp; Restylane"
+				},
+				{
+					"doc": "/face-flat-cheeks-and-mid-face-volume-loss",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Voluma",
+					"subtitle": "Juvéderm",
+					"label": "Juvederm Voluma"
+				},
+				{
+					"doc": "/face-temporal-hollowing",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Voluma XC",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Voluma XC"
+				},
+				{
+					"doc": "/face-nose-shaping",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"title": "Voluma &amp; Ultra",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Voluma &amp; Ultra"
+				}
+			]
+		},
+		{
+			"pathname": "/facial-fillers-juvederm-volux-xc-radiesse",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
+					"title": "Volux",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Volux"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
+					"title": "Volux",
+					"subtitle": "Juvéderm",
+					"label": "Juvederm Volux"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
+					"title": "Volux XC",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Volux XC"
+				},
+				{
+					"doc": "/face-receding-chin",
+					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
+					"title": "Volux",
+					"subtitle": "Juvéderm",
+					"label": "Juvederm Volux"
+				}
+			]
+		},
+		{
+			"pathname": "/face-nasolabial-folds",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/face-nasolabial-folds",
+					"title": "Nasolabial Folds",
+					"subtitle": "",
+					"label": "Nasolabial Folds"
+				},
+				{
+					"doc": "/face",
+					"href": "/face-nasolabial-folds",
+					"title": "Nasolabial Folds",
+					"subtitle": "",
+					"label": "Nasolabial Folds"
+				},
+				{
+					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+					"href": "/face-nasolabial-folds",
+					"title": "Nasolabial Folds",
+					"subtitle": "",
+					"label": "Nasolabial Folds"
 				},
 				{
 					"doc": "/treatments",
-					"href": "/promotions",
-					"title": "Promotions",
-					"subtitle": "for you",
-					"label": "Promotions"
+					"href": "/face-nasolabial-folds?category=Treatments",
+					"title": "Nasolabial Folds",
+					"subtitle": "",
+					"label": "Nasolabial Folds"
+				}
+			]
+		},
+		{
+			"pathname": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+					"title": "Downturned Mouth",
+					"subtitle": "",
+					"label": "Downturned Mouth"
+				},
+				{
+					"doc": "/face",
+					"href": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+					"title": "Downturned Mouth",
+					"subtitle": "",
+					"label": "Downturned Mouth"
+				},
+				{
+					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+					"href": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+					"title": "Downturned Mouth",
+					"subtitle": "Marionette &amp; Doll Lines",
+					"label": "Downturned Mouth"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/face-marionette-lines-and-doll-lines-and-downturned-mouth?category=Treatments",
+					"title": "Downturned Mouth",
+					"subtitle": "",
+					"label": "Downturned Mouth"
+				}
+			]
+		},
+		{
+			"pathname": "/face-flat-cheeks-and-mid-face-volume-loss",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/face-flat-cheeks-and-mid-face-volume-loss",
+					"title": "Flat Cheeks",
+					"subtitle": "",
+					"label": "Flat Cheeks"
+				},
+				{
+					"doc": "/face",
+					"href": "/face-flat-cheeks-and-mid-face-volume-loss",
+					"title": "Flat Cheeks",
+					"subtitle": "",
+					"label": "Flat Cheeks"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/face-flat-cheeks-and-mid-face-volume-loss?category=Treatments",
+					"title": "Flat Cheeks",
+					"subtitle": "",
+					"label": "Flat Cheeks"
+				}
+			]
+		},
+		{
+			"pathname": "/face-lip-lines-and-thinning-lips",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/face-lip-lines-and-thinning-lips",
+					"title": "Lip Lines",
+					"subtitle": "",
+					"label": "Lip Lines &amp; Thinning Lips"
+				},
+				{
+					"doc": "/face",
+					"href": "/face-lip-lines-and-thinning-lips",
+					"title": "Thinning Lips",
+					"subtitle": "",
+					"label": "Thinning Lips &amp; Lip Lines"
+				},
+				{
+					"doc": "/before-after-filler-lips",
+					"href": "/face-lip-lines-and-thinning-lips",
+					"title": "Lip Lines",
+					"subtitle": "",
+					"label": "Lip Lines &amp; Thinning Lips"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/face-lip-lines-and-thinning-lips?category=Treatments",
+					"title": "Thinning Lips",
+					"subtitle": "",
+					"label": "Thinning Lips &amp; Lip Lines"
+				}
+			]
+		},
+		{
+			"pathname": "/face-temporal-hollowing",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/face-temporal-hollowing",
+					"title": "Temporal Hollowing",
+					"subtitle": "",
+					"label": "Temporal Hollowing"
+				},
+				{
+					"doc": "/face",
+					"href": "/face-temporal-hollowing",
+					"title": "Temporal Hollwoing",
+					"subtitle": "",
+					"label": "Temporal Hollowing"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/face-temporal-hollowing?category=Treatments",
+					"title": "Temporal Hollowing",
+					"subtitle": "",
+					"label": "Temporal Hollowing"
+				}
+			]
+		},
+		{
+			"pathname": "/face-nose-shaping",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/face-nose-shaping",
+					"title": "Nose Shaping",
+					"subtitle": "",
+					"label": "Nose Asymmetry"
+				},
+				{
+					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"href": "/face-nose-shaping",
+					"title": "Nose Shaping",
+					"subtitle": "",
+					"label": "Nose Asymmetry"
+				},
+				{
+					"doc": "/face",
+					"href": "/face-nose-shaping",
+					"title": "Nose Shaping",
+					"subtitle": "",
+					"label": "Nose Asymmetry"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"href": "/face-nose-shaping",
+					"title": "Nose Shaping",
+					"subtitle": "",
+					"label": "Nose Asymetry"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/face-nose-shaping?category=Treatments",
+					"title": "Nose Shaping",
+					"subtitle": "",
+					"label": "Nose Asymmetry"
+				}
+			]
+		},
+		{
+			"pathname": "/face-dark-circles-tear-troughs",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/face-dark-circles-tear-troughs",
+					"title": "Under Eye Dark Circles",
+					"subtitle": "",
+					"label": "Under Eye Dark Circles &amp; Hollowing"
+				},
+				{
+					"doc": "/face",
+					"href": "/face-dark-circles-tear-troughs",
+					"title": "Under Eye Dark Circles",
+					"subtitle": "",
+					"label": "Under Eye Dark Circles &amp; Hollowing"
+				},
+				{
+					"doc": "/before-after-under-eye-fillers-tear-troughs",
+					"href": "/face-dark-circles-tear-troughs",
+					"title": "Under Eye Dark Circles",
+					"subtitle": "Tear Troughs",
+					"label": "Under Eye Dark Circles &amp; Hollowing"
+				},
+				{
+					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"href": "/face-dark-circles-tear-troughs",
+					"title": "Under Eye Dark Circles",
+					"subtitle": "Hollowing",
+					"label": "Under Eye Dark Circles &amp; Hollowing"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/face-dark-circles-tear-troughs?category=Treatments",
+					"title": "Under Eye Dark Circles<br>Hollwoing",
+					"subtitle": "",
+					"label": "Under Eye Dark Circles &amp; Hollowing"
+				}
+			]
+		},
+		{
+			"pathname": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+			"buttons": [
+				{
+					"doc": "/facial-fillers",
+					"href": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+					"title": "Before &amp; After",
+					"subtitle": "Nasolabial Folds, Doll Lines &amp; Lips",
+					"label": "Before &amp; After - Nasolabial Folds, Doll Lines &amp; LIps"
+				},
+				{
+					"doc": "/before-after-galleries",
+					"href": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+					"title": "Nasolabial Folds, Doll Lines &amp; Lips",
+					"subtitle": "",
+					"label": "Nasolabial Folds, Doll Lines &amp; Lips"
 				}
 			]
 		},
@@ -1469,6 +1970,80 @@
 					"title": "IPL",
 					"subtitle": "Lumenis M22 IPL Photorejuvenation",
 					"label": "IPL Photorejuvination"
+				}
+			]
+		},
+		{
+			"pathname": "/s/BrideMagazine.pdf",
+			"buttons": [
+				{
+					"doc": "/press",
+					"href": "/s/BrideMagazine.pdf",
+					"title": null,
+					"subtitle": "",
+					"label": "Read about it"
+				}
+			]
+		},
+		{
+			"pathname": "/s/spatalk.pdf",
+			"buttons": [
+				{
+					"doc": "/press",
+					"href": "/s/spatalk.pdf",
+					"title": null,
+					"subtitle": "",
+					"label": "Read about it"
+				}
+			]
+		},
+		{
+			"pathname": "/before-after-coolsculpting",
+			"buttons": [
+				{
+					"doc": "/coolsculpting",
+					"href": "/before-after-coolsculpting",
+					"title": "Before &amp; After",
+					"subtitle": "CoolSculpting",
+					"label": "Before &amp; After - CoolSculpting"
+				},
+				{
+					"doc": "/before-after-galleries",
+					"href": "/before-after-coolsculpting",
+					"title": "Coolsculpting",
+					"subtitle": "",
+					"label": "Coolsculpting"
+				}
+			]
+		},
+		{
+			"pathname": "/before-and-after-varicose-spider-veins",
+			"buttons": [
+				{
+					"doc": "/sclerotherapy-like-leg-and-facial-veins",
+					"href": "/before-and-after-varicose-spider-veins",
+					"title": "Before &amp; After",
+					"subtitle": "Sclerotherapy",
+					"label": "Before &amp; After - Sclerotherapy"
+				},
+				{
+					"doc": "/before-after-galleries",
+					"href": "/before-and-after-varicose-spider-veins",
+					"title": "Varicose",
+					"subtitle": "Spider Veins",
+					"label": "Varicose &amp; Spider Veins"
+				}
+			]
+		},
+		{
+			"pathname": "/jessicas-cv",
+			"buttons": [
+				{
+					"doc": "/about-jessica",
+					"href": "/jessicas-cv",
+					"title": "Jessica’s CV",
+					"subtitle": "",
+					"label": "View Jessica's CV"
 				}
 			]
 		},
@@ -1577,46 +2152,6 @@
 			]
 		},
 		{
-			"pathname": "/face-nose-shaping",
-			"buttons": [
-				{
-					"doc": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"href": "/face-nose-shaping",
-					"title": "Nose Shaping",
-					"subtitle": "",
-					"label": "Nose Asymmetry"
-				},
-				{
-					"doc": "/facial-fillers",
-					"href": "/face-nose-shaping",
-					"title": "Nose Shaping",
-					"subtitle": "",
-					"label": "Nose Asymmetry"
-				},
-				{
-					"doc": "/face",
-					"href": "/face-nose-shaping",
-					"title": "Nose Shaping",
-					"subtitle": "",
-					"label": "Nose Asymmetry"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"href": "/face-nose-shaping",
-					"title": "Nose Shaping",
-					"subtitle": "",
-					"label": "Nose Asymetry"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-nose-shaping?category=Treatments",
-					"title": "Nose Shaping",
-					"subtitle": "",
-					"label": "Nose Asymmetry"
-				}
-			]
-		},
-		{
 			"pathname": "/face-jowls",
 			"buttons": [
 				{
@@ -1702,443 +2237,6 @@
 			]
 		},
 		{
-			"pathname": "/jessicas-cv",
-			"buttons": [
-				{
-					"doc": "/about-jessica",
-					"href": "/jessicas-cv",
-					"title": "Jessica’s CV",
-					"subtitle": "",
-					"label": "View Jessica's CV"
-				}
-			]
-		},
-		{
-			"pathname": "/about-luis",
-			"buttons": [
-				{
-					"doc": "/about-kelita",
-					"href": "/about-luis",
-					"title": "About Luis",
-					"subtitle": "Medical Director",
-					"label": "About Luis"
-				}
-			]
-		},
-		{
-			"pathname": "/before-after-coolsculpting",
-			"buttons": [
-				{
-					"doc": "/coolsculpting",
-					"href": "/before-after-coolsculpting",
-					"title": "Before &amp; After",
-					"subtitle": "CoolSculpting",
-					"label": "Before &amp; After - CoolSculpting"
-				},
-				{
-					"doc": "/before-after-galleries",
-					"href": "/before-after-coolsculpting",
-					"title": "Coolsculpting",
-					"subtitle": "",
-					"label": "Coolsculpting"
-				}
-			]
-		},
-		{
-			"pathname": "/s/BrideMagazine.pdf",
-			"buttons": [
-				{
-					"doc": "/press",
-					"href": "/s/BrideMagazine.pdf",
-					"title": null,
-					"subtitle": "",
-					"label": "Read about it"
-				}
-			]
-		},
-		{
-			"pathname": "/s/spatalk.pdf",
-			"buttons": [
-				{
-					"doc": "/press",
-					"href": "/s/spatalk.pdf",
-					"title": null,
-					"subtitle": "",
-					"label": "Read about it"
-				}
-			]
-		},
-		{
-			"pathname": "/before-and-after-varicose-spider-veins",
-			"buttons": [
-				{
-					"doc": "/sclerotherapy-like-leg-and-facial-veins",
-					"href": "/before-and-after-varicose-spider-veins",
-					"title": "Before &amp; After",
-					"subtitle": "Sclerotherapy",
-					"label": "Before &amp; After - Sclerotherapy"
-				},
-				{
-					"doc": "/before-after-galleries",
-					"href": "/before-and-after-varicose-spider-veins",
-					"title": "Varicose",
-					"subtitle": "Spider Veins",
-					"label": "Varicose &amp; Spider Veins"
-				}
-			]
-		},
-		{
-			"pathname": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"title": "Volbella",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Vollbella"
-				},
-				{
-					"doc": "/before-after-under-eye-fillers-tear-troughs",
-					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"title": "Volbella XC",
-					"subtitle": "Juvéderm",
-					"label": "Juvederm Volbella"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"title": "Volbella",
-					"subtitle": "Juvederm",
-					"label": "Juvederm Volbella"
-				},
-				{
-					"doc": "/face-nose-shaping",
-					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"title": "Volbella",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Volbella"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-volux-xc-radiesse",
-					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"title": "Volbella XC",
-					"subtitle": "Juvéderm",
-					"label": "Juvederm Volbella XC"
-				},
-				{
-					"doc": "/face-dark-circles-tear-troughs",
-					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"title": "Volbella",
-					"subtitle": "Juvederm",
-					"label": "Juvéderm Volbella"
-				}
-			]
-		},
-		{
-			"pathname": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Voluma, Ultra &amp; Ultra Plus",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Voluma, Ultra &amp; Ultra Plus"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Voluma &amp; Ultra",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Voluma &amp; Ultra"
-				},
-				{
-					"doc": "/face-lip-lines-and-thinning-lips",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Facial <a href=\"/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft\">Fillers</a>",
-					"subtitle": "Juvederm Voluma &amp; Ultra",
-					"label": "Facial Fillers - Juvederm Voluma &amp; Ultra"
-				},
-				{
-					"doc": "/face-nose-shaping",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Voluma &amp; Ultra",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Voluma &amp; Ultra"
-				},
-				{
-					"doc": "/face-nasolabial-folds",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Voluma &amp; Ultra",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Voluma &amp; Ultra"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-volux-xc-radiesse",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Voluma &amp; Ultra",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Voluma &amp; Ultra"
-				},
-				{
-					"doc": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Voluma &amp; Ultra",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm &amp; Restylane"
-				},
-				{
-					"doc": "/face-temporal-hollowing",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Voluma XC",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Voluma XC"
-				},
-				{
-					"doc": "/face-flat-cheeks-and-mid-face-volume-loss",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"title": "Voluma",
-					"subtitle": "Juvéderm",
-					"label": "Juvederm Voluma"
-				}
-			]
-		},
-		{
-			"pathname": "/facial-fillers-juvederm-volux-xc-radiesse",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
-					"title": "Volux",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Volux"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
-					"title": "Volux XC",
-					"subtitle": "Juvéderm",
-					"label": "Juvéderm Volux XC"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
-					"title": "Volux",
-					"subtitle": "Juvéderm",
-					"label": "Juvederm Volux"
-				},
-				{
-					"doc": "/face-receding-chin",
-					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
-					"title": "Volux",
-					"subtitle": "Juvéderm",
-					"label": "Juvederm Volux"
-				}
-			]
-		},
-		{
-			"pathname": "/face-nasolabial-folds",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/face-nasolabial-folds",
-					"title": "Nasolabial Folds",
-					"subtitle": "",
-					"label": "Nasolabial Folds"
-				},
-				{
-					"doc": "/face",
-					"href": "/face-nasolabial-folds",
-					"title": "Nasolabial Folds",
-					"subtitle": "",
-					"label": "Nasolabial Folds"
-				},
-				{
-					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
-					"href": "/face-nasolabial-folds",
-					"title": "Nasolabial Folds",
-					"subtitle": "",
-					"label": "Nasolabial Folds"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-nasolabial-folds?category=Treatments",
-					"title": "Nasolabial Folds",
-					"subtitle": "",
-					"label": "Nasolabial Folds"
-				}
-			]
-		},
-		{
-			"pathname": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
-					"title": "Downturned Mouth",
-					"subtitle": "",
-					"label": "Downturned Mouth"
-				},
-				{
-					"doc": "/face",
-					"href": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
-					"title": "Downturned Mouth",
-					"subtitle": "",
-					"label": "Downturned Mouth"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-marionette-lines-and-doll-lines-and-downturned-mouth?category=Treatments",
-					"title": "Downturned Mouth",
-					"subtitle": "",
-					"label": "Downturned Mouth"
-				}
-			]
-		},
-		{
-			"pathname": "/face-flat-cheeks-and-mid-face-volume-loss",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/face-flat-cheeks-and-mid-face-volume-loss",
-					"title": "Flat Cheeks",
-					"subtitle": "",
-					"label": "Flat Cheeks"
-				},
-				{
-					"doc": "/face",
-					"href": "/face-flat-cheeks-and-mid-face-volume-loss",
-					"title": "Flat Cheeks",
-					"subtitle": "",
-					"label": "Flat Cheeks"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-flat-cheeks-and-mid-face-volume-loss?category=Treatments",
-					"title": "Flat Cheeks",
-					"subtitle": "",
-					"label": "Flat Cheeks"
-				}
-			]
-		},
-		{
-			"pathname": "/face-lip-lines-and-thinning-lips",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/face-lip-lines-and-thinning-lips",
-					"title": "Lip Lines",
-					"subtitle": "",
-					"label": "Lip Lines &amp; Thinning Lips"
-				},
-				{
-					"doc": "/face",
-					"href": "/face-lip-lines-and-thinning-lips",
-					"title": "Thinning Lips",
-					"subtitle": "",
-					"label": "Thinning Lips &amp; Lip Lines"
-				},
-				{
-					"doc": "/before-after-filler-lips",
-					"href": "/face-lip-lines-and-thinning-lips",
-					"title": "Lip Lines",
-					"subtitle": "",
-					"label": "Lip Lines &amp; Thinning Lips"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-lip-lines-and-thinning-lips?category=Treatments",
-					"title": "Thinning Lips",
-					"subtitle": "",
-					"label": "Thinning Lips &amp; Lip Lines"
-				}
-			]
-		},
-		{
-			"pathname": "/face-temporal-hollowing",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/face-temporal-hollowing",
-					"title": "Temporal Hollowing",
-					"subtitle": "",
-					"label": "Temporal Hollowing"
-				},
-				{
-					"doc": "/face",
-					"href": "/face-temporal-hollowing",
-					"title": "Temporal Hollwoing",
-					"subtitle": "",
-					"label": "Temporal Hollowing"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-temporal-hollowing?category=Treatments",
-					"title": "Temporal Hollowing",
-					"subtitle": "",
-					"label": "Temporal Hollowing"
-				}
-			]
-		},
-		{
-			"pathname": "/face-dark-circles-tear-troughs",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/face-dark-circles-tear-troughs",
-					"title": "Under Eye Dark Circles",
-					"subtitle": "",
-					"label": "Under Eye Dark Circles &amp; Hollowing"
-				},
-				{
-					"doc": "/face",
-					"href": "/face-dark-circles-tear-troughs",
-					"title": "Under Eye Dark Circles",
-					"subtitle": "",
-					"label": "Under Eye Dark Circles &amp; Hollowing"
-				},
-				{
-					"doc": "/before-after-under-eye-fillers-tear-troughs",
-					"href": "/face-dark-circles-tear-troughs",
-					"title": "Under Eye Dark Circles",
-					"subtitle": "Tear Troughs",
-					"label": "Under Eye Dark Circles &amp; Hollowing"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
-					"href": "/face-dark-circles-tear-troughs",
-					"title": "Under Eye Dark Circles",
-					"subtitle": "Hollowing",
-					"label": "Under Eye Dark Circles &amp; Hollowing"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-dark-circles-tear-troughs?category=Treatments",
-					"title": "Under Eye Dark Circles<br>Hollwoing",
-					"subtitle": "",
-					"label": "Under Eye Dark Circles &amp; Hollowing"
-				}
-			]
-		},
-		{
-			"pathname": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
-			"buttons": [
-				{
-					"doc": "/facial-fillers",
-					"href": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
-					"title": "Before &amp; After",
-					"subtitle": "Nasolabial Folds, Doll Lines &amp; Lips",
-					"label": "Before &amp; After - Nasolabial Folds, Doll Lines &amp; LIps"
-				},
-				{
-					"doc": "/before-after-galleries",
-					"href": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
-					"title": "Nasolabial Folds, Doll Lines &amp; Lips",
-					"subtitle": "",
-					"label": "Nasolabial Folds, Doll Lines &amp; Lips"
-				}
-			]
-		},
-		{
 			"pathname": "/m22-treatment",
 			"buttons": [
 				{
@@ -2196,21 +2294,7 @@
 					"label": "Tetra PRO CoolPeel"
 				},
 				{
-					"doc": "/skin-neck-and-skin-laxity",
-					"href": "/tetrapro",
-					"title": "Tetra PRO CoolPeel",
-					"subtitle": "Skin Resurfacing",
-					"label": "Tetra PRO CoolPeel"
-				},
-				{
 					"doc": "/procedures",
-					"href": "/tetrapro",
-					"title": "Tetra PRO CoolPeel",
-					"subtitle": "Skin Resurfacing",
-					"label": "Tetra PRO CoolPeel"
-				},
-				{
-					"doc": "/face-about-facial-lines",
 					"href": "/tetrapro",
 					"title": "Tetra PRO CoolPeel",
 					"subtitle": "Skin Resurfacing",
@@ -2224,7 +2308,14 @@
 					"label": "Tetra PRO CoolPeel"
 				},
 				{
-					"doc": "/skin-enlarged-pores",
+					"doc": "/face-about-facial-lines",
+					"href": "/tetrapro",
+					"title": "Tetra PRO CoolPeel",
+					"subtitle": "Skin Resurfacing",
+					"label": "Tetra PRO CoolPeel"
+				},
+				{
+					"doc": "/skin-neck-and-skin-laxity",
 					"href": "/tetrapro",
 					"title": "Tetra PRO CoolPeel",
 					"subtitle": "Skin Resurfacing",
@@ -2238,11 +2329,107 @@
 					"label": "Tetra PRO CoolPeel"
 				},
 				{
+					"doc": "/skin-enlarged-pores",
+					"href": "/tetrapro",
+					"title": "Tetra PRO CoolPeel",
+					"subtitle": "Skin Resurfacing",
+					"label": "Tetra PRO CoolPeel"
+				},
+				{
 					"doc": "/body-aging-hands",
 					"href": "/tetrapro",
 					"title": " Tetra PRO CoolPeel",
 					"subtitle": "Skin Resurfacing",
 					"label": "Tetra PRO CoolPeel"
+				}
+			]
+		},
+		{
+			"pathname": "/wrinkle-treatments-like-botox-and-neurotoxins",
+			"buttons": [
+				{
+					"doc": "/masseter-muscle-treatment",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Botox",
+					"subtitle": "Neurotoxins",
+					"label": "Botox &amp; Neurotoxins"
+				},
+				{
+					"doc": "/face",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins?category=Face",
+					"title": "Wrinkle Treatment",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
+				},
+				{
+					"doc": "/before-after-botox",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Wrinkle Treatment<br>Brow Lift",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
+				},
+				{
+					"doc": "/face-lip-lines-and-thinning-lips",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Botox",
+					"subtitle": "Neurotoxins",
+					"label": "Botox &amp; Neurotoxins"
+				},
+				{
+					"doc": "/procedures",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Botox &amp; Neurotoxins",
+					"subtitle": "Wrinkle Treatment",
+					"label": "Wrinkle Treatment - Botox &amp; Neurotoxins"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins?category=Treatments",
+					"title": "Wrinkle Treatment",
+					"subtitle": "",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
+				},
+				{
+					"doc": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Wrinkle Treatments",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
+				},
+				{
+					"doc": "/face-nose-shaping",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Wrinkle Treatments",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
+				},
+				{
+					"doc": "/face-gummy-smile",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Botox",
+					"subtitle": "Neurotoxins",
+					"label": "Botox &amp; Neurotoxins"
+				},
+				{
+					"doc": "/face-about-facial-lines",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Wrinkle Treatment",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
+				},
+				{
+					"doc": "/skin-neck-and-skin-laxity",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Wrinkle Treatment<br>Brow Lift",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
+				},
+				{
+					"doc": "/face-jowls",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
+					"title": "Wrinkle Treatments",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
 				}
 			]
 		},
@@ -2323,18 +2510,49 @@
 					"label": "Uneven Tone &amp; Sun Damage"
 				},
 				{
-					"doc": "/face-about-facial-lines",
-					"href": "/skin-age-spots",
-					"title": "Uneven Tone<br>Sun Damage",
-					"subtitle": "",
-					"label": "Uneven Tone &amp; Sun Damage"
-				},
-				{
 					"doc": "/treatments",
 					"href": "/skin-age-spots?category=Treatments",
 					"title": "Uneven Skin Tone<br>Sun Damage",
 					"subtitle": "",
 					"label": "Uneven Tone &amp; Sun Damage"
+				},
+				{
+					"doc": "/face-about-facial-lines",
+					"href": "/skin-age-spots",
+					"title": "Uneven Tone<br>Sun Damage",
+					"subtitle": "",
+					"label": "Uneven Tone &amp; Sun Damage"
+				}
+			]
+		},
+		{
+			"pathname": "/face-receding-chin",
+			"buttons": [
+				{
+					"doc": "/face",
+					"href": "/face-receding-chin",
+					"title": "Receding Chin",
+					"subtitle": "",
+					"label": "Receding Chin"
+				},
+				{
+					"doc": "/treatments",
+					"href": "/face-receding-chin?category=Treatments",
+					"title": "Receding Chin",
+					"subtitle": "",
+					"label": "Receding Chin"
+				}
+			]
+		},
+		{
+			"pathname": "/face-about-facial-volume-loss",
+			"buttons": [
+				{
+					"doc": "/face",
+					"href": "/face-about-facial-volume-loss",
+					"title": "Facial Volume Loss",
+					"subtitle": "Leearn more aout it ",
+					"label": "Volume Loss"
 				}
 			]
 		},
@@ -2349,14 +2567,28 @@
 					"label": "Facial Fillers"
 				},
 				{
+					"doc": "/before-after-botox",
+					"href": "/facial-fillers",
+					"title": "Fillers",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Fillers"
+				},
+				{
 					"doc": "/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+					"href": "/facial-fillers",
+					"title": "Facial Fillers",
+					"subtitle": "Juvederm",
+					"label": "Facial Fillers"
+				},
+				{
+					"doc": "/before-after-filler-lips",
 					"href": "/facial-fillers",
 					"title": "Facial Fillers",
 					"subtitle": "",
 					"label": "Facial Fillers"
 				},
 				{
-					"doc": "/before-after-filler-lips",
+					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 					"href": "/facial-fillers",
 					"title": "Facial Fillers",
 					"subtitle": "",
@@ -2377,41 +2609,6 @@
 					"label": "Facial Fillers"
 				},
 				{
-					"doc": "/face-gummy-smile",
-					"href": "/facial-fillers",
-					"title": "Facial Fillers",
-					"subtitle": "",
-					"label": "Facial Fillers"
-				},
-				{
-					"doc": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
-					"href": "/facial-fillers",
-					"title": "Facial Fillers",
-					"subtitle": "",
-					"label": "Facial Fillers"
-				},
-				{
-					"doc": "/face-about-facial-lines",
-					"href": "/facial-fillers",
-					"title": "Facial Fillers",
-					"subtitle": "",
-					"label": "Facial Fillers"
-				},
-				{
-					"doc": "/face-nose-shaping",
-					"href": "/facial-fillers",
-					"title": "Facial Fillers",
-					"subtitle": "",
-					"label": "Facial Fillers"
-				},
-				{
-					"doc": "/face-jowls",
-					"href": "/facial-fillers",
-					"title": "Facial Fillers",
-					"subtitle": "",
-					"label": "Facial Fillers"
-				},
-				{
 					"doc": "/facial-fillers-juvederm-volux-xc-radiesse",
 					"href": "/facial-fillers",
 					"title": "Facial Fillers",
@@ -2426,7 +2623,42 @@
 					"label": "Facial Fillers"
 				},
 				{
+					"doc": "/face-nose-shaping",
+					"href": "/facial-fillers",
+					"title": "Facial Fillers",
+					"subtitle": "",
+					"label": "Facial Fillers"
+				},
+				{
 					"doc": "/face-dark-circles-tear-troughs",
+					"href": "/facial-fillers",
+					"title": "Facial Fillers",
+					"subtitle": "",
+					"label": "Facial Fillers"
+				},
+				{
+					"doc": "/face-gummy-smile",
+					"href": "/facial-fillers",
+					"title": "Facial Fillers",
+					"subtitle": "",
+					"label": "Facial Fillers"
+				},
+				{
+					"doc": "/face-about-facial-lines",
+					"href": "/facial-fillers",
+					"title": "Facial Fillers",
+					"subtitle": "",
+					"label": "Facial Fillers"
+				},
+				{
+					"doc": "/face-jowls",
+					"href": "/facial-fillers",
+					"title": "Facial Fillers",
+					"subtitle": "",
+					"label": "Facial Fillers"
+				},
+				{
+					"doc": "/face-about-facial-volume-loss",
 					"href": "/facial-fillers",
 					"title": "Facial Fillers",
 					"subtitle": "",
@@ -2445,13 +2677,6 @@
 					"title": "Fillers",
 					"subtitle": "",
 					"label": "Fillers"
-				},
-				{
-					"doc": "/face-about-facial-volume-loss",
-					"href": "/facial-fillers",
-					"title": "Facial Fillers",
-					"subtitle": "",
-					"label": "Facial Fillers"
 				}
 			]
 		},
@@ -2480,14 +2705,14 @@
 					"label": "Chemical Peels"
 				},
 				{
-					"doc": "/skin-enlarged-pores",
+					"doc": "/skin-age-spots",
 					"href": "/chemical-peels",
 					"title": "Chemical Peels",
 					"subtitle": "",
 					"label": "Chemical Peels"
 				},
 				{
-					"doc": "/skin-age-spots",
+					"doc": "/skin-enlarged-pores",
 					"href": "/chemical-peels",
 					"title": "Chemical Peels",
 					"subtitle": "",
@@ -2557,95 +2782,6 @@
 			]
 		},
 		{
-			"pathname": "/wrinkle-treatments-like-botox-and-neurotoxins",
-			"buttons": [
-				{
-					"doc": "/masseter-muscle-treatment",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Botox",
-					"subtitle": "Neurotoxins",
-					"label": "Botox &amp; Neurotoxins"
-				},
-				{
-					"doc": "/face",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins?category=Face",
-					"title": "Wrinkle Treatment",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				},
-				{
-					"doc": "/before-after-botox",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Wrinkle Treatment<br>Brow Lift",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				},
-				{
-					"doc": "/skin-neck-and-skin-laxity",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Wrinkle Treatment<br>Brow Lift",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				},
-				{
-					"doc": "/procedures",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Botox &amp; Neurotoxins",
-					"subtitle": "Wrinkle Treatment",
-					"label": "Wrinkle Treatment - Botox &amp; Neurotoxins"
-				},
-				{
-					"doc": "/face-gummy-smile",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Botox",
-					"subtitle": "Neurotoxins",
-					"label": "Botox &amp; Neurotoxins"
-				},
-				{
-					"doc": "/face-about-facial-lines",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Wrinkle Treatment",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins?category=Treatments",
-					"title": "Wrinkle Treatment",
-					"subtitle": "",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				},
-				{
-					"doc": "/face-lip-lines-and-thinning-lips",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Botox",
-					"subtitle": "Neurotoxins",
-					"label": "Botox &amp; Neurotoxins"
-				},
-				{
-					"doc": "/face-nose-shaping",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Wrinkle Treatments",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				},
-				{
-					"doc": "/face-jowls",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Wrinkle Treatments",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				},
-				{
-					"doc": "/face-marionette-lines-and-doll-lines-and-downturned-mouth",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
-					"title": "Wrinkle Treatments",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				}
-			]
-		},
-		{
 			"pathname": "/skin-enlarged-pores",
 			"buttons": [
 				{
@@ -2699,37 +2835,6 @@
 					"title": "CoolSculpting",
 					"subtitle": "",
 					"label": "CoolSculpting"
-				}
-			]
-		},
-		{
-			"pathname": "/face-receding-chin",
-			"buttons": [
-				{
-					"doc": "/face",
-					"href": "/face-receding-chin",
-					"title": "Receding Chin",
-					"subtitle": "",
-					"label": "Receding Chin"
-				},
-				{
-					"doc": "/treatments",
-					"href": "/face-receding-chin?category=Treatments",
-					"title": "Receding Chin",
-					"subtitle": "",
-					"label": "Receding Chin"
-				}
-			]
-		},
-		{
-			"pathname": "/face-about-facial-volume-loss",
-			"buttons": [
-				{
-					"doc": "/face",
-					"href": "/face-about-facial-volume-loss",
-					"title": "Facial Volume Loss",
-					"subtitle": "Leearn more aout it ",
-					"label": "Volume Loss"
 				}
 			]
 		},
