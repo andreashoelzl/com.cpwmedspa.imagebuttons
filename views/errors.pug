@@ -1,6 +1,7 @@
 extends layout
 
 block content
+  p.timestamp created on #{new Date(timestamp * 1000)}
   div(id='errors')
   script(type="text/javascript").
     var table = new Tabulator("#errors", {

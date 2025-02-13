@@ -6,6 +6,9 @@ body {
 a {
   color: darkblue;
 } 
+p.timestamp {
+  font-family:'Courier New', Courier, monospace;
+}
 div.inline {
   display: flex;
   align-items: center;

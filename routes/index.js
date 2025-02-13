@@ -22,6 +22,7 @@ function loadFile(url) {
 
 const pages = JSON.parse(loadFile('../public/javascripts/pages.json'));
 const buttons = JSON.parse(loadFile('../public/javascripts/buttons.json'));
+const cpwmedspa = JSON.parse(loadFile('../public/javascripts/cpwmedspa.json'));
 
 pages.forEach((page, index) => pages[index] = (page.indexOf('/') > -1) ? page.split('/').pop() : "");
 buttons.forEach((button, index) => buttons[index] = button.split('/').pop());
@@ -30,14 +31,14 @@ buttons.push('');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Welcome' });
+  res.render('index', { title: 'Welcome', timestamp:cpwmedspa.timestamp });
 });  
 router.get('/visitedpages', function(req, res, next) {
-  res.render('visitedpages', { title: 'Pages', anchors: pages });
+  res.render('visitedpages', { title: 'Pages', anchors: pages, timestamp:cpwmedspa.timestamp });
 });
 
 router.get('/buttons', function(req, res, next) {
-  res.render('buttons', { title: 'Buttons', anchors: buttons });
+  res.render('buttons', { title: 'Buttons', anchors: buttons, timestamp:cpwmedspa.timestamp });
 });  
 
 router.get('/errors', function(req, res, next) {

@@ -1,4 +1,5 @@
 block search
+  p.timestamp created on #{new Date(timestamp * 1000)}
   script.
     const anchors = !{JSON.stringify(anchors)};
     $(document).ready(function() {

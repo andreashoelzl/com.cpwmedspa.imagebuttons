@@ -2,6 +2,7 @@ extends layout
 
 block content
   p CPW Vein & Aesthetic Center - Website Analysis
+  p.timestamp created on #{new Date(timestamp * 1000)}
   div.menu
     div.menuitem
       a(href='/visitedpages') Pages
@@ -9,6 +10,6 @@ block content
       a(href='/buttons') Buttons
     div.menuitem
       a(href='/errors') Errors
-    div.menuitem
+    //div.menuitem
       a(href='/update') Update
 

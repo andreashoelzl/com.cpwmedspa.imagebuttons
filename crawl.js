@@ -6,7 +6,7 @@ const pages = [];
 const buttons = [];
 const errors = [];
 const buttonsByPathname = [];
-const cpwmedspa = {pages:pages, buttons:buttons, errors:errors, buttonsByPathname:buttonsByPathname};
+const cpwmedspa = {pages:pages, buttons:buttons, errors:errors, buttonsByPathname:buttonsByPathname, timestamp: Math.floor((new Date()).getTime() / 1000)};
 const addToResult = (button) => {
     let pn = buttonsByPathname.find(p => p.pathname == button.href.split("?")[0]);
     if (pn == undefined) {
@@ -116,8 +116,6 @@ const c = new Crawler({
                 }
             });
         }
-        /*
-        */
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
         await writeJsonFile('public/javascripts/errors.json', errors);
         await writeJsonFile('public/javascripts/pages.json', pages);
