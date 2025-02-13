@@ -42,7 +42,7 @@ router.get('/buttons', function(req, res, next) {
 });  
 
 router.get('/errors', function(req, res, next) {
-  res.render('errors', { title: 'Errors' });
+  res.render('errors', { title: 'Errors', timestamp:cpwmedspa.timestamp });
 });
 
 router.get('/update', function(req, res) {

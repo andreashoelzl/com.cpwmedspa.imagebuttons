@@ -1,5 +1,4 @@
 block search
-  p.timestamp created on #{new Date(timestamp * 1000)}
   script.
     const anchors = !{JSON.stringify(anchors)};
     $(document).ready(function() {
@@ -14,7 +13,11 @@ block search
           var targetPosition = $($(this).val()).offset().top;
           $('html,body').animate({ scrollTop: targetPosition}, 'slow');
       });
+      $("div#timestamp").text(new Date(#{timestamp} * 1000));
     });
+  div
+    div.timestamp Data collected on 
+    div#timestamp.timestamp
   div.inline
     div.inline
       div.content Search: 

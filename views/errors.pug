@@ -1,7 +1,13 @@
 extends layout
 
 block content
-  p.timestamp created on #{new Date(timestamp * 1000)}
+  script. 
+   $(document).ready(function(){
+    $("div#timestamp").text(new Date(#{timestamp} * 1000));
+   })   
+  div
+    div.timestamp Data collected on 
+    div#timestamp.timestamp
   div(id='errors')
   script(type="text/javascript").
     var table = new Tabulator("#errors", {

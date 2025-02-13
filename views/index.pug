@@ -1,8 +1,14 @@
 extends layout
 
 block content
+  script. 
+    $(document).ready(function(){
+      $("div#timestamp").text(new Date(#{timestamp} * 1000));
+    });
   p CPW Vein & Aesthetic Center - Website Analysis
-  p.timestamp created on #{new Date(timestamp * 1000)}
+  div
+    div.timestamp Last update on:  
+    div#timestamp.timestamp
   div.menu
     div.menuitem
       a(href='/visitedpages') Pages

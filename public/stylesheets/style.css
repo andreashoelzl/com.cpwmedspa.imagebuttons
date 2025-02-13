@@ -6,8 +6,13 @@ body {
 a {
   color: darkblue;
 } 
-p.timestamp {
+
+div:has(.timestamp) {
+  padding-bottom: 25px;
+}
+div.timestamp {
   font-family:'Courier New', Courier, monospace;
+  display: inline;
 }
 div.inline {
   display: flex;
