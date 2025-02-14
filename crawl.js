@@ -49,6 +49,15 @@ const c = new Crawler({
                     };
                     result.push(imageButton);
                     addToResult(imageButton);
+                    if ($(this).find(">div>figure").hasClass("combination-animation-fade-in") == false) {
+                    errors.push({page:imageButton.doc, type: 'Image Button without fade-in animation', data: `${imageButton.title}|${imageButton.subtitle}: ${imageButton.href}` })
+                    console.info("Image Button without fade-in animation:"
+                                    + " site: " + imageButton.doc
+                                    + " button: " + imageButton.title
+                                    + "|" + imageButton.subtitle
+                                    + " (" + imageButton.href +")");
+
+                    }
                     if ($("div#" + buttonId + ">div>div>a") != undefined) {
                         if ($("div#" + buttonId + ">div>div>a").attr("href") != imageButton.href){
                             errors.push({page:imageButton.doc, type:'Button links mismatch', data: `${imageButton.title} | ${imageButton.subtitle}:"${imageButton.href}" vs. "${$("div#" + buttonId + ">div>div>a").attr("href")}"`});
@@ -62,7 +71,7 @@ const c = new Crawler({
                         }
                         imageButton.label = $("div#" + buttonId + ">div>div>a").html().replace(/\n/g, "").trim();
                     } else {
-                            errors.push({page:imageButton.doc, type: 'Image Button without corresponding Button', data: `${imageButton.title}|${imageButton.subtitle}: ${imageButton.href}` })
+                        errors.push({page:imageButton.doc, type: 'Image Button without corresponding Button', data: `${imageButton.title}|${imageButton.subtitle}: ${imageButton.href}` })
                         console.info("Image Button without corresponding Button:"
                                      + " site: " + imageButton.doc
                                      + " button: " + imageButton.title
