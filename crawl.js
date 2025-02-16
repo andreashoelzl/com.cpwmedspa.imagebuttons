@@ -180,8 +180,8 @@ const c = new Crawler({
         buttonsByPathname.forEach((path) => { 
             path.buttons.forEach((button) => {
                 data.push({
-                    Path:`http://www.${domain}${path.pathname}`, 
-                    Page:`http://www.${domain}${button.doc}`,
+                    Path:path.pathname, 
+                    Page:button.doc,
                     Anchor:button.anchor,
                     Params:button.params,
                     Title:button.title,

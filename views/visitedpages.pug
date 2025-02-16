@@ -10,13 +10,13 @@ block content
     layout:"fitDataStretch",
     groupBy:"Page",
     groupHeader:function(value, count, data, group){
-      return `<a id='${value.split('/').pop()}' href='${value}'>${value}</a><span style='margin-left:10px;'>(Page contains ${count} buttons)</span>`;
+      return `<a id='${value.split('/').pop()}' href='https://www.cpwmedspa.com${value}'>${value}</a><span style='margin-left:10px;'>(Page contains ${count} buttons)</span>`;
     },
     columns:[
         {title:"Title", field:"Title", sorter:"string"},
         {title:"Subtitle", field:"Subtitle", sorter:"string"},
         {title:"Label", field:"Label", sorter:"string"},
-        {title:"Path", field:"Path", sorter:"string", formatter:"link", formatterParams:{labelField:"Path", urlField:"Path"}},
+        {title:"Path", field:"Path", sorter:"string", formatter:"link", formatterParams:{labelField:"Path", urlField:"Href"}},
         {title:"Anchor", field:"Anchor", sorter:"string"},
         {title:"Params", field:"Params", sorter:"string"},
         {title:"URL", field:"Href", sorter:"string", formatter:"link", formatterParams:{labelField:"Href", urlField:"Href"}},
