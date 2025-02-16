@@ -18,6 +18,32 @@ const addToResult = (button) => {
     }
 }
 const domain = "cpwmedspa.com";
+function compareByFields(a, b, primary, secondary) {
+    if (a[primary].toLowerCase() < b[primary].toLowerCase()) {
+        return -1;
+    }
+    if (a[primary].toLowerCase() > b[primary].toLowerCase()) {
+        return 1;
+    }
+    if (secondary != undefined) {
+        if (a[secondary].toLowerCase() < b[secondary].toLowerCase()) {
+            return -1;
+        }
+        if (a[secondary].toLowerCase() > b[secondary].toLowerCase()) {
+            return 1;
+        }
+    }
+    return 0;
+}
+function compare(a, b) {
+    if (a.toLowerCase() < b.toLowerCase()) {
+        return -1;
+    }
+    if (a.toLowerCase() > b.toLowerCase()) {
+        return 1;
+    }
+    return 0;
+}
 const c = new Crawler({
     maxConnections: 10,
     // This will be called for each crawled page
@@ -127,10 +153,12 @@ const c = new Crawler({
         }
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
         await writeJsonFile('public/javascripts/errors.json', errors);
+        pages.sort((a, b) => compare(a, b));
         await writeJsonFile('public/javascripts/pages.json', pages);
         if (errors.length == 0) {
             errors.push({type: 'No errors detected'});
         }
+        buttons.sort((a, b) => compare(a, b));
         await writeJsonFile('public/javascripts/buttons.json', buttons);
         const data = [];
         buttonsByPathname.forEach((path) => { 
@@ -145,6 +173,7 @@ const c = new Crawler({
                 });
             });
         });
+        data.sort((a, b) => compareByFields(a, b, 'Page','Path'));
         await writeJsonFile('public/javascripts/data.json', data);
         /*
         */
