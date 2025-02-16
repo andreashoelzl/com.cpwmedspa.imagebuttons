@@ -151,6 +151,10 @@ const c = new Crawler({
                 }
             });
         }
+        cpwmedspa.buttonsByPathname.sort((a, b) => compareByFields(a, b, 'pathname'));
+        cpwmedspa.buttonsByPathname.forEach((path) => {
+            path.buttons.sort((a, b) => compareByFields(a, b, 'doc'));
+        })
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
         await writeJsonFile('public/javascripts/errors.json', errors);
         pages.sort((a, b) => compare(a, b));
