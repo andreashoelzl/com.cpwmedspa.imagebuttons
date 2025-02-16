@@ -69,7 +69,7 @@ const c = new Crawler({
                     let imageButton = {
                         doc:pathname,
                         href:href,
-                        anchor:(href.split("#").length > 1) ? href.split("#")[1] : "",
+                        anchor:(href.split("#").length > 1) ? `#${href.split("#")[1]}` : "",
                         params:(href.split("/#")[0].split("?").length > 1) ? href.split("?")[1] : "",
                         title:$(this).find(">div>figure>figcaption > div > div.image-title-wrapper p").html(),
                         subtitle:($(this).find(">div>figure>figcaption > div > div.image-subtitle-wrapper p").html()!= undefined)

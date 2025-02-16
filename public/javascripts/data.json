@@ -122,7 +122,7 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/about-cpw",
-		"Anchor": "location-ny",
+		"Anchor": "#location-ny",
 		"Params": "",
 		"Title": "New York",
 		"Subtitle": "75 Central Park West",
@@ -132,7 +132,7 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/about-cpw",
-		"Anchor": "location-chappaqua",
+		"Anchor": "#location-chappaqua",
 		"Params": "",
 		"Title": "Chappaqua",
 		"Subtitle": "91 Bedford Road",
@@ -1160,7 +1160,7 @@
 		"Href": "http://www.cpwmedspa.com/contact"
 	},
 	{
-		"Path": "http://www.cpwmedspa.com/coolsculpting?category=body",
+		"Path": "http://www.cpwmedspa.com/coolsculpting",
 		"Page": "http://www.cpwmedspa.com/body",
 		"Anchor": "",
 		"Params": "category=Body",
@@ -1600,7 +1600,7 @@
 		"Href": "http://www.cpwmedspa.com/treatments"
 	},
 	{
-		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins?category=face",
+		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/face",
 		"Anchor": "",
 		"Params": "category=Face",
@@ -2262,7 +2262,7 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/face-receding-chin",
-		"Anchor": "juvederm-voluma-xc",
+		"Anchor": "#juvederm-voluma-xc",
 		"Params": "",
 		"Title": "Voluma",
 		"Subtitle": "Juvéderm",
@@ -3192,7 +3192,7 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/promotions",
-		"Anchor": "location-chappaqua",
+		"Anchor": "#location-chappaqua",
 		"Params": "",
 		"Title": "Chappaqua",
 		"Subtitle": "91 Bedford Road",
@@ -3202,7 +3202,7 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/promotions",
-		"Anchor": "location-ny",
+		"Anchor": "#location-ny",
 		"Params": "",
 		"Title": "New York",
 		"Subtitle": "75 Central Park West",

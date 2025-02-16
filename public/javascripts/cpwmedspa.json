@@ -87,7 +87,6 @@
 		"/chemical-peels",
 		"/contact",
 		"/coolsculpting",
-		"/coolsculpting",
 		"/face",
 		"/face-about-facial-lines",
 		"/face-about-facial-volume-loss",
@@ -123,7 +122,6 @@
 		"/skin-neck-and-skin-laxity",
 		"/tetrapro",
 		"/treatments",
-		"/wrinkle-treatments-like-botox-and-neurotoxins",
 		"/wrinkle-treatments-like-botox-and-neurotoxins"
 	],
 	"errors": [
@@ -1040,7 +1038,7 @@
 				{
 					"doc": "/about-cpw",
 					"href": "/contact/#location-ny",
-					"anchor": "location-ny",
+					"anchor": "#location-ny",
 					"params": "",
 					"title": "New York",
 					"subtitle": "75 Central Park West",
@@ -1049,7 +1047,7 @@
 				{
 					"doc": "/about-cpw",
 					"href": "/contact/#location-chappaqua",
-					"anchor": "location-chappaqua",
+					"anchor": "#location-chappaqua",
 					"params": "",
 					"title": "Chappaqua",
 					"subtitle": "91 Bedford Road",
@@ -1508,7 +1506,7 @@
 				{
 					"doc": "/promotions",
 					"href": "/contact/#location-chappaqua",
-					"anchor": "location-chappaqua",
+					"anchor": "#location-chappaqua",
 					"params": "",
 					"title": "Chappaqua",
 					"subtitle": "91 Bedford Road",
@@ -1517,7 +1515,7 @@
 				{
 					"doc": "/promotions",
 					"href": "/contact/#location-ny",
-					"anchor": "location-ny",
+					"anchor": "#location-ny",
 					"params": "",
 					"title": "New York",
 					"subtitle": "75 Central Park West",
@@ -1637,6 +1635,15 @@
 					"label": "CoolSculpting"
 				},
 				{
+					"doc": "/body",
+					"href": "/coolsculpting?category=Body",
+					"anchor": "",
+					"params": "category=Body",
+					"title": "CoolSculpting",
+					"subtitle": "",
+					"label": "CoolSculpting"
+				},
+				{
 					"doc": "/procedures",
 					"href": "/coolsculpting",
 					"anchor": "",
@@ -1653,20 +1660,6 @@
 					"title": "CoolSculpting",
 					"subtitle": "",
 					"label": "CoolScuplting"
-				}
-			]
-		},
-		{
-			"pathname": "/coolsculpting?category=body",
-			"buttons": [
-				{
-					"doc": "/body",
-					"href": "/coolsculpting?category=Body",
-					"anchor": "",
-					"params": "category=Body",
-					"title": "CoolSculpting",
-					"subtitle": "",
-					"label": "CoolSculpting"
 				}
 			]
 		},
@@ -2759,7 +2752,7 @@
 				{
 					"doc": "/face-receding-chin",
 					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft/#juvederm-voluma-xc",
-					"anchor": "juvederm-voluma-xc",
+					"anchor": "#juvederm-voluma-xc",
 					"params": "",
 					"title": "Voluma",
 					"subtitle": "Juvéderm",
@@ -4036,6 +4029,15 @@
 					"label": "Botox"
 				},
 				{
+					"doc": "/face",
+					"href": "/wrinkle-treatments-like-botox-and-neurotoxins?category=Face",
+					"anchor": "",
+					"params": "category=Face",
+					"title": "Wrinkle Treatment",
+					"subtitle": "Botox &amp; Neurotoxins",
+					"label": "Wrinkle Treatment &amp; Brow Lift"
+				},
+				{
 					"doc": "/face-about-facial-lines",
 					"href": "/wrinkle-treatments-like-botox-and-neurotoxins",
 					"anchor": "",
@@ -4126,21 +4128,7 @@
 					"label": "Wrinkle Treatment &amp; Brow Lift"
 				}
 			]
-		},
-		{
-			"pathname": "/wrinkle-treatments-like-botox-and-neurotoxins?category=face",
-			"buttons": [
-				{
-					"doc": "/face",
-					"href": "/wrinkle-treatments-like-botox-and-neurotoxins?category=Face",
-					"anchor": "",
-					"params": "category=Face",
-					"title": "Wrinkle Treatment",
-					"subtitle": "Botox &amp; Neurotoxins",
-					"label": "Wrinkle Treatment &amp; Brow Lift"
-				}
-			]
 		}
 	],
-	"timestamp": 1739715340
+	"timestamp": 1739717851
 }
