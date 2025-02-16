@@ -2,6 +2,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -10,6 +12,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-galleries",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Galleries",
 		"Label": "Before &amp; After Galleries",
@@ -18,6 +22,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Body",
 		"Subtitle": "",
 		"Label": "Body",
@@ -26,6 +32,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -34,6 +42,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "",
 		"Label": "Face",
@@ -42,6 +52,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/laser-hair-removal",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Hair",
 		"Subtitle": "",
 		"Label": "Hair",
@@ -50,6 +62,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -58,6 +72,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Veins",
 		"Subtitle": "",
 		"Label": "Veins",
@@ -66,6 +82,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "",
 		"Label": "Skin",
@@ -74,6 +92,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -82,6 +102,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-jessica",
 		"Page": "http://www.cpwmedspa.com/about-cpw",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Jessica",
 		"Subtitle": "Owner &amp; Director",
 		"Label": "Jessica Plotnick, PA-C, MMSc",
@@ -90,6 +112,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-kelita",
 		"Page": "http://www.cpwmedspa.com/about-cpw",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Kelita",
 		"Subtitle": "Director of Operations",
 		"Label": "Kelita Wanvestraut",
@@ -98,30 +122,38 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/about-cpw",
-		"Title": "Contact Us",
-		"Subtitle": "Make an Appointment",
-		"Label": "Contact Us - Make an Appointment",
-		"Href": "http://www.cpwmedspa.com/contact"
-	},
-	{
-		"Path": "http://www.cpwmedspa.com/contact/#location-chappaqua",
-		"Page": "http://www.cpwmedspa.com/about-cpw",
-		"Title": "Chappaqua",
-		"Subtitle": "91 Bedford Road",
-		"Label": "Chappaqua",
-		"Href": "http://www.cpwmedspa.com/contact/#location-chappaqua"
-	},
-	{
-		"Path": "http://www.cpwmedspa.com/contact/#location-ny",
-		"Page": "http://www.cpwmedspa.com/about-cpw",
+		"Anchor": "location-ny",
+		"Params": "",
 		"Title": "New York",
 		"Subtitle": "75 Central Park West",
 		"Label": "New York",
 		"Href": "http://www.cpwmedspa.com/contact/#location-ny"
 	},
 	{
+		"Path": "http://www.cpwmedspa.com/contact",
+		"Page": "http://www.cpwmedspa.com/about-cpw",
+		"Anchor": "location-chappaqua",
+		"Params": "",
+		"Title": "Chappaqua",
+		"Subtitle": "91 Bedford Road",
+		"Label": "Chappaqua",
+		"Href": "http://www.cpwmedspa.com/contact/#location-chappaqua"
+	},
+	{
+		"Path": "http://www.cpwmedspa.com/contact",
+		"Page": "http://www.cpwmedspa.com/about-cpw",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Contact Us",
+		"Subtitle": "Make an Appointment",
+		"Label": "Contact Us - Make an Appointment",
+		"Href": "http://www.cpwmedspa.com/contact"
+	},
+	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/about-cpw",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -130,6 +162,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/about-cpw",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -138,6 +172,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/about-cpw",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -146,6 +182,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/about-jessica",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -154,6 +192,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/about-jessica",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -162,6 +202,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/jessicas-cv",
 		"Page": "http://www.cpwmedspa.com/about-jessica",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Jessica’s CV",
 		"Subtitle": "",
 		"Label": "View Jessica's CV",
@@ -170,6 +212,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/about-jessica",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -178,6 +222,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/about-jessica",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -186,6 +232,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/about-kelita",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -194,6 +242,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-jessica",
 		"Page": "http://www.cpwmedspa.com/about-kelita",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Jessica",
 		"Subtitle": "Owner &amp; Director",
 		"Label": "About Jessica",
@@ -202,6 +252,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-luis",
 		"Page": "http://www.cpwmedspa.com/about-kelita",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Luis",
 		"Subtitle": "Medical Director",
 		"Label": "About Luis",
@@ -210,6 +262,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/about-kelita",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -218,6 +272,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/about-luis",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -226,6 +282,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-jessica",
 		"Page": "http://www.cpwmedspa.com/about-luis",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Jesscia",
 		"Subtitle": "PA-C, MMSc",
 		"Label": "About Jessica",
@@ -234,6 +292,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/about-luis",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -242,6 +302,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/about-luis",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -250,6 +312,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/chemical-peels",
 		"Page": "http://www.cpwmedspa.com/acne-and-acne-scars",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Chemical Peels",
 		"Subtitle": "VI Peels &amp; PCA Peel",
 		"Label": "Chemical Peels",
@@ -258,6 +322,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/acne-and-acne-scars",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -266,6 +332,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/acne-and-acne-scars",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -274,6 +342,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/acne-and-acne-scars",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22 IPL",
 		"Subtitle": "Veins, Acne &amp; Cherry Hemangiomas",
 		"Label": "M22 IPL - Veins, Acne &amp; Cherry Hemangiomas",
@@ -282,6 +352,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/acne-and-acne-scars",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -290,6 +362,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-galleries",
 		"Page": "http://www.cpwmedspa.com/before-after-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Galleries",
 		"Label": "Before &amp; After Galleries",
@@ -298,6 +372,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body",
 		"Page": "http://www.cpwmedspa.com/before-after-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Body",
 		"Subtitle": "Treatments",
 		"Label": "Body",
@@ -306,6 +382,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body-aging-hands",
 		"Page": "http://www.cpwmedspa.com/before-after-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Aging Hands",
 		"Subtitle": "",
 		"Label": "Aging Hands",
@@ -314,6 +392,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -322,6 +402,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/before-after-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "IPL",
 		"Subtitle": "Photofacials",
 		"Label": "IPL Photofacials",
@@ -330,6 +412,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/before-after-botox",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -338,6 +422,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-botox",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -346,6 +432,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/before-after-botox",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -354,6 +442,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/before-after-botox",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Fillers",
 		"Subtitle": "Botox &amp; Neurotoxins",
 		"Label": "Fillers",
@@ -362,6 +452,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/before-after-botox",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Wrinkle Treatment<br>Brow Lift",
 		"Subtitle": "Botox &amp; Neurotoxins",
 		"Label": "Wrinkle Treatment &amp; Brow Lift",
@@ -370,6 +462,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/before-after-coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -378,6 +472,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body",
 		"Page": "http://www.cpwmedspa.com/before-after-coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Body",
 		"Subtitle": "Treatments",
 		"Label": "Bdoy",
@@ -386,6 +482,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -394,6 +492,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/coolsculpting",
 		"Page": "http://www.cpwmedspa.com/before-after-coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "CoolSculpting",
 		"Subtitle": "",
 		"Label": "CoolSculpting",
@@ -402,6 +502,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/before-after-coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -410,6 +512,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-filler-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -418,6 +522,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/before-after-filler-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -426,6 +532,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
 		"Page": "http://www.cpwmedspa.com/before-after-filler-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Volume Loss",
 		"Subtitle": "",
 		"Label": "Volume Loss",
@@ -434,6 +542,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
 		"Page": "http://www.cpwmedspa.com/before-after-filler-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Lip Lines",
 		"Subtitle": "",
 		"Label": "Lip Lines &amp; Thinning Lips",
@@ -442,6 +552,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/before-after-filler-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -450,6 +562,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/before-after-filler-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -458,6 +572,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -466,6 +582,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-aging-hands",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Aging Hands",
 		"Subtitle": "",
 		"Label": "Aging Hands",
@@ -474,6 +592,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-botox",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Botox",
 		"Subtitle": "Wrinkle Treatment",
 		"Label": "Botox",
@@ -482,6 +602,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-coolsculpting",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Coolsculpting",
 		"Subtitle": "",
 		"Label": "Coolsculpting",
@@ -490,6 +612,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-filler-lips",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Filler Lips",
 		"Subtitle": "",
 		"Label": "Filler Lips",
@@ -498,6 +622,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-gummy-smile",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Gummy Smile",
 		"Subtitle": "Lip Flip",
 		"Label": "Gummy Smile &amp; Lip Flip",
@@ -506,6 +632,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "IPL",
 		"Subtitle": "Photofacials",
 		"Label": "IPL Photofacials",
@@ -514,6 +642,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-laser-hair-removal",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Laser Hair Removal",
 		"Subtitle": "",
 		"Label": "Laser Hair Removal",
@@ -522,6 +652,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-masseter-muscle-treatment",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Masseter Muscle Treatment",
 		"Subtitle": "TMJ",
 		"Label": "Masseter Muscle Treatment",
@@ -530,6 +662,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-tetra-pro-coolpeel",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra Pro",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra Pro",
@@ -538,6 +672,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-under-eye-fillers-tear-troughs",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Under Eye Fillers",
 		"Subtitle": "Tear Trough",
 		"Label": "Under Eye Fillers &amp; Tear Trough",
@@ -546,6 +682,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nasolabial Folds, Doll Lines &amp; Lips",
 		"Subtitle": "",
 		"Label": "Nasolabial Folds, Doll Lines &amp; Lips",
@@ -554,6 +692,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-and-after-varicose-spider-veins",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Varicose",
 		"Subtitle": "Spider Veins",
 		"Label": "Varicose &amp; Spider Veins",
@@ -562,6 +702,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -570,6 +712,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -578,6 +722,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/before-after-galleries",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -586,6 +732,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -594,6 +742,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/before-after-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -602,6 +752,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-gummy-smile",
 		"Page": "http://www.cpwmedspa.com/before-after-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Gummy Smile<br>Lip Flip",
 		"Subtitle": "",
 		"Label": "Gummy Smile &amp; Lip Flip",
@@ -610,6 +762,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/before-after-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "Juvederm Voluma &amp; Ultra",
 		"Label": "Juvederm Voluma &amp; Ultra",
@@ -618,6 +772,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/before-after-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Neurotoxins",
 		"Subtitle": "Botox, Dysport &amp; Xeomin",
 		"Label": "Botox",
@@ -626,6 +782,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -634,6 +792,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/before-after-ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "IPL Photofacials",
 		"Subtitle": "",
 		"Label": "IPL Photofacials",
@@ -642,6 +802,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/before-after-ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22 IPL",
 		"Subtitle": "Veins, Acne &amp; Cherry Hemangiomas",
 		"Label": "M22 IPL - Veins, Acne &amp; Cherry Hemangiomas",
@@ -650,6 +812,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-treatment",
 		"Page": "http://www.cpwmedspa.com/before-after-ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Lumenis M22",
 		"Subtitle": "Treatment",
 		"Label": "Lumenis M22 Treatment",
@@ -658,6 +822,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/before-after-ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "Treatments",
 		"Label": "Skin",
@@ -666,6 +832,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-galleries",
 		"Page": "http://www.cpwmedspa.com/before-after-laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Galleries",
 		"Label": "Before &amp; After Galleries",
@@ -674,6 +842,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -682,6 +852,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/before-after-laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -690,6 +862,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/laser-hair-removal",
 		"Page": "http://www.cpwmedspa.com/before-after-laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Laser Hair Removal",
 		"Subtitle": "",
 		"Label": "Laser Hair Removal",
@@ -698,6 +872,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -706,6 +882,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/before-after-masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -714,6 +892,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/masseter-muscle-treatment",
 		"Page": "http://www.cpwmedspa.com/before-after-masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Masseter Muscle Enlargement",
 		"Subtitle": "TMJ",
 		"Label": "Masseter Muscle Enlargement &amp; TMJ",
@@ -722,6 +902,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/before-after-masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -730,6 +912,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/before-after-masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Botox",
 		"Subtitle": "Neurotoxins",
 		"Label": "Botox",
@@ -738,6 +922,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/before-after-tetra-pro-coolpeel",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -746,6 +932,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-tetra-pro-coolpeel",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -754,6 +942,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/before-after-tetra-pro-coolpeel",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -762,6 +952,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/before-after-tetra-pro-coolpeel",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "Treatments",
 		"Label": "Skin",
@@ -770,6 +962,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/before-after-tetra-pro-coolpeel",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -778,6 +972,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/before-after-under-eye-fillers-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -786,6 +982,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-after-under-eye-fillers-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -794,6 +992,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/before-after-under-eye-fillers-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -802,6 +1002,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
 		"Page": "http://www.cpwmedspa.com/before-after-under-eye-fillers-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Under Eye Dark Circles",
 		"Subtitle": "Tear Troughs",
 		"Label": "Under Eye Dark Circles &amp; Hollowing",
@@ -810,6 +1012,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
 		"Page": "http://www.cpwmedspa.com/before-after-under-eye-fillers-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volbella XC",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvederm Volbella",
@@ -818,6 +1022,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -826,6 +1032,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -834,6 +1042,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
 		"Page": "http://www.cpwmedspa.com/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Downturned Mouth",
 		"Subtitle": "Marionette &amp; Doll Lines",
 		"Label": "Downturned Mouth",
@@ -842,6 +1052,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nasolabial-folds",
 		"Page": "http://www.cpwmedspa.com/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nasolabial Folds",
 		"Subtitle": "",
 		"Label": "Nasolabial Folds",
@@ -850,6 +1062,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "Juvederm",
 		"Label": "Facial Fillers",
@@ -858,6 +1072,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -866,6 +1082,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/before-and-after-varicose-spider-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -874,6 +1092,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-galleries",
 		"Page": "http://www.cpwmedspa.com/before-and-after-varicose-spider-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Galleries",
 		"Label": "Before &amp; After Galleries",
@@ -882,6 +1102,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/before-and-after-varicose-spider-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -890,6 +1112,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/before-and-after-varicose-spider-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -898,6 +1122,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
 		"Page": "http://www.cpwmedspa.com/before-and-after-varicose-spider-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Sclerotherapy",
 		"Subtitle": "Leg &amp; Facial Veins",
 		"Label": "Leg &amp; Facial Veins",
@@ -906,6 +1132,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body-aging-hands",
 		"Page": "http://www.cpwmedspa.com/body",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Aging Hands",
 		"Subtitle": "",
 		"Label": "Aging Hands",
@@ -914,6 +1142,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body-hyperhidrosis-excess-sweating",
 		"Page": "http://www.cpwmedspa.com/body",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Hyperhidrosis",
 		"Subtitle": "Excessive Sweating",
 		"Label": "Excess Sweating - Hyperhidrosis",
@@ -922,14 +1152,18 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/body",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
 		"Href": "http://www.cpwmedspa.com/contact"
 	},
 	{
-		"Path": "http://www.cpwmedspa.com/coolsculpting?category=Body",
+		"Path": "http://www.cpwmedspa.com/coolsculpting?category=body",
 		"Page": "http://www.cpwmedspa.com/body",
+		"Anchor": "",
+		"Params": "category=Body",
 		"Title": "CoolSculpting",
 		"Subtitle": "",
 		"Label": "CoolSculpting",
@@ -938,6 +1172,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/body",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "",
 		"Label": "Face",
@@ -946,6 +1182,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/body",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "",
 		"Label": "Skin",
@@ -954,6 +1192,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/body",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -962,6 +1202,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-tetra-pro-coolpeel",
 		"Page": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Tetra PRO CoolPeel",
 		"Label": "Before &amp; After - Tetra PRO Coolpeel",
@@ -970,6 +1212,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/chemical-peels",
 		"Page": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Chemical Peels",
 		"Subtitle": "",
 		"Label": "Chemical Peels",
@@ -978,6 +1222,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -986,6 +1232,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Fillers",
 		"Subtitle": "",
 		"Label": "Fillers",
@@ -994,6 +1242,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22 Photofacials",
 		"Subtitle": "IPL Skin Treatments",
 		"Label": "M22 Photofacials &amp; IPL Skin Treatments",
@@ -1002,6 +1252,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
 		"Title": " Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -1010,6 +1262,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body",
 		"Page": "http://www.cpwmedspa.com/body-hyperhidrosis-excess-sweating",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Body",
 		"Subtitle": "Treatments",
 		"Label": "Body",
@@ -1018,6 +1272,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/body-hyperhidrosis-excess-sweating",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1026,6 +1282,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/body-hyperhidrosis-excess-sweating",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -1034,6 +1292,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/body-hyperhidrosis-excess-sweating",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Botox",
 		"Subtitle": "Neurotoxins",
 		"Label": "Botox",
@@ -1042,6 +1302,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/chemical-peels",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1050,6 +1312,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/chemical-peels",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -1058,6 +1322,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/chemical-peels",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "Treatments",
 		"Label": "Skin",
@@ -1066,6 +1332,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/chemical-peels",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -1074,6 +1342,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/contact",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -1082,6 +1352,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/contact",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1090,6 +1362,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/contact",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -1098,6 +1372,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/contact",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -1106,6 +1382,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-coolsculpting",
 		"Page": "http://www.cpwmedspa.com/coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "CoolSculpting",
 		"Label": "Before &amp; After - CoolSculpting",
@@ -1114,6 +1392,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "for your Consultation today",
 		"Label": "Book your Consultation today",
@@ -1122,6 +1402,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1130,6 +1412,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -1138,6 +1422,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/coolsculpting",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -1146,6 +1432,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Body",
 		"Subtitle": "",
 		"Label": "Body",
@@ -1154,6 +1442,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1162,6 +1452,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-lines",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Lines",
 		"Subtitle": "Learn more about them",
 		"Label": "Facial Lines",
@@ -1170,6 +1462,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Volume Loss",
 		"Subtitle": "Leearn more aout it ",
 		"Label": "Volume Loss",
@@ -1178,6 +1472,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Under Eye Dark Circles",
 		"Subtitle": "",
 		"Label": "Under Eye Dark Circles &amp; Hollowing",
@@ -1186,6 +1482,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Flat Cheeks",
 		"Subtitle": "",
 		"Label": "Flat Cheeks",
@@ -1194,6 +1492,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-gummy-smile",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Gummy Smile<br>Lip Flip",
 		"Subtitle": "",
 		"Label": "Gummy Smile &amp; Lip Flip",
@@ -1202,6 +1502,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-jowls",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Jowls",
 		"Subtitle": "",
 		"Label": "Jowls",
@@ -1210,6 +1512,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Thinning Lips",
 		"Subtitle": "",
 		"Label": "Thinning Lips &amp; Lip Lines",
@@ -1218,6 +1522,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Downturned Mouth",
 		"Subtitle": "",
 		"Label": "Downturned Mouth",
@@ -1226,6 +1532,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nasolabial-folds",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nasolabial Folds",
 		"Subtitle": "",
 		"Label": "Nasolabial Folds",
@@ -1234,6 +1542,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nose-shaping",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nose Shaping",
 		"Subtitle": "",
 		"Label": "Nose Asymmetry",
@@ -1242,6 +1552,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-receding-chin",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Receding Chin",
 		"Subtitle": "",
 		"Label": "Receding Chin",
@@ -1250,6 +1562,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-temporal-hollowing",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Temporal Hollwoing",
 		"Subtitle": "",
 		"Label": "Temporal Hollowing",
@@ -1258,6 +1572,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/masseter-muscle-treatment",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "category=Face",
 		"Title": "Masseter Muscle Enlargement",
 		"Subtitle": "TMJ",
 		"Label": "Masseter Muscle Enlargement &amp; TMJ",
@@ -1266,6 +1582,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "",
 		"Label": "Skin",
@@ -1274,14 +1592,18 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
 		"Href": "http://www.cpwmedspa.com/treatments"
 	},
 	{
-		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins?category=face",
 		"Page": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "category=Face",
 		"Title": "Wrinkle Treatment",
 		"Subtitle": "Botox &amp; Neurotoxins",
 		"Label": "Wrinkle Treatment &amp; Brow Lift",
@@ -1290,6 +1612,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/chemical-peels",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Chemical Peels",
 		"Subtitle": "",
 		"Label": "Chemical Peels",
@@ -1298,6 +1622,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1306,6 +1632,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Volume Loss",
 		"Subtitle": "",
 		"Label": "About Volume Loss",
@@ -1314,6 +1642,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -1322,6 +1652,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22 Photofacials",
 		"Subtitle": "IPL Skin Treatments",
 		"Label": "M22 Photofacials &amp; IPL Skin Treatments",
@@ -1330,6 +1662,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "Treatments",
 		"Label": "Skin",
@@ -1338,6 +1672,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-age-spots",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Uneven Tone<br>Sun Damage",
 		"Subtitle": "",
 		"Label": "Uneven Tone &amp; Sun Damage",
@@ -1346,6 +1682,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -1354,6 +1692,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-lines",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Wrinkle Treatment",
 		"Subtitle": "Botox &amp; Neurotoxins",
 		"Label": "Wrinkle Treatment &amp; Brow Lift",
@@ -1362,6 +1702,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -1370,6 +1712,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1378,6 +1722,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1386,6 +1732,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-lines",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Facial Lines",
 		"Subtitle": "",
 		"Label": "About Facial Lines",
@@ -1394,6 +1742,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -1402,6 +1752,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -1410,6 +1762,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1418,6 +1772,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1426,6 +1782,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -1434,6 +1792,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
 		"Page": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volbella",
 		"Subtitle": "Juvederm",
 		"Label": "Juvéderm Volbella",
@@ -1442,6 +1802,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -1450,6 +1812,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-galleries",
 		"Page": "http://www.cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Galleries",
 		"Label": "Before &amp; After Galleries",
@@ -1458,6 +1822,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1466,6 +1832,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1474,6 +1842,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
 		"Page": "http://www.cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Volume Loss",
 		"Subtitle": "Learn more about it",
 		"Label": "Facial Volume Loss",
@@ -1482,6 +1852,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Voluma XC",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvederm Voluma",
@@ -1490,6 +1862,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1498,6 +1872,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1506,6 +1882,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-lines",
 		"Page": "http://www.cpwmedspa.com/face-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Lines",
 		"Subtitle": "Learn more about them",
 		"Label": "About Facial Lines",
@@ -1514,6 +1892,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -1522,6 +1902,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/face-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -1530,6 +1912,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/face-gummy-smile",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Botox",
 		"Subtitle": "Neurotoxins",
 		"Label": "Botox &amp; Neurotoxins",
@@ -1538,6 +1922,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-jowls",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1546,6 +1932,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-jowls",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1554,6 +1942,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-lines",
 		"Page": "http://www.cpwmedspa.com/face-jowls",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Lines",
 		"Subtitle": "Learn more about them",
 		"Label": "About Facial Lines",
@@ -1562,6 +1952,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
 		"Page": "http://www.cpwmedspa.com/face-jowls",
+		"Anchor": "",
+		"Params": "",
 		"Title": " Facial Volume Loss",
 		"Subtitle": "",
 		"Label": "Facial Volume Loss",
@@ -1570,6 +1962,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-jowls",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -1578,6 +1972,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/face-jowls",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Wrinkle Treatment",
 		"Subtitle": "Botox &amp; Neurotoxins",
 		"Label": "Wrinkle Treatment &amp; Brow Lift",
@@ -1586,6 +1982,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1594,6 +1992,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1602,6 +2002,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-volume-loss",
 		"Page": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Volume Loss",
 		"Subtitle": "Learn more about it",
 		"Label": "Facial Lines",
@@ -1610,6 +2012,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "Juvederm",
 		"Label": "Facial Filler",
@@ -1618,6 +2022,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Juvederm Voluma &amp; Ultra",
 		"Subtitle": "Facial Fillers",
 		"Label": "Juvederm Voluma &amp; Ultra",
@@ -1626,6 +2032,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Botox",
 		"Subtitle": "Neurotoxins",
 		"Label": "Botox &amp; Neurotoxins",
@@ -1634,6 +2042,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1642,6 +2052,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1650,6 +2062,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
 		"Page": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Under Eye Dark Circles",
 		"Subtitle": "Tear Troughs &amp; Hollowing",
 		"Label": "Under Eye Dark Circles",
@@ -1658,6 +2072,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nasolabial-folds",
 		"Page": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nasolabial Folds",
 		"Subtitle": "",
 		"Label": "Nasolabial Folds",
@@ -1666,6 +2082,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Juvéderm Voluma &amp; Ultra",
 		"Subtitle": "Facial Fillers",
 		"Label": "Juvéderm &amp; Restylane",
@@ -1674,6 +2092,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Botox",
 		"Subtitle": "Neurotoxins",
 		"Label": "Botox",
@@ -1682,6 +2102,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/face-nasolabial-folds",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -1690,6 +2112,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-nasolabial-folds",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1698,6 +2122,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-nasolabial-folds",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1706,6 +2132,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-nasolabial-folds",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -1714,6 +2142,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/face-nasolabial-folds",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Voluma &amp; Ultra",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Voluma &amp; Ultra",
@@ -1722,6 +2152,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/face-nose-shaping",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -1730,6 +2162,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-nose-shaping",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1738,6 +2172,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-nose-shaping",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1746,6 +2182,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-nose-shaping",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -1754,6 +2192,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
 		"Page": "http://www.cpwmedspa.com/face-nose-shaping",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volbella",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Volbella",
@@ -1762,6 +2202,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/face-nose-shaping",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Voluma &amp; Ultra",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Voluma &amp; Ultra",
@@ -1770,6 +2212,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/face-nose-shaping",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Wrinkle Treatment",
 		"Subtitle": "Botox &amp; Neurotoxins",
 		"Label": "Wrinkle Treatment &amp; Brow Lift",
@@ -1778,6 +2222,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/face-receding-chin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -1786,6 +2232,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-receding-chin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1794,6 +2242,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-receding-chin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1802,14 +2252,18 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-receding-chin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
 		"Href": "http://www.cpwmedspa.com/facial-fillers"
 	},
 	{
-		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft/#juvederm-voluma-xc",
+		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/face-receding-chin",
+		"Anchor": "juvederm-voluma-xc",
+		"Params": "",
 		"Title": "Voluma",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Voluma",
@@ -1818,6 +2272,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
 		"Page": "http://www.cpwmedspa.com/face-receding-chin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volux",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvederm Volux",
@@ -1826,6 +2282,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/face-temporal-hollowing",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -1834,6 +2292,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/face-temporal-hollowing",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1842,6 +2302,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/face-temporal-hollowing",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1850,6 +2312,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/face-temporal-hollowing",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -1858,6 +2322,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/face-temporal-hollowing",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Voluma XC",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Voluma XC",
@@ -1866,6 +2332,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-and-after-nasolabial-folds-and-doll-lines-and-lips",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Nasolabial Folds, Doll Lines &amp; Lips",
 		"Label": "Before &amp; After - Nasolabial Folds, Doll Lines &amp; LIps",
@@ -1874,6 +2342,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1882,6 +2352,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Under Eye Dark Circles",
 		"Subtitle": "",
 		"Label": "Under Eye Dark Circles &amp; Hollowing",
@@ -1890,6 +2362,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Flat Cheeks",
 		"Subtitle": "",
 		"Label": "Flat Cheeks",
@@ -1898,6 +2372,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Lip Lines",
 		"Subtitle": "",
 		"Label": "Lip Lines &amp; Thinning Lips",
@@ -1906,6 +2382,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Downturned Mouth",
 		"Subtitle": "",
 		"Label": "Downturned Mouth",
@@ -1914,6 +2392,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nasolabial-folds",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nasolabial Folds",
 		"Subtitle": "",
 		"Label": "Nasolabial Folds",
@@ -1922,6 +2402,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nose-shaping",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nose Shaping",
 		"Subtitle": "",
 		"Label": "Nose Asymmetry",
@@ -1930,6 +2412,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-temporal-hollowing",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Temporal Hollowing",
 		"Subtitle": "",
 		"Label": "Temporal Hollowing",
@@ -1938,6 +2422,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volbella",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Volbella",
@@ -1946,6 +2432,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Voluma, Ultra &amp; Ultra Plus",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Voluma, Ultra &amp; Ultra Plus",
@@ -1954,6 +2442,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
 		"Page": "http://www.cpwmedspa.com/facial-fillers",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volux",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Volux",
@@ -1962,6 +2452,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -1970,6 +2462,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -1978,6 +2472,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -1986,6 +2482,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Under Eye Dark Circles",
 		"Subtitle": "Hollowing",
 		"Label": "Under Eye Dark Circles &amp; Hollowing",
@@ -1994,6 +2492,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nose-shaping",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nose Shaping",
 		"Subtitle": "",
 		"Label": "Nose Asymmetry",
@@ -2002,6 +2502,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -2010,6 +2512,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Voluma &amp; Ultra",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Voluma &amp; Ultra",
@@ -2018,6 +2522,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volux XC",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Volux XC",
@@ -2026,6 +2532,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2034,6 +2542,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2042,6 +2552,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -2050,6 +2562,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -2058,6 +2572,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volbella",
 		"Subtitle": "Juvederm",
 		"Label": "Juvederm Volbella",
@@ -2066,6 +2582,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volux",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvederm Volux",
@@ -2074,6 +2592,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2082,6 +2602,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2090,6 +2612,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -2098,6 +2622,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -2106,6 +2632,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Volbella XC",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvederm Volbella XC",
@@ -2114,6 +2642,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 		"Page": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Voluma &amp; Ultra",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Voluma &amp; Ultra",
@@ -2122,6 +2652,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2130,6 +2662,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2138,6 +2672,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22 IPL",
 		"Subtitle": "Veins, Acne &amp; Cherry Hemangiomas",
 		"Label": "M22 IPL",
@@ -2146,6 +2682,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-treatment",
 		"Page": "http://www.cpwmedspa.com/ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Lumenis M22",
 		"Subtitle": "Treatment",
 		"Label": "Lumenis M22 Treatment",
@@ -2154,6 +2692,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/jessicas-cv",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2162,6 +2702,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-jessica",
 		"Page": "http://www.cpwmedspa.com/jessicas-cv",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Jessica",
 		"Subtitle": "Owner &amp; Director",
 		"Label": "About Jessica",
@@ -2170,6 +2712,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-kelita",
 		"Page": "http://www.cpwmedspa.com/jessicas-cv",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Kelita",
 		"Subtitle": "Wanvestraut",
 		"Label": "About Kelita",
@@ -2178,6 +2722,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/jessicas-cv",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2186,6 +2732,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2194,6 +2742,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -2202,6 +2752,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -2210,6 +2762,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "Treatments",
 		"Label": "Skin",
@@ -2218,6 +2772,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2226,6 +2782,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/acne-and-acne-scars",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Acne<br>Acne Scars",
 		"Subtitle": "",
 		"Label": "Acne &amp; Acne Scars",
@@ -2234,6 +2792,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2242,6 +2802,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-treatment",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Lumenis M22",
 		"Subtitle": "Treatment",
 		"Label": "Lumenis M22 Treatment",
@@ -2250,6 +2812,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -2258,6 +2822,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -2266,6 +2832,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Sclerotherapy",
 		"Subtitle": "Leg &amp; Facial Veins",
 		"Label": "Sclerotherapy - Leg &amp; Facial Veins",
@@ -2274,6 +2842,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-age-spots",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Uneven Skin Tone",
 		"Subtitle": "Age Spots &amp; Sun Damage",
 		"Label": "Uneven Skin Tone",
@@ -2282,6 +2852,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Cherry Hemangiomas",
 		"Subtitle": "",
 		"Label": "Cherry Hemangiomas",
@@ -2290,6 +2862,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/m22-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "IPL Photofacials",
 		"Label": "Before &amp; After IPL Photofacials",
@@ -2298,6 +2872,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/m22-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2306,6 +2882,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/m22-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "IPL Photofacials",
 		"Subtitle": "",
 		"Label": "IPL Photofacials",
@@ -2314,6 +2892,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/m22-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22 IPL",
 		"Subtitle": "Veins, Acne &amp; Cherry Hemangiomas",
 		"Label": "M22 IPL Veins, Acne &amp; Cherry Hemangiomas",
@@ -2322,6 +2902,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2330,6 +2912,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2338,6 +2922,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -2346,6 +2932,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -2354,6 +2942,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/masseter-muscle-treatment",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Botox",
 		"Subtitle": "Neurotoxins",
 		"Label": "Botox &amp; Neurotoxins",
@@ -2362,6 +2952,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/press",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2370,6 +2962,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/press",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2378,6 +2972,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/press",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -2386,14 +2982,18 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/press",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
 		"Href": "http://www.cpwmedspa.com/promotions"
 	},
 	{
-		"Path": "http://www.cpwmedspa.com/s/BrideMagazine.pdf",
+		"Path": "http://www.cpwmedspa.com/s/bridemagazine.pdf",
 		"Page": "http://www.cpwmedspa.com/press",
+		"Anchor": "",
+		"Params": "",
 		"Title": null,
 		"Subtitle": "",
 		"Label": "Read about it",
@@ -2402,6 +3002,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/s/spatalk.pdf",
 		"Page": "http://www.cpwmedspa.com/press",
+		"Anchor": "",
+		"Params": "",
 		"Title": null,
 		"Subtitle": "",
 		"Label": "Read about it",
@@ -2410,6 +3012,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2418,6 +3022,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/acne-and-acne-scars",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Acne<br>Acne Scars",
 		"Subtitle": "",
 		"Label": "Acne &amp; Acne Scars",
@@ -2426,6 +3032,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/chemical-peels",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Chemical Peels",
 		"Subtitle": "VI Peels &amp; PCA Peel",
 		"Label": "Chemical Peels",
@@ -2434,6 +3042,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2442,6 +3052,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/coolsculpting",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "CoolSculpting",
 		"Subtitle": "",
 		"Label": "CoolSculpting",
@@ -2450,6 +3062,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/facial-fillers",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Fillers",
 		"Subtitle": "",
 		"Label": "Facial Fillers",
@@ -2458,6 +3072,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "IPL Photofacials",
 		"Subtitle": "",
 		"Label": "IPL Photofacials",
@@ -2466,6 +3082,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/laser-hair-removal",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Laser Hair Removal",
 		"Subtitle": "",
 		"Label": "Laser Hair Removal",
@@ -2474,6 +3092,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22 IPL",
 		"Subtitle": "Veins, Acne &amp; Cherry Hemangiomas",
 		"Label": "M22 IPL - Veins, Acne &amp; Cherry Hemangiomas",
@@ -2482,6 +3102,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/masseter-muscle-treatment",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Masseter Muscle Treatment",
 		"Subtitle": "TMJ",
 		"Label": "Masseter Muscle Treatment &amp; TMJ",
@@ -2490,6 +3112,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -2498,6 +3122,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Sclerotherapy",
 		"Subtitle": "Leg &amp; Facial Veins",
 		"Label": "Sclerotherapy - Leg &amp; Facial Veins",
@@ -2506,6 +3132,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -2514,6 +3142,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -2522,6 +3152,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Botox &amp; Neurotoxins",
 		"Subtitle": "Wrinkle Treatment",
 		"Label": "Wrinkle Treatment - Botox &amp; Neurotoxins",
@@ -2530,6 +3162,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/promotions",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2538,6 +3172,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-jessica",
 		"Page": "http://www.cpwmedspa.com/promotions",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Jessica Plotnick",
 		"Subtitle": "PA-C, MMSc &amp; Owner",
 		"Label": "About Jessica",
@@ -2546,6 +3182,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-galleries",
 		"Page": "http://www.cpwmedspa.com/promotions",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Galleries",
 		"Label": "Before &amp; After Galleries",
@@ -2554,30 +3192,38 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/promotions",
-		"Title": "Contact Us",
-		"Subtitle": "Make an Appointment",
-		"Label": "Contact Us - Make an Appointment",
-		"Href": "http://www.cpwmedspa.com/contact"
-	},
-	{
-		"Path": "http://www.cpwmedspa.com/contact/#location-chappaqua",
-		"Page": "http://www.cpwmedspa.com/promotions",
+		"Anchor": "location-chappaqua",
+		"Params": "",
 		"Title": "Chappaqua",
 		"Subtitle": "91 Bedford Road",
 		"Label": "Chappaqua",
 		"Href": "http://www.cpwmedspa.com/contact/#location-chappaqua"
 	},
 	{
-		"Path": "http://www.cpwmedspa.com/contact/#location-ny",
+		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/promotions",
+		"Anchor": "location-ny",
+		"Params": "",
 		"Title": "New York",
 		"Subtitle": "75 Central Park West",
 		"Label": "New York",
 		"Href": "http://www.cpwmedspa.com/contact/#location-ny"
 	},
 	{
+		"Path": "http://www.cpwmedspa.com/contact",
+		"Page": "http://www.cpwmedspa.com/promotions",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Contact Us",
+		"Subtitle": "Make an Appointment",
+		"Label": "Contact Us - Make an Appointment",
+		"Href": "http://www.cpwmedspa.com/contact"
+	},
+	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/promotions",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -2586,6 +3232,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-and-after-varicose-spider-veins",
 		"Page": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Sclerotherapy",
 		"Label": "Before &amp; After - Sclerotherapy",
@@ -2594,6 +3242,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2602,6 +3252,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -2610,6 +3262,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -2618,6 +3272,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -2626,6 +3282,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/search-page",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2634,6 +3292,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/search-page",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2642,6 +3302,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/search-page",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -2650,6 +3312,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/search-page",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -2658,6 +3322,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/search-page",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -2666,6 +3332,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/acne-and-acne-scars",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "category=Skin",
 		"Title": "Acne<br>Acne Scars",
 		"Subtitle": "",
 		"Label": "Acne &amp; Acne Scars",
@@ -2674,6 +3342,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Body",
 		"Subtitle": "",
 		"Label": "Body",
@@ -2682,6 +3352,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2690,6 +3362,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "",
 		"Label": "Face",
@@ -2698,6 +3372,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-age-spots",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Uneven Tone",
 		"Subtitle": "",
 		"Label": "Uneven Tone &amp; Sun Damage",
@@ -2706,6 +3382,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Cherry Hemangiomas",
 		"Subtitle": "",
 		"Label": "Cherry Hemangiomas",
@@ -2714,6 +3392,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-enlarged-pores",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Enlarged Pores",
 		"Subtitle": "",
 		"Label": "Enlarged Pores",
@@ -2722,6 +3402,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Neck &amp; Skin Laxity",
 		"Subtitle": "",
 		"Label": "Neck Laxity &amp; Skin Laxity",
@@ -2730,6 +3412,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/skin",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",
@@ -2738,6 +3422,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/chemical-peels",
 		"Page": "http://www.cpwmedspa.com/skin-age-spots",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Chemical Peels",
 		"Subtitle": "",
 		"Label": "Chemical Peels",
@@ -2746,6 +3432,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/skin-age-spots",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2754,6 +3442,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/skin-age-spots",
+		"Anchor": "",
+		"Params": "",
 		"Title": "IPL",
 		"Subtitle": "Lumenis M22 IPL Photorejuvenation",
 		"Label": "IPL Photorejuvination",
@@ -2762,6 +3452,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/skin-age-spots",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -2770,6 +3462,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/skin-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "IPL Photofacials",
 		"Label": "Before &amp; After - IPL Photofacials",
@@ -2778,6 +3472,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/skin-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2786,6 +3482,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/skin-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "IPL Photofacials",
 		"Subtitle": "",
 		"Label": "IPL Photofacials",
@@ -2794,6 +3492,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/skin-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22 IPL",
 		"Subtitle": "Veins, Acne &amp; Cherry Hemangiomas",
 		"Label": "M22 IPL",
@@ -2802,6 +3502,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/m22-treatment",
 		"Page": "http://www.cpwmedspa.com/skin-cherry-hemangiomas",
+		"Anchor": "",
+		"Params": "",
 		"Title": "M22",
 		"Subtitle": "Treatment",
 		"Label": "M22 Treatment",
@@ -2810,6 +3512,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body-hyperhidrosis-excess-sweating",
 		"Page": "http://www.cpwmedspa.com/skin-enlarged-pores",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Hyperdidrosis",
 		"Subtitle": "Excess Sweating",
 		"Label": "Hyperhidrosis - Excess Sweating",
@@ -2818,6 +3522,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/chemical-peels",
 		"Page": "http://www.cpwmedspa.com/skin-enlarged-pores",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Chemical Peels",
 		"Subtitle": "",
 		"Label": "Chemical Peels",
@@ -2826,6 +3532,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/skin-enlarged-pores",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2834,6 +3542,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/skin-enlarged-pores",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "Treatments",
 		"Label": "Skin",
@@ -2842,6 +3552,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
 		"Page": "http://www.cpwmedspa.com/skin-enlarged-pores",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Neck &amp; Skin Laxity",
 		"Subtitle": "",
 		"Label": "Neck &amp; Skin Laxity",
@@ -2850,6 +3562,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/skin-enlarged-pores",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -2858,6 +3572,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2866,6 +3582,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-lines",
 		"Page": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Lines",
 		"Subtitle": "Learn more about them",
 		"Label": "About Facial Lines",
@@ -2874,6 +3592,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
 		"Page": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Downturned Mouth",
 		"Subtitle": "Marionette &amp; Doll Lines",
 		"Label": "Downturned Mouth",
@@ -2882,6 +3602,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin",
 		"Page": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Skin",
 		"Subtitle": "Treatments",
 		"Label": "Skin",
@@ -2890,6 +3612,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/tetrapro",
 		"Page": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Tetra PRO CoolPeel",
 		"Subtitle": "Skin Resurfacing",
 		"Label": "Tetra PRO CoolPeel",
@@ -2898,6 +3622,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Wrinkle Treatment<br>Brow Lift",
 		"Subtitle": "Botox &amp; Neurotoxins",
 		"Label": "Wrinkle Treatment &amp; Brow Lift",
@@ -2906,6 +3632,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2914,6 +3642,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-tetra-pro-coolpeel",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Tetra PRO CoolPeel",
 		"Label": "Before &amp; After - Tetra PRO CoolPeel",
@@ -2922,6 +3652,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -2930,6 +3662,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-lines",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Fine Lines",
 		"Subtitle": "Wrinkles",
 		"Label": "Fine Lines &amp; Wrinkles",
@@ -2938,6 +3672,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Lip Lines",
 		"Subtitle": "Thinning Lips",
 		"Label": "Lip Lines",
@@ -2946,6 +3682,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/ipl-photofacials",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "IPL",
 		"Subtitle": "Photofacials",
 		"Label": "IPL Photofacials",
@@ -2954,6 +3692,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -2962,6 +3702,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-age-spots",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Uneven Skin Tone",
 		"Subtitle": "Pigments &amp; Sun Spots",
 		"Label": "Uneven Skin Tone",
@@ -2970,6 +3712,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-enlarged-pores",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Enlarged Pores",
 		"Subtitle": "",
 		"Label": "Enlarged Pores",
@@ -2978,6 +3722,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
 		"Page": "http://www.cpwmedspa.com/tetrapro",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Neck &amp; Skin Laxity",
 		"Subtitle": "",
 		"Label": "Skin &amp; Neck Laxity",
@@ -2986,6 +3732,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/about-cpw",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "",
 		"Title": "About Us",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "About Us",
@@ -2994,6 +3742,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/acne-and-acne-scars",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Acne<br>Acne Scars",
 		"Subtitle": "",
 		"Label": "Acne &amp; Acne Scars",
@@ -3002,6 +3752,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body-aging-hands",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Aging Hands",
 		"Subtitle": "",
 		"Label": "Aging Hands",
@@ -3010,6 +3762,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body-hyperhidrosis-excess-sweating",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Hyperhidrosis",
 		"Subtitle": "Excessive Sweating",
 		"Label": "Excess Sweating - Hyperhidrosis",
@@ -3018,6 +3772,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -3026,6 +3782,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/coolsculpting",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "CoolSculpting",
 		"Subtitle": "",
 		"Label": "CoolScuplting",
@@ -3034,6 +3792,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-dark-circles-tear-troughs",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Under Eye Dark Circles<br>Hollwoing",
 		"Subtitle": "",
 		"Label": "Under Eye Dark Circles &amp; Hollowing",
@@ -3042,6 +3802,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-flat-cheeks-and-mid-face-volume-loss",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Flat Cheeks",
 		"Subtitle": "",
 		"Label": "Flat Cheeks",
@@ -3050,6 +3812,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-gummy-smile",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Gummy Smile<br>Lip Flip",
 		"Subtitle": "",
 		"Label": "Gummy Smile &amp; Lip Flip",
@@ -3058,6 +3822,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-jowls",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Jowls",
 		"Subtitle": "",
 		"Label": "jowls",
@@ -3066,6 +3832,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-lip-lines-and-thinning-lips",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Thinning Lips",
 		"Subtitle": "",
 		"Label": "Thinning Lips &amp; Lip Lines",
@@ -3074,6 +3842,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Downturned Mouth",
 		"Subtitle": "",
 		"Label": "Downturned Mouth",
@@ -3082,6 +3852,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nasolabial-folds",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Nasolabial Folds",
 		"Subtitle": "",
 		"Label": "Nasolabial Folds",
@@ -3090,6 +3862,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nose-shaping",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Nose Shaping",
 		"Subtitle": "",
 		"Label": "Nose Asymmetry",
@@ -3098,6 +3872,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-receding-chin",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Receding Chin",
 		"Subtitle": "",
 		"Label": "Receding Chin",
@@ -3106,6 +3882,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-temporal-hollowing",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Temporal Hollowing",
 		"Subtitle": "",
 		"Label": "Temporal Hollowing",
@@ -3114,6 +3892,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/laser-hair-removal",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Hair",
 		"Subtitle": "Laser Hair Removal",
 		"Label": "Hair",
@@ -3122,6 +3902,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/masseter-muscle-treatment",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Masseter Muscle Enlargement",
 		"Subtitle": "TMJ",
 		"Label": "Masseter Muscle Enlargement &amp; TMJ",
@@ -3130,6 +3912,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -3138,6 +3922,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/promotions",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Promotions",
 		"Subtitle": "For You",
 		"Label": "Promotions",
@@ -3146,6 +3932,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/sclerotherapy-like-leg-and-facial-veins",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Leg &amp; Facial Veins",
 		"Subtitle": "Sclerotherapy",
 		"Label": "Veins",
@@ -3154,6 +3942,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-age-spots",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Uneven Skin Tone<br>Sun Damage",
 		"Subtitle": "",
 		"Label": "Uneven Tone &amp; Sun Damage",
@@ -3162,6 +3952,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-cherry-hemangiomas",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Cherry Hemangiomas",
 		"Subtitle": "",
 		"Label": "Cherry Hemangiomas",
@@ -3170,6 +3962,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-enlarged-pores",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Enlarged Pores",
 		"Subtitle": "",
 		"Label": "Enlarged Pores",
@@ -3178,6 +3972,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Neck &amp; Skin Laxity",
 		"Subtitle": "",
 		"Label": "Neck Laxity &amp; Skin Laxity",
@@ -3186,6 +3982,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
 		"Page": "http://www.cpwmedspa.com/treatments",
+		"Anchor": "",
+		"Params": "category=Treatments",
 		"Title": "Wrinkle Treatment",
 		"Subtitle": "",
 		"Label": "Wrinkle Treatment &amp; Brow Lift",
@@ -3194,6 +3992,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/before-after-botox",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Before &amp; After",
 		"Subtitle": "Botox &amp; Neurotoxins",
 		"Label": "Before &amp; After - Botox &amp; Neurotoxins",
@@ -3202,6 +4002,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/body-hyperhidrosis-excess-sweating",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Hyperhidrosis",
 		"Subtitle": "Excessive Sweating",
 		"Label": "Excess Sweating - Hyperhidrosis",
@@ -3210,6 +4012,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/contact",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Contact Us",
 		"Subtitle": "Make an Appointment",
 		"Label": "Contact Us - Make an Appointment",
@@ -3218,6 +4022,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Face",
 		"Subtitle": "Treatments",
 		"Label": "Face",
@@ -3226,6 +4032,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-about-facial-lines",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Lines",
 		"Subtitle": "Learn more about them",
 		"Label": "Facial Lines",
@@ -3234,6 +4042,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-gummy-smile",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Gummy Smile<br>Lip Flip",
 		"Subtitle": "",
 		"Label": "Gummy Smile &amp; Lip Flip",
@@ -3242,6 +4052,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-jowls",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Jowls",
 		"Subtitle": "",
 		"Label": "Jowls",
@@ -3250,6 +4062,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/face-nose-shaping",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Nose Shaping",
 		"Subtitle": "",
 		"Label": "Nose Asymmetry",
@@ -3258,6 +4072,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/masseter-muscle-treatment",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Masseter Muscle Treatment",
 		"Subtitle": "TMJ",
 		"Label": "Masseter Muscle Treatment &amp; TMJ",
@@ -3266,6 +4082,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/procedures",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Procedures",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
@@ -3274,6 +4092,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/skin-neck-and-skin-laxity",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Neck &amp; Skin Laxity",
 		"Subtitle": "",
 		"Label": "Neck Laxity &amp; Skin Laxity",
@@ -3282,6 +4102,8 @@
 	{
 		"Path": "http://www.cpwmedspa.com/treatments",
 		"Page": "http://www.cpwmedspa.com/wrinkle-treatments-like-botox-and-neurotoxins",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Treatments",
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Treatments",

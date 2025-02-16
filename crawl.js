@@ -8,11 +8,11 @@ const errors = [];
 const buttonsByPathname = [];
 const cpwmedspa = {pages:pages, buttons:buttons, errors:errors, buttonsByPathname:buttonsByPathname, timestamp: Math.floor((new Date()).getTime() / 1000)};
 const addToResult = (button) => {
-    let pn = buttonsByPathname.find(p => p.pathname == button.href.split("?")[0]);
+    let pn = buttonsByPathname.find(p => p.pathname == button.href.toLowerCase().split("?")[0].split("/#")[0]);
     if (pn == undefined) {
-        let obj = {pathname:button.href, buttons:[button]};
+        let obj = {pathname:button.href.toLowerCase(), buttons:[button]};
         buttonsByPathname.push(obj);
-        buttons.push(button.href.split('?').shift());
+        buttons.push(button.href.split('?')[0].split('/#').shift());
     } else {
         pn.buttons.push(button);
     }
@@ -64,25 +64,37 @@ const c = new Crawler({
                 if ($(this).find(">div>figure>div>a:not([href*=http])").length > 0) {
                     let id = $(this).attr("id");
                     let buttonId = $("div#"+ id
-                                     +"+div.sqs-block-button:has(>div>div>a)").attr("id");
+                        +"+div.sqs-block-button:has(>div>div>a)").attr("id");
+                    let href = $(this).find(">div>figure>div>a").attr("href");
                     let imageButton = {
                         doc:pathname,
-                        href:$(this).find(">div>figure>div.intrinsic>a").attr("href"),
+                        href:href,
+                        anchor:(href.split("#").length > 1) ? href.split("#")[1] : "",
+                        params:(href.split("/#")[0].split("?").length > 1) ? href.split("?")[1] : "",
                         title:$(this).find(">div>figure>figcaption > div > div.image-title-wrapper p").html(),
                         subtitle:($(this).find(">div>figure>figcaption > div > div.image-subtitle-wrapper p").html()!= undefined)
-                            ? $(this).find(">div>figure>figcaption > div > div.image-subtitle-wrapper p").html()
-                            : ""
+                        ? $(this).find(">div>figure>figcaption > div > div.image-subtitle-wrapper p").html()
+                        : ""
                     };
+                    if (href.split("#").length > 1) {
+                        if (href.split("#")[0].slice(-1) != "/") {
+                            errors.push({page:imageButton.doc, type: "Anchor without preceeding '/'", data: `${imageButton.title}|${imageButton.subtitle}: ${imageButton.href}`});
+                            console.error("Anchor without preceeding '/':"
+                                + " site: " + imageButton.doc
+                                + " button: " + imageButton.title
+                                + "|" + imageButton.subtitle
+                                + " (" + imageButton.href +")");
+                        }
+                    }
                     result.push(imageButton);
                     addToResult(imageButton);
                     if ($(this).find(">div>figure").hasClass("combination-animation-fade-in") == false) {
-                    errors.push({page:imageButton.doc, type: 'Image Button without fade-in animation', data: `${imageButton.title}|${imageButton.subtitle}: ${imageButton.href}` })
-                    console.info("Image Button without fade-in animation:"
+                        errors.push({page:imageButton.doc, type: 'Image Button without fade-in animation', data: `${imageButton.title}|${imageButton.subtitle}: ${imageButton.href}` })
+                        console.info("Image Button without fade-in animation:"
                                     + " site: " + imageButton.doc
                                     + " button: " + imageButton.title
                                     + "|" + imageButton.subtitle
                                     + " (" + imageButton.href +")");
-
                     }
                     if ($("div#" + buttonId + ">div>div>a") != undefined) {
                         if ($("div#" + buttonId + ">div>div>a").attr("href") != imageButton.href){
@@ -170,6 +182,8 @@ const c = new Crawler({
                 data.push({
                     Path:`http://www.${domain}${path.pathname}`, 
                     Page:`http://www.${domain}${button.doc}`,
+                    Anchor:button.anchor,
+                    Params:button.params,
                     Title:button.title,
                     Subtitle:button.subtitle,
                     Label:button.label,
@@ -214,7 +228,10 @@ export async function startCrawl() {
                     reject(error);
                 } else {
                     try {
-                        
+                        /***************
+                         * Don't use without implemented sorting of JSON above
+                         * 
+                         */
 
                         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
                         await writeJsonFile('public/javascripts/errors.json', errors);
