@@ -8,11 +8,12 @@ const errors = [];
 const buttonsByPathname = [];
 const cpwmedspa = {pages:pages, buttons:buttons, errors:errors, buttonsByPathname:buttonsByPathname, timestamp: Math.floor((new Date()).getTime() / 1000)};
 const addToResult = (button) => {
-    let pn = buttonsByPathname.find(p => p.pathname == button.href.toLowerCase().split("?")[0].split("/#")[0]);
+    let url = button.href.split("?")[0].split("/#")[0].trim()
+    let pn = buttonsByPathname.find(p => p.pathname == url);
     if (pn == undefined) {
-        let obj = {pathname:button.href.toLowerCase(), buttons:[button]};
+        let obj = {pathname:url, buttons:[button]};
         buttonsByPathname.push(obj);
-        buttons.push(button.href.split('?')[0].split('/#').shift());
+        buttons.push(url);
     } else {
         pn.buttons.push(button);
     }
@@ -60,6 +61,7 @@ const c = new Crawler({
             let pathname = response.requestUrl.pathname;
             let result = [];
             let path = "div:has(>div>figure>div>a.sqs-block-image-link)";
+            let position = 1;
             $(path).each(function(){
                 if ($(this).find(">div>figure>div>a:not([href*=http])").length > 0) {
                     let id = $(this).attr("id");
@@ -67,6 +69,7 @@ const c = new Crawler({
                         +"+div.sqs-block-button:has(>div>div>a)").attr("id");
                     let href = $(this).find(">div>figure>div>a").attr("href");
                     let imageButton = {
+                        position:position++,
                         doc:pathname,
                         href:href,
                         anchor:(href.split("#").length > 1) ? `#${href.split("#")[1]}` : "",
@@ -180,6 +183,7 @@ const c = new Crawler({
         buttonsByPathname.forEach((path) => { 
             path.buttons.forEach((button) => {
                 data.push({
+                    Position:button.position,
                     Path:path.pathname, 
                     Page:button.doc,
                     Anchor:button.anchor,
