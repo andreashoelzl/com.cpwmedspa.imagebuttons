@@ -186,6 +186,7 @@ const c = new Crawler({
                     Position:button.position,
                     Path:path.pathname, 
                     Page:button.doc,
+                    PageHref:`http://www.${domain}${button.doc}`,
                     Anchor:button.anchor,
                     Params:button.params,
                     Title:button.title,
