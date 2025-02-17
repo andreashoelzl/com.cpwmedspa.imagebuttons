@@ -20,27 +20,27 @@ const addToResult = (button) => {
 }
 const domain = "cpwmedspa.com";
 function compareByFields(a, b, primary, secondary) {
-    if (a[primary].toLowerCase() < b[primary].toLowerCase()) {
+    if (a[primary] < b[primary]) {
         return -1;
     }
-    if (a[primary].toLowerCase() > b[primary].toLowerCase()) {
+    if (a[primary] > b[primary]) {
         return 1;
     }
     if (secondary != undefined) {
-        if (a[secondary].toLowerCase() < b[secondary].toLowerCase()) {
+        if (a[secondary] < b[secondary]) {
             return -1;
         }
-        if (a[secondary].toLowerCase() > b[secondary].toLowerCase()) {
+        if (a[secondary] > b[secondary]) {
             return 1;
         }
     }
     return 0;
 }
 function compare(a, b) {
-    if (a.toLowerCase() < b.toLowerCase()) {
+    if (a < b) {
         return -1;
     }
-    if (a.toLowerCase() > b.toLowerCase()) {
+    if (a > b) {
         return 1;
     }
     return 0;
@@ -195,7 +195,7 @@ const c = new Crawler({
                 });
             });
         });
-        data.sort((a, b) => compareByFields(a, b, 'Page','Path'));
+        data.sort((a, b) => compareByFields(a, b, 'Page','Position'));
         await writeJsonFile('public/javascripts/data.json', data);
         /*
         */
