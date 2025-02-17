@@ -709,6 +709,16 @@
 					"label": "Before &amp; After Galleries"
 				},
 				{
+					"position": 14,
+					"doc": "/facial-fillers",
+					"href": "/before-after-galleries",
+					"anchor": "",
+					"params": "",
+					"title": "Before &amp; After",
+					"subtitle": "Galleries",
+					"label": "Before &amp; After Galleries"
+				},
+				{
 					"position": 6,
 					"doc": "/promotions",
 					"href": "/before-after-galleries",
@@ -1184,7 +1194,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"position": 5,
+					"position": 8,
 					"doc": "/acne-and-acne-scars",
 					"href": "/contact",
 					"anchor": "",
@@ -1379,8 +1389,8 @@
 					"href": "/contact",
 					"anchor": "",
 					"params": "",
-					"title": "Contact Us",
-					"subtitle": "for your Consultation today",
+					"title": "Contact Us Today",
+					"subtitle": "For your Consultation",
 					"label": "Book your Consultation today"
 				},
 				{
@@ -1524,7 +1534,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"position": 12,
+					"position": 15,
 					"doc": "/facial-fillers",
 					"href": "/contact",
 					"anchor": "",
@@ -1834,6 +1844,16 @@
 					"label": "Face"
 				},
 				{
+					"position": 6,
+					"doc": "/acne-and-acne-scars",
+					"href": "/face",
+					"anchor": "",
+					"params": "",
+					"title": "Face",
+					"subtitle": "Treatments",
+					"label": "Face"
+				},
+				{
 					"position": 2,
 					"doc": "/before-after-botox",
 					"href": "/face",
@@ -2016,6 +2036,16 @@
 				{
 					"position": 2,
 					"doc": "/face-temporal-hollowing",
+					"href": "/face",
+					"anchor": "",
+					"params": "",
+					"title": "Face",
+					"subtitle": "Treatments",
+					"label": "Face"
+				},
+				{
+					"position": 12,
+					"doc": "/facial-fillers",
 					"href": "/face",
 					"anchor": "",
 					"params": "",
@@ -2447,6 +2477,16 @@
 					"title": "Lip Lines",
 					"subtitle": "",
 					"label": "Lip Lines &amp; Thinning Lips"
+				},
+				{
+					"position": 13,
+					"doc": "/facial-fillers",
+					"href": "/face-lip-lines-and-thinning-lips",
+					"anchor": "",
+					"params": "",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
 				},
 				{
 					"position": 2,
@@ -3644,6 +3684,16 @@
 					"label": "Promotions"
 				},
 				{
+					"position": 7,
+					"doc": "/acne-and-acne-scars",
+					"href": "/promotions",
+					"anchor": "",
+					"params": "",
+					"title": "Promotions",
+					"subtitle": "For You",
+					"label": "Promotions"
+				},
+				{
 					"position": 4,
 					"doc": "/before-after-coolsculpting",
 					"href": "/promotions",
@@ -3871,6 +3921,16 @@
 					"params": "",
 					"title": "Skin",
 					"subtitle": "",
+					"label": "Skin"
+				},
+				{
+					"position": 5,
+					"doc": "/acne-and-acne-scars",
+					"href": "/skin",
+					"anchor": "",
+					"params": "",
+					"title": "Skin",
+					"subtitle": "Treatments",
 					"label": "Skin"
 				},
 				{
@@ -4541,5 +4601,5 @@
 			]
 		}
 	],
-	"timestamp": 1739768646
+	"timestamp": 1739793794
 }
