@@ -2775,7 +2775,7 @@
 					"anchor": "",
 					"params": "",
 					"title": "Facial Fillers",
-					"subtitle": "Juvederm",
+					"subtitle": "Juvéderm",
 					"label": "Facial Fillers"
 				},
 				{
@@ -2845,7 +2845,7 @@
 					"anchor": "",
 					"params": "",
 					"title": "Facial Fillers",
-					"subtitle": "Juvederm",
+					"subtitle": "Juvéderm",
 					"label": "Facial Filler"
 				},
 				{
@@ -2905,7 +2905,7 @@
 					"anchor": "",
 					"params": "",
 					"title": "Facial Fillers",
-					"subtitle": "",
+					"subtitle": "Juvéderm",
 					"label": "Facial Fillers"
 				},
 				{
@@ -2915,7 +2915,7 @@
 					"anchor": "",
 					"params": "",
 					"title": "Facial Fillers",
-					"subtitle": "",
+					"subtitle": "Juvéderm",
 					"label": "Facial Fillers"
 				},
 				{
@@ -2941,7 +2941,7 @@
 					"params": "",
 					"title": "Volbella XC",
 					"subtitle": "Juvéderm",
-					"label": "Juvederm Volbella"
+					"label": "Juvéderm Volbella"
 				},
 				{
 					"position": 1,
@@ -2950,7 +2950,7 @@
 					"anchor": "",
 					"params": "",
 					"title": "Volbella",
-					"subtitle": "Juvederm",
+					"subtitle": "Juvéderm",
 					"label": "Juvéderm Volbella"
 				},
 				{
@@ -2980,8 +2980,8 @@
 					"anchor": "",
 					"params": "",
 					"title": "Volbella",
-					"subtitle": "Juvederm",
-					"label": "Juvederm Volbella"
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Volbella"
 				},
 				{
 					"position": 2,
@@ -2991,7 +2991,7 @@
 					"params": "",
 					"title": "Volbella XC",
 					"subtitle": "Juvéderm",
-					"label": "Juvederm Volbella XC"
+					"label": "Juvéderm Volbella XC"
 				}
 			]
 		},
@@ -3005,8 +3005,8 @@
 					"anchor": "",
 					"params": "",
 					"title": "Facial Fillers",
-					"subtitle": "Juvederm Voluma &amp; Ultra",
-					"label": "Juvederm Voluma &amp; Ultra"
+					"subtitle": "Juvéderm Voluma &amp; Ultra",
+					"label": "Juvéderm Voluma &amp; Ultra"
 				},
 				{
 					"position": 1,
@@ -3016,7 +3016,7 @@
 					"params": "",
 					"title": "Voluma XC",
 					"subtitle": "Juvéderm",
-					"label": "Juvederm Voluma"
+					"label": "Juvéderm Voluma"
 				},
 				{
 					"position": 2,
@@ -3024,9 +3024,9 @@
 					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 					"anchor": "",
 					"params": "",
-					"title": "Juvederm Voluma &amp; Ultra",
+					"title": "Juvéderm Voluma &amp; Ultra",
 					"subtitle": "Facial Fillers",
-					"label": "Juvederm Voluma &amp; Ultra"
+					"label": "Juvéderm Voluma &amp; Ultra"
 				},
 				{
 					"position": 2,
@@ -3121,7 +3121,7 @@
 					"params": "",
 					"title": "Volux",
 					"subtitle": "Juvéderm",
-					"label": "Juvederm Volux"
+					"label": "Juvéderm Volux"
 				},
 				{
 					"position": 3,
@@ -3151,7 +3151,7 @@
 					"params": "",
 					"title": "Volux",
 					"subtitle": "Juvéderm",
-					"label": "Juvederm Volux"
+					"label": "Juvéderm Volux"
 				}
 			]
 		},
@@ -4601,5 +4601,5 @@
 			]
 		}
 	],
-	"timestamp": 1739793794
+	"timestamp": 1739843797
 }
