@@ -9,6 +9,10 @@ block content
     ajaxContentType:"json",
     layout:"fitDataStretch",
     groupBy:"Path",
+    initialSort:[
+        {column:"Page", dir:"asc"},
+        {column:"Path", dir:"asc"}
+    ],
     groupHeader:function(value, count, data, group){
       return `<a id=${value.split('/').pop()} href='https://www.cpwmedspa.com${value}'>${value}</a><span style='margin-left:10px;'>(appears n ${count} pages)</span>`;
     },

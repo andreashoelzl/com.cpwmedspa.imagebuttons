@@ -9,6 +9,9 @@ block content
     ajaxContentType:"json",
     layout:"fitDataStretch",
     groupBy:"Page",
+    initialSort:[
+        {column:"Page", dir:"asc"}
+    ],
     groupHeader:function(value, count, data, group){
       return `<a id='${value.split('/').pop()}' href='https://www.cpwmedspa.com${value}'>${value}</a><span style='margin-left:10px;'>(Page contains ${count} buttons)<a style='margin-left:10px' href='https://lanternfish-pike-f938.squarespace.com${value}'>Edit</a></span>`;
     },

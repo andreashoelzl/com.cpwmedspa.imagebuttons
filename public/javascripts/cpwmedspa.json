@@ -304,6 +304,16 @@
 					"label": "About Us"
 				},
 				{
+					"position": 13,
+					"doc": "/facial-fillers",
+					"href": "/about-cpw",
+					"anchor": "",
+					"params": "",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
+				},
+				{
 					"position": 7,
 					"doc": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
 					"href": "/about-cpw",
@@ -2479,16 +2489,6 @@
 					"label": "Lip Lines &amp; Thinning Lips"
 				},
 				{
-					"position": 13,
-					"doc": "/facial-fillers",
-					"href": "/face-lip-lines-and-thinning-lips",
-					"anchor": "",
-					"params": "",
-					"title": "About Us",
-					"subtitle": "CPW Vein &amp; Aesthetic Center",
-					"label": "About Us"
-				},
-				{
 					"position": 2,
 					"doc": "/tetrapro",
 					"href": "/face-lip-lines-and-thinning-lips",
@@ -2846,7 +2846,7 @@
 					"params": "",
 					"title": "Facial Fillers",
 					"subtitle": "Juvéderm",
-					"label": "Facial Filler"
+					"label": "Facial Fillers"
 				},
 				{
 					"position": 3,
@@ -3414,9 +3414,9 @@
 					"href": "/m22-treatment",
 					"anchor": "",
 					"params": "",
-					"title": "M22",
+					"title": "Lumenis M22",
 					"subtitle": "Treatment",
-					"label": "M22 Treatment"
+					"label": "Lumenis M22 Treatment"
 				}
 			]
 		},
@@ -4601,5 +4601,5 @@
 			]
 		}
 	],
-	"timestamp": 1739843797
+	"timestamp": 1739898477
 }
