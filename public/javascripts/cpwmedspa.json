@@ -344,7 +344,7 @@
 					"label": "About Us"
 				},
 				{
-					"position": 3,
+					"position": 4,
 					"doc": "/ipl-photofacials",
 					"href": "/about-cpw",
 					"anchor": "",
@@ -689,7 +689,7 @@
 					"label": "Before &amp; After Galleries"
 				},
 				{
-					"position": 3,
+					"position": 4,
 					"doc": "/before-after-laser-hair-removal",
 					"href": "/before-after-galleries",
 					"anchor": "",
@@ -1284,7 +1284,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"position": 4,
+					"position": 5,
 					"doc": "/before-after-laser-hair-removal",
 					"href": "/contact",
 					"anchor": "",
@@ -1584,7 +1584,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"position": 4,
+					"position": 5,
 					"doc": "/ipl-photofacials",
 					"href": "/contact",
 					"anchor": "",
@@ -3570,6 +3570,16 @@
 				},
 				{
 					"position": 3,
+					"doc": "/ipl-photofacials",
+					"href": "/procedures",
+					"anchor": "",
+					"params": "",
+					"title": "Procedures",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "Procedures"
+				},
+				{
+					"position": 3,
 					"doc": "/laser-hair-removal",
 					"href": "/procedures",
 					"anchor": "",
@@ -3936,6 +3946,16 @@
 				{
 					"position": 3,
 					"doc": "/before-after-ipl-photofacials",
+					"href": "/skin",
+					"anchor": "",
+					"params": "",
+					"title": "Skin",
+					"subtitle": "Treatments",
+					"label": "Skin"
+				},
+				{
+					"position": 3,
+					"doc": "/before-after-laser-hair-removal",
 					"href": "/skin",
 					"anchor": "",
 					"params": "",
@@ -4601,5 +4621,5 @@
 			]
 		}
 	],
-	"timestamp": 1739932332
+	"timestamp": 1740219440
 }

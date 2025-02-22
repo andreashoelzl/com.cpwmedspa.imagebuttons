@@ -119,6 +119,12 @@ const c = new Crawler({
                                      + "|" + imageButton.subtitle
                                      + " (" + imageButton.href +")");
                     }
+                } else {
+                    let link = $(this).find(">div>figure>div>a");
+                    if (link.attr("href").indexOf(".") == -1) {
+                        errors.push({page:pathname, type: 'Invalid link', data: link.attr("href")});
+                        console.error(`${pathname}: Invalid link ${link.attr("href")}`);
+                    }
                 }
             })
             if (verbose > 1) console.log(`${pathname} buttons:\n ${JSON.stringify(result)}`);

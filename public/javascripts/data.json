@@ -1057,6 +1057,18 @@
 	},
 	{
 		"Position": 3,
+		"Path": "/skin",
+		"Page": "/before-after-laser-hair-removal",
+		"PageHref": "http://www.cpwmedspa.com/before-after-laser-hair-removal",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Skin",
+		"Subtitle": "Treatments",
+		"Label": "Skin",
+		"Href": "http://www.cpwmedspa.com/skin"
+	},
+	{
+		"Position": 4,
 		"Path": "/before-after-galleries",
 		"Page": "/before-after-laser-hair-removal",
 		"PageHref": "http://www.cpwmedspa.com/before-after-laser-hair-removal",
@@ -1068,7 +1080,7 @@
 		"Href": "http://www.cpwmedspa.com/before-after-galleries"
 	},
 	{
-		"Position": 4,
+		"Position": 5,
 		"Path": "/contact",
 		"Page": "/before-after-laser-hair-removal",
 		"PageHref": "http://www.cpwmedspa.com/before-after-laser-hair-removal",
@@ -3277,6 +3289,18 @@
 	},
 	{
 		"Position": 3,
+		"Path": "/procedures",
+		"Page": "/ipl-photofacials",
+		"PageHref": "http://www.cpwmedspa.com/ipl-photofacials",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Procedures",
+		"Subtitle": "CPW Vein &amp; Aesthetic Center",
+		"Label": "Procedures",
+		"Href": "http://www.cpwmedspa.com/procedures"
+	},
+	{
+		"Position": 4,
 		"Path": "/about-cpw",
 		"Page": "/ipl-photofacials",
 		"PageHref": "http://www.cpwmedspa.com/ipl-photofacials",
@@ -3288,7 +3312,7 @@
 		"Href": "http://www.cpwmedspa.com/about-cpw"
 	},
 	{
-		"Position": 4,
+		"Position": 5,
 		"Path": "/contact",
 		"Page": "/ipl-photofacials",
 		"PageHref": "http://www.cpwmedspa.com/ipl-photofacials",
