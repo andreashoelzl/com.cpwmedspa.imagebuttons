@@ -1549,6 +1549,42 @@
 	},
 	{
 		"Position": 6,
+		"Path": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+		"Page": "/body-aging-hands",
+		"PageHref": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Voluma XC",
+		"Subtitle": "Juvéderm",
+		"Label": "Juvéderm Voluma XC",
+		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft"
+	},
+	{
+		"Position": 7,
+		"Path": "/m22-treatment",
+		"Page": "/body-aging-hands",
+		"PageHref": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Lumenis M22",
+		"Subtitle": "Treatment",
+		"Label": "Lumenis M22 Treatment",
+		"Href": "http://www.cpwmedspa.com/m22-treatment"
+	},
+	{
+		"Position": 8,
+		"Path": "/skin-age-spots",
+		"Page": "/body-aging-hands",
+		"PageHref": "http://www.cpwmedspa.com/body-aging-hands",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Uneven Skin Tone",
+		"Subtitle": "Age Spots &amp; Sun Damage",
+		"Label": "Uneven Skin Tone",
+		"Href": "http://www.cpwmedspa.com/skin-age-spots"
+	},
+	{
+		"Position": 9,
 		"Path": "/contact",
 		"Page": "/body-aging-hands",
 		"PageHref": "http://www.cpwmedspa.com/body-aging-hands",
@@ -3661,18 +3697,6 @@
 	},
 	{
 		"Position": 3,
-		"Path": "/about-cpw",
-		"Page": "/press",
-		"PageHref": "http://www.cpwmedspa.com/press",
-		"Anchor": "",
-		"Params": "",
-		"Title": "About Us",
-		"Subtitle": "CPW Vein &amp; Aesthetic Center",
-		"Label": "About Us",
-		"Href": "http://www.cpwmedspa.com/about-cpw"
-	},
-	{
-		"Position": 4,
 		"Path": "/procedures",
 		"Page": "/press",
 		"PageHref": "http://www.cpwmedspa.com/press",
@@ -3682,6 +3706,18 @@
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
 		"Href": "http://www.cpwmedspa.com/procedures"
+	},
+	{
+		"Position": 4,
+		"Path": "/about-cpw",
+		"Page": "/press",
+		"PageHref": "http://www.cpwmedspa.com/press",
+		"Anchor": "",
+		"Params": "",
+		"Title": "About Us",
+		"Subtitle": "CPW Vein &amp; Aesthetic Center",
+		"Label": "About Us",
+		"Href": "http://www.cpwmedspa.com/about-cpw"
 	},
 	{
 		"Position": 5,
@@ -4057,6 +4093,18 @@
 	},
 	{
 		"Position": 3,
+		"Path": "/before-after-galleries",
+		"Page": "/search-page",
+		"PageHref": "http://www.cpwmedspa.com/search-page",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Before &amp; After",
+		"Subtitle": "Galleries",
+		"Label": "Before &amp; After Galleries",
+		"Href": "http://www.cpwmedspa.com/before-after-galleries"
+	},
+	{
+		"Position": 4,
 		"Path": "/about-cpw",
 		"Page": "/search-page",
 		"PageHref": "http://www.cpwmedspa.com/search-page",
@@ -4068,7 +4116,19 @@
 		"Href": "http://www.cpwmedspa.com/about-cpw"
 	},
 	{
-		"Position": 4,
+		"Position": 5,
+		"Path": "/press",
+		"Page": "/search-page",
+		"PageHref": "http://www.cpwmedspa.com/search-page",
+		"Anchor": "",
+		"Params": "",
+		"Title": "In The Press",
+		"Subtitle": "",
+		"Label": "In The Press",
+		"Href": "http://www.cpwmedspa.com/press"
+	},
+	{
+		"Position": 6,
 		"Path": "/promotions",
 		"Page": "/search-page",
 		"PageHref": "http://www.cpwmedspa.com/search-page",
@@ -4080,7 +4140,7 @@
 		"Href": "http://www.cpwmedspa.com/promotions"
 	},
 	{
-		"Position": 5,
+		"Position": 7,
 		"Path": "/contact",
 		"Page": "/search-page",
 		"PageHref": "http://www.cpwmedspa.com/search-page",
@@ -4237,6 +4297,42 @@
 	},
 	{
 		"Position": 4,
+		"Path": "/m22-treatment",
+		"Page": "/skin-age-spots",
+		"PageHref": "http://www.cpwmedspa.com/skin-age-spots",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Lumenis M22",
+		"Subtitle": "Treatment",
+		"Label": "Lumenis M22 Treatment",
+		"Href": "http://www.cpwmedspa.com/m22-treatment"
+	},
+	{
+		"Position": 5,
+		"Path": "/face-about-facial-lines",
+		"Page": "/skin-age-spots",
+		"PageHref": "http://www.cpwmedspa.com/skin-age-spots",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Facial Lines",
+		"Subtitle": "Learn more about them",
+		"Label": "Facial Lines",
+		"Href": "http://www.cpwmedspa.com/face-about-facial-lines"
+	},
+	{
+		"Position": 6,
+		"Path": "/about-cpw",
+		"Page": "/skin-age-spots",
+		"PageHref": "http://www.cpwmedspa.com/skin-age-spots",
+		"Anchor": "",
+		"Params": "",
+		"Title": "About Us",
+		"Subtitle": "CPW Vein &amp; Aesthetic Center",
+		"Label": "About Us",
+		"Href": "http://www.cpwmedspa.com/about-cpw"
+	},
+	{
+		"Position": 7,
 		"Path": "/contact",
 		"Page": "/skin-age-spots",
 		"PageHref": "http://www.cpwmedspa.com/skin-age-spots",

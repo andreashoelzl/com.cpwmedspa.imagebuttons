@@ -110,6 +110,7 @@
 		"/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
 		"/m22-treatment",
 		"/masseter-muscle-treatment",
+		"/press",
 		"/procedures",
 		"/promotions",
 		"/s/BrideMagazine.pdf",
@@ -384,7 +385,7 @@
 					"label": "About Us"
 				},
 				{
-					"position": 3,
+					"position": 4,
 					"doc": "/press",
 					"href": "/about-cpw",
 					"anchor": "",
@@ -414,8 +415,18 @@
 					"label": "About Us"
 				},
 				{
-					"position": 3,
+					"position": 4,
 					"doc": "/search-page",
+					"href": "/about-cpw",
+					"anchor": "",
+					"params": "",
+					"title": "About Us",
+					"subtitle": "CPW Vein &amp; Aesthetic Center",
+					"label": "About Us"
+				},
+				{
+					"position": 6,
+					"doc": "/skin-age-spots",
 					"href": "/about-cpw",
 					"anchor": "",
 					"params": "",
@@ -731,6 +742,16 @@
 				{
 					"position": 6,
 					"doc": "/promotions",
+					"href": "/before-after-galleries",
+					"anchor": "",
+					"params": "",
+					"title": "Before &amp; After",
+					"subtitle": "Galleries",
+					"label": "Before &amp; After Galleries"
+				},
+				{
+					"position": 3,
+					"doc": "/search-page",
 					"href": "/before-after-galleries",
 					"anchor": "",
 					"params": "",
@@ -1354,7 +1375,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"position": 6,
+					"position": 9,
 					"doc": "/body-aging-hands",
 					"href": "/contact",
 					"anchor": "",
@@ -1704,7 +1725,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"position": 5,
+					"position": 7,
 					"doc": "/search-page",
 					"href": "/contact",
 					"anchor": "",
@@ -1724,7 +1745,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"position": 4,
+					"position": 7,
 					"doc": "/skin-age-spots",
 					"href": "/contact",
 					"anchor": "",
@@ -2177,6 +2198,16 @@
 					"title": "Facial Lines",
 					"subtitle": "Learn more about them",
 					"label": "About Facial Lines"
+				},
+				{
+					"position": 5,
+					"doc": "/skin-age-spots",
+					"href": "/face-about-facial-lines",
+					"anchor": "",
+					"params": "",
+					"title": "Facial Lines",
+					"subtitle": "Learn more about them",
+					"label": "Facial Lines"
 				},
 				{
 					"position": 4,
@@ -3009,6 +3040,16 @@
 					"label": "Juvéderm Voluma &amp; Ultra"
 				},
 				{
+					"position": 6,
+					"doc": "/body-aging-hands",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"anchor": "",
+					"params": "",
+					"title": "Voluma XC",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Voluma XC"
+				},
+				{
 					"position": 1,
 					"doc": "/face-flat-cheeks-and-mid-face-volume-loss",
 					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
@@ -3389,6 +3430,16 @@
 					"label": "Lumenis M22 Treatment"
 				},
 				{
+					"position": 7,
+					"doc": "/body-aging-hands",
+					"href": "/m22-treatment",
+					"anchor": "",
+					"params": "",
+					"title": "Lumenis M22",
+					"subtitle": "Treatment",
+					"label": "Lumenis M22 Treatment"
+				},
+				{
 					"position": 1,
 					"doc": "/ipl-photofacials",
 					"href": "/m22-treatment",
@@ -3401,6 +3452,16 @@
 				{
 					"position": 5,
 					"doc": "/m22-ipl-like-veins-and-acne-and-cherry-hemangiomas",
+					"href": "/m22-treatment",
+					"anchor": "",
+					"params": "",
+					"title": "Lumenis M22",
+					"subtitle": "Treatment",
+					"label": "Lumenis M22 Treatment"
+				},
+				{
+					"position": 4,
+					"doc": "/skin-age-spots",
 					"href": "/m22-treatment",
 					"anchor": "",
 					"params": "",
@@ -3472,6 +3533,21 @@
 					"title": "Masseter Muscle Treatment",
 					"subtitle": "TMJ",
 					"label": "Masseter Muscle Treatment &amp; TMJ"
+				}
+			]
+		},
+		{
+			"pathname": "/press",
+			"buttons": [
+				{
+					"position": 5,
+					"doc": "/search-page",
+					"href": "/press",
+					"anchor": "",
+					"params": "",
+					"title": "In The Press",
+					"subtitle": "",
+					"label": "In The Press"
 				}
 			]
 		},
@@ -3599,7 +3675,7 @@
 					"label": "Procedures"
 				},
 				{
-					"position": 4,
+					"position": 3,
 					"doc": "/press",
 					"href": "/procedures",
 					"anchor": "",
@@ -3814,7 +3890,7 @@
 					"label": "Promotions"
 				},
 				{
-					"position": 4,
+					"position": 6,
 					"doc": "/search-page",
 					"href": "/promotions",
 					"anchor": "",
@@ -4048,6 +4124,16 @@
 		{
 			"pathname": "/skin-age-spots",
 			"buttons": [
+				{
+					"position": 8,
+					"doc": "/body-aging-hands",
+					"href": "/skin-age-spots",
+					"anchor": "",
+					"params": "",
+					"title": "Uneven Skin Tone",
+					"subtitle": "Age Spots &amp; Sun Damage",
+					"label": "Uneven Skin Tone"
+				},
 				{
 					"position": 8,
 					"doc": "/face-about-facial-lines",
@@ -4621,5 +4707,5 @@
 			]
 		}
 	],
-	"timestamp": 1740219440
+	"timestamp": 1740313531
 }

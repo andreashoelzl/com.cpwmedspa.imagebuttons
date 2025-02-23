@@ -62,6 +62,10 @@ const c = new Crawler({
             let result = [];
             let path = "div:has(>div>figure>div>a.sqs-block-image-link)";
             let position = 1;
+            if ($("div.col.sqs-col-12.span-12 > div.row.sqs-row:last").find("> div > div.image-block > div > figure.design-layout-poster > div.intrinsic > a").length != 3) {
+                errors.push({page:pathname, type: 'Navigation block before footer is missing'});
+                console.error("Navigation block before footer is missing at " + pathname);
+            }
             $(path).each(function(){
                 if ($(this).find(">div>figure>div>a:not([href*=http])").length > 0) {
                     let id = $(this).attr("id");
@@ -177,12 +181,12 @@ const c = new Crawler({
             path.buttons.sort((a, b) => compareByFields(a, b, 'doc'));
         })
         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
-        await writeJsonFile('public/javascripts/errors.json', errors);
         pages.sort((a, b) => compare(a, b));
         await writeJsonFile('public/javascripts/pages.json', pages);
         if (errors.length == 0) {
             errors.push({type: 'No errors detected'});
         }
+        await writeJsonFile('public/javascripts/errors.json', errors);
         buttons.sort((a, b) => compare(a, b));
         await writeJsonFile('public/javascripts/buttons.json', buttons);
         const data = [];
@@ -245,11 +249,11 @@ export async function startCrawl() {
                          */
 
                         await writeJsonFile('public/javascripts/cpwmedspa.json', cpwmedspa);
-                        await writeJsonFile('public/javascripts/errors.json', errors);
                         await writeJsonFile('public/javascripts/pages.json', pages);
                         if (errors.length == 0) {
                             errors.push({type: 'No errors detected'});
                         }
+                        await writeJsonFile('public/javascripts/errors.json', errors);
                         await writeJsonFile('public/javascripts/buttons.json', buttons);
                         const data = [];
                         buttonsByPathname.forEach((path) => { 
