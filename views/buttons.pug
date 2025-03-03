@@ -14,7 +14,7 @@ block content
         {column:"Path", dir:"asc"}
     ],
     groupHeader:function(value, count, data, group){
-      return `<a id=${value.split('/').pop()} href='https://www.cpwmedspa.com${value}'>${value}</a><span style='margin-left:10px;'>(appears n ${count} pages)</span>`;
+      return `<a id=${value.split('/').pop()} href='https://www.cpwmedspa.com${value}'>${value}</a><span style='margin-left:10px;'>(appears on ${count} pages)</span>`;
     },
     columns:[
         {title:"Title", field:"Title", sorter:"string"},
