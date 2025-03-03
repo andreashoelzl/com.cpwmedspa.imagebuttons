@@ -2235,7 +2235,7 @@
 					"href": "/face-about-facial-lines",
 					"anchor": "",
 					"params": "",
-					"title": "<a href=\"/face-about-facial-lines\">Facial</a> Lines",
+					"title": "Facial Lines",
 					"subtitle": "Learn more about them",
 					"label": "Facial Lines"
 				},
@@ -3225,7 +3225,7 @@
 					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
 					"anchor": "",
 					"params": "",
-					"title": "<a href=\"/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft\">Voluma</a>, Ultra &amp; Ultra Plus",
+					"title": "Voluma, Ultra &amp; Ultra Plus",
 					"subtitle": "Juvéderm",
 					"label": "Juvéderm Voluma, Ultra &amp; Ultra Plus"
 				}
@@ -4817,5 +4817,5 @@
 			]
 		}
 	],
-	"timestamp": 1740977046
+	"timestamp": 1740982247
 }
