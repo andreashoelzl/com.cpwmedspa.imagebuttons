@@ -2272,9 +2272,9 @@
 				{
 					"position": 15,
 					"doc": "/treatments",
-					"href": "/face-about-facial-lines",
+					"href": "/face-about-facial-lines?category=Treatments",
 					"anchor": "",
-					"params": "",
+					"params": "category=Treatments",
 					"title": "Lines",
 					"subtitle": "",
 					"label": "Lines"
@@ -2357,9 +2357,9 @@
 				{
 					"position": 14,
 					"doc": "/treatments",
-					"href": "/face-about-facial-volume-loss",
+					"href": "/face-about-facial-volume-loss?category=Treatments",
 					"anchor": "",
-					"params": "",
+					"params": "category=Treatments",
 					"title": "Volume Loss",
 					"subtitle": "",
 					"label": "Volume Loss"
@@ -4817,5 +4817,5 @@
 			]
 		}
 	],
-	"timestamp": 1740982247
+	"timestamp": 1741023098
 }

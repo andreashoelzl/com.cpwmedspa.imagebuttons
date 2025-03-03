@@ -4937,11 +4937,11 @@
 		"Page": "/treatments",
 		"PageHref": "http://www.cpwmedspa.com/treatments",
 		"Anchor": "",
-		"Params": "",
+		"Params": "category=Treatments",
 		"Title": "Volume Loss",
 		"Subtitle": "",
 		"Label": "Volume Loss",
-		"Href": "http://www.cpwmedspa.com/face-about-facial-volume-loss"
+		"Href": "http://www.cpwmedspa.com/face-about-facial-volume-loss?category=Treatments"
 	},
 	{
 		"Position": 15,
@@ -4949,11 +4949,11 @@
 		"Page": "/treatments",
 		"PageHref": "http://www.cpwmedspa.com/treatments",
 		"Anchor": "",
-		"Params": "",
+		"Params": "category=Treatments",
 		"Title": "Lines",
 		"Subtitle": "",
 		"Label": "Lines",
-		"Href": "http://www.cpwmedspa.com/face-about-facial-lines"
+		"Href": "http://www.cpwmedspa.com/face-about-facial-lines?category=Treatments"
 	},
 	{
 		"Position": 16,
