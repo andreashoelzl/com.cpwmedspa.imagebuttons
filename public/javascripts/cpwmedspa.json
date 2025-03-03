@@ -395,7 +395,7 @@
 					"label": "About Us"
 				},
 				{
-					"position": 15,
+					"position": 16,
 					"doc": "/procedures",
 					"href": "/about-cpw",
 					"anchor": "",
@@ -1685,7 +1685,7 @@
 					"label": "Contact Us - Make an Appointment"
 				},
 				{
-					"position": 17,
+					"position": 18,
 					"doc": "/procedures",
 					"href": "/contact",
 					"anchor": "",
@@ -3218,6 +3218,16 @@
 					"title": "Voluma &amp; Ultra",
 					"subtitle": "Juvéderm",
 					"label": "Juvéderm Voluma &amp; Ultra"
+				},
+				{
+					"position": 13,
+					"doc": "/procedures",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"anchor": "",
+					"params": "",
+					"title": "<a href=\"/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft\">Voluma</a>, Ultra &amp; Ultra Plus",
+					"subtitle": "Juvéderm",
+					"label": "Juvéderm Voluma, Ultra &amp; Ultra Plus"
 				}
 			]
 		},
@@ -3265,7 +3275,7 @@
 					"label": "Juvéderm Volux"
 				},
 				{
-					"position": 13,
+					"position": 14,
 					"doc": "/procedures",
 					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
 					"anchor": "",
@@ -3950,7 +3960,7 @@
 					"label": "Promotions"
 				},
 				{
-					"position": 16,
+					"position": 17,
 					"doc": "/procedures",
 					"href": "/promotions",
 					"anchor": "",
@@ -4580,7 +4590,7 @@
 					"label": "Treatments"
 				},
 				{
-					"position": 14,
+					"position": 15,
 					"doc": "/procedures",
 					"href": "/treatments",
 					"anchor": "",
@@ -4807,5 +4817,5 @@
 			]
 		}
 	],
-	"timestamp": 1740976449
+	"timestamp": 1740977046
 }
