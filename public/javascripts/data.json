@@ -3929,11 +3929,11 @@
 		"Page": "/procedures",
 		"PageHref": "http://www.cpwmedspa.com/procedures",
 		"Anchor": "",
-		"Params": "",
+		"Params": "category=Procedures",
 		"Title": "Volbella",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Volbella",
-		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk"
+		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk?category=Procedures"
 	},
 	{
 		"Position": 13,
@@ -3941,11 +3941,11 @@
 		"Page": "/procedures",
 		"PageHref": "http://www.cpwmedspa.com/procedures",
 		"Anchor": "",
-		"Params": "",
+		"Params": "category=Procedures",
 		"Title": "Voluma, Ultra &amp; Ultra Plus",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Voluma, Ultra &amp; Ultra Plus",
-		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft"
+		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft?category=Procedures"
 	},
 	{
 		"Position": 14,
@@ -3953,11 +3953,11 @@
 		"Page": "/procedures",
 		"PageHref": "http://www.cpwmedspa.com/procedures",
 		"Anchor": "",
-		"Params": "",
+		"Params": "category=Procedures",
 		"Title": "Volux",
 		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm Volux",
-		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse"
+		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse?category=Procedures"
 	},
 	{
 		"Position": 15,

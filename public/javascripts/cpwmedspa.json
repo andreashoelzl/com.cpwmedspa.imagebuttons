@@ -3087,9 +3087,9 @@
 				{
 					"position": 12,
 					"doc": "/procedures",
-					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+					"href": "/facial-fillers-juvederm-volbella-xc-restylane-silk?category=Procedures",
 					"anchor": "",
-					"params": "",
+					"params": "category=Procedures",
 					"title": "Volbella",
 					"subtitle": "Juvéderm",
 					"label": "Juvéderm Volbella"
@@ -3222,9 +3222,9 @@
 				{
 					"position": 13,
 					"doc": "/procedures",
-					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft",
+					"href": "/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft?category=Procedures",
 					"anchor": "",
-					"params": "",
+					"params": "category=Procedures",
 					"title": "Voluma, Ultra &amp; Ultra Plus",
 					"subtitle": "Juvéderm",
 					"label": "Juvéderm Voluma, Ultra &amp; Ultra Plus"
@@ -3277,9 +3277,9 @@
 				{
 					"position": 14,
 					"doc": "/procedures",
-					"href": "/facial-fillers-juvederm-volux-xc-radiesse",
+					"href": "/facial-fillers-juvederm-volux-xc-radiesse?category=Procedures",
 					"anchor": "",
-					"params": "",
+					"params": "category=Procedures",
 					"title": "Volux",
 					"subtitle": "Juvéderm",
 					"label": "Juvéderm Volux"
@@ -4817,5 +4817,5 @@
 			]
 		}
 	],
-	"timestamp": 1741023098
+	"timestamp": 1741023334
 }
