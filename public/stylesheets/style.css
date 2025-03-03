@@ -5,13 +5,13 @@ body {
 
 a {
   color: darkblue;
-} 
+}
 
 div:has(.timestamp) {
   padding-bottom: 25px;
 }
 div.timestamp {
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   display: inline;
 }
 div.inline {
@@ -37,9 +37,19 @@ input#autocomplete-anchor {
   font-weight: bold;
 }
 .tabulator-row.tabulator-group a {
-  color: white
+  color: white;
 }
 .tabulator-row.tabulator-group span {
   color: silver !important;
   font-weight: bold;
+}
+div#visitedPages .tabulator-row:has(+ * + .tabulator-group),
+div#visitedPages .tabulator-row:has(+ * + * + * + .tabulator-group) {
+  background: #ccc;
+}
+div#visitedPages .tabulator-row:has(+ * + * + .tabulator-group) {
+  background: #ddd;
+}
+div#visitedPages .tabulator-row:hover {
+  background: #bbb;
 }
