@@ -2550,8 +2550,8 @@
 		"PageHref": "http://www.cpwmedspa.com/face-marionette-lines-and-doll-lines-and-downturned-mouth",
 		"Anchor": "",
 		"Params": "",
-		"Title": "Juvéderm Voluma &amp; Ultra",
-		"Subtitle": "Facial Fillers",
+		"Title": "Voluma, Ultra &amp; Ultra Plus",
+		"Subtitle": "Juvéderm",
 		"Label": "Juvéderm &amp; Restylane",
 		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-voluma-xc-ultra-xc-and-restylane-lyft"
 	},
@@ -3925,6 +3925,30 @@
 	},
 	{
 		"Position": 12,
+		"Path": "/facial-fillers-juvederm-volbella-xc-restylane-silk",
+		"Page": "/procedures",
+		"PageHref": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Volbella",
+		"Subtitle": "Juvéderm",
+		"Label": "Juvéderm Volbella",
+		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-volbella-xc-restylane-silk"
+	},
+	{
+		"Position": 13,
+		"Path": "/facial-fillers-juvederm-volux-xc-radiesse",
+		"Page": "/procedures",
+		"PageHref": "http://www.cpwmedspa.com/procedures",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Volux",
+		"Subtitle": "Juvéderm",
+		"Label": "Juvéderm Volux",
+		"Href": "http://www.cpwmedspa.com/facial-fillers-juvederm-volux-xc-radiesse"
+	},
+	{
+		"Position": 14,
 		"Path": "/treatments",
 		"Page": "/procedures",
 		"PageHref": "http://www.cpwmedspa.com/procedures",
@@ -3936,7 +3960,7 @@
 		"Href": "http://www.cpwmedspa.com/treatments"
 	},
 	{
-		"Position": 13,
+		"Position": 15,
 		"Path": "/about-cpw",
 		"Page": "/procedures",
 		"PageHref": "http://www.cpwmedspa.com/procedures",
@@ -3948,7 +3972,7 @@
 		"Href": "http://www.cpwmedspa.com/about-cpw"
 	},
 	{
-		"Position": 14,
+		"Position": 16,
 		"Path": "/promotions",
 		"Page": "/procedures",
 		"PageHref": "http://www.cpwmedspa.com/procedures",
@@ -3960,7 +3984,7 @@
 		"Href": "http://www.cpwmedspa.com/promotions"
 	},
 	{
-		"Position": 15,
+		"Position": 17,
 		"Path": "/contact",
 		"Page": "/procedures",
 		"PageHref": "http://www.cpwmedspa.com/procedures",
