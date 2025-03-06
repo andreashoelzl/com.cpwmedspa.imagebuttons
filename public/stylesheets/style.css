@@ -44,12 +44,15 @@ input#autocomplete-anchor {
   font-weight: bold;
 }
 div#visitedPages .tabulator-row:has(+ * + .tabulator-group),
-div#visitedPages .tabulator-row:has(+ * + * + * + .tabulator-group) {
+div#visitedPages .tabulator-row:has(+ * + * + * + .tabulator-group),
+div#visitedPages .tabulator-row:nth-last-child(2),
+div#visitedPages .tabulator-row:nth-last-child(4) {
   background: #ccc;
 }
-div#visitedPages .tabulator-row:has(+ * + * + .tabulator-group) {
+div#visitedPages .tabulator-row:has(+ * + * + .tabulator-group),
+div#visitedPages .tabulator-row:nth-last-child(3) {
   background: #ddd;
 }
 div#visitedPages .tabulator-row:hover {
-  background: #bbb;
+  background: #c607535d;
 }
