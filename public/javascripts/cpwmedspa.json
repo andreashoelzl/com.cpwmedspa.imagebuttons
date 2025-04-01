@@ -2340,8 +2340,8 @@
 					"href": "/face-about-facial-volume-loss",
 					"anchor": "",
 					"params": "",
-					"title": "About Volume Loss",
-					"subtitle": "",
+					"title": "Volume Loss",
+					"subtitle": "Learn more about it",
 					"label": "About Volume Loss"
 				},
 				{
@@ -4847,5 +4847,5 @@
 			]
 		}
 	],
-	"timestamp": 1743476454
+	"timestamp": 1743476770
 }
