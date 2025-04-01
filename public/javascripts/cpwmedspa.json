@@ -2195,8 +2195,8 @@
 					"href": "/face-about-facial-lines",
 					"anchor": "",
 					"params": "",
-					"title": "About Facial Lines",
-					"subtitle": "",
+					"title": "Facial Lines",
+					"subtitle": "Learn more about them",
 					"label": "About Facial Lines"
 				},
 				{
@@ -2236,7 +2236,7 @@
 					"anchor": "",
 					"params": "",
 					"title": "Facial Lines",
-					"subtitle": "Learn more aboout them",
+					"subtitle": "Learn more about them",
 					"label": "Facial Lines"
 				},
 				{
@@ -4847,5 +4847,5 @@
 			]
 		}
 	],
-	"timestamp": 1743475656
+	"timestamp": 1743476454
 }
