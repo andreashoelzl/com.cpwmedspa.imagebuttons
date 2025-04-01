@@ -61,18 +61,6 @@
 	},
 	{
 		"Position": 6,
-		"Path": "/about-cpw",
-		"Page": "/",
-		"PageHref": "http://www.cpwmedspa.com/",
-		"Anchor": "",
-		"Params": "",
-		"Title": "About Us",
-		"Subtitle": "CPW Vein &amp; Aesthetic Center",
-		"Label": "About Us",
-		"Href": "http://www.cpwmedspa.com/about-cpw"
-	},
-	{
-		"Position": 7,
 		"Path": "/procedures",
 		"Page": "/",
 		"PageHref": "http://www.cpwmedspa.com/",
@@ -82,6 +70,18 @@
 		"Subtitle": "CPW Vein &amp; Aesthetic Center",
 		"Label": "Procedures",
 		"Href": "http://www.cpwmedspa.com/procedures"
+	},
+	{
+		"Position": 7,
+		"Path": "/about-cpw",
+		"Page": "/",
+		"PageHref": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
+		"Title": "About Us",
+		"Subtitle": "CPW Vein &amp; Aesthetic Center",
+		"Label": "About Us",
+		"Href": "http://www.cpwmedspa.com/about-cpw"
 	},
 	{
 		"Position": 8,
@@ -109,6 +109,18 @@
 	},
 	{
 		"Position": 10,
+		"Path": "/promotions",
+		"Page": "/",
+		"PageHref": "http://www.cpwmedspa.com/",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Promotions",
+		"Subtitle": "For You",
+		"Label": "Promotions",
+		"Href": "http://www.cpwmedspa.com/promotions"
+	},
+	{
+		"Position": 11,
 		"Path": "/contact",
 		"Page": "/",
 		"PageHref": "http://www.cpwmedspa.com/",
@@ -1950,13 +1962,37 @@
 		"PageHref": "http://www.cpwmedspa.com/face",
 		"Anchor": "",
 		"Params": "",
+		"Title": "Volume Loss",
+		"Subtitle": "",
+		"Label": "Volume Loss",
+		"Href": "http://www.cpwmedspa.com/face-about-facial-volume-loss"
+	},
+	{
+		"Position": 14,
+		"Path": "/face-about-facial-lines",
+		"Page": "/face",
+		"PageHref": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
+		"Title": "Lines",
+		"Subtitle": "",
+		"Label": "Lines",
+		"Href": "http://www.cpwmedspa.com/face-about-facial-lines"
+	},
+	{
+		"Position": 15,
+		"Path": "/face-about-facial-volume-loss",
+		"Page": "/face",
+		"PageHref": "http://www.cpwmedspa.com/face",
+		"Anchor": "",
+		"Params": "",
 		"Title": "Facial Volume Loss",
 		"Subtitle": "Leearn more aout it ",
 		"Label": "Volume Loss",
 		"Href": "http://www.cpwmedspa.com/face-about-facial-volume-loss"
 	},
 	{
-		"Position": 14,
+		"Position": 16,
 		"Path": "/face-about-facial-lines",
 		"Page": "/face",
 		"PageHref": "http://www.cpwmedspa.com/face",
@@ -1968,7 +2004,7 @@
 		"Href": "http://www.cpwmedspa.com/face-about-facial-lines"
 	},
 	{
-		"Position": 15,
+		"Position": 17,
 		"Path": "/treatments",
 		"Page": "/face",
 		"PageHref": "http://www.cpwmedspa.com/face",
@@ -1980,7 +2016,7 @@
 		"Href": "http://www.cpwmedspa.com/treatments"
 	},
 	{
-		"Position": 16,
+		"Position": 18,
 		"Path": "/body",
 		"Page": "/face",
 		"PageHref": "http://www.cpwmedspa.com/face",
@@ -1992,7 +2028,7 @@
 		"Href": "http://www.cpwmedspa.com/body"
 	},
 	{
-		"Position": 17,
+		"Position": 19,
 		"Path": "/skin",
 		"Page": "/face",
 		"PageHref": "http://www.cpwmedspa.com/face",
@@ -2004,7 +2040,7 @@
 		"Href": "http://www.cpwmedspa.com/skin"
 	},
 	{
-		"Position": 18,
+		"Position": 20,
 		"Path": "/contact",
 		"Page": "/face",
 		"PageHref": "http://www.cpwmedspa.com/face",
