@@ -62,6 +62,21 @@ const c = new Crawler({
             let result = [];
             let path = "div:has(>div>figure>div>a.sqs-block-image-link)";
             let position = 1;
+            /*
+            // crawler doesn't support jquery manipulations, crawlee would - workaround below
+            // https://www.npmjs.com/package/@crawlee/puppeteer
+            switch ($(".row.sqs-row.div-prior-footer a").length) {
+                case 6:
+                    // 3 buttons with 2 links each - as intended
+                    break;
+                case 0:
+                    errors.push({page:pathname, type: 'Navigation block before footer is missing'});
+                    console.error(`Navigation block before footer is missing at ${pathname}`);
+                    break;
+                default:
+                    errors.push({page:pathname, type: `Navigation block has ${$('.row.sqs-row.div-prior-footer a').length}} links. Expected 6.`});
+                    console.error(`Navigation block before footer is missing at ${pathname}`);
+            }*/
             if ($("div.col.sqs-col-12.span-12 > div.row.sqs-row:last").find("> div > div.image-block > div > figure.design-layout-poster > div.intrinsic > a").length != 3) {
                 errors.push({page:pathname, type: 'Navigation block before footer is missing'});
                 console.error("Navigation block before footer is missing at " + pathname);
